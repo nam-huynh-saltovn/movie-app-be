@@ -5,7 +5,10 @@ const db = require("../common/connect");
 // Import related models
 const Type = require('./type.model');
 const Year = require('./year.model');
-const Episode = require('./episode.model');
+const Category = require('./category.model');
+const Country = require('./country.model');
+const Actor = require('./actor.model');
+const Director = require('./director.model');
 
 // Define the Movie model with various attributes
 const Movie = db.define("Movie", {
@@ -15,8 +18,8 @@ const Movie = db.define("Movie", {
     primaryKey: true,       // Set mov_id as the primary key
     autoIncrement: true,    // Automatically increment the ID
   },
-  mov_name: { type: DataTypes.STRING },          // Movie name
-  mov_slug: { type: DataTypes.STRING },          // Slug for the movie URL
+  mov_name: { type: DataTypes.STRING, },         // Name of the movie                    
+  mov_slug: { type: DataTypes.STRING, },         // Slug of the movie
   ori_name: { type: DataTypes.STRING },          // Original name of the movie
   content: { type: DataTypes.STRING },           // Movie content/description
   poster_url: { type: DataTypes.STRING },        // URL for the movie poster
@@ -47,15 +50,23 @@ const Movie = db.define("Movie", {
   updatedAt: 'updatedAt'      // Custom name for updated timestamp
 });
 
-// Define associations between models
+// Establish 1-N relationship
 Year.hasMany(Movie, { foreignKey: 'year_id' });   // A year has many movies
 Movie.belongsTo(Year, { foreignKey: 'year_id' }); // A movie belongs to a specific year
 
 Type.hasMany(Movie, { foreignKey: 'type_id' });   // A type has many movies
 Movie.belongsTo(Type, { foreignKey: 'type_id' }); // A movie belongs to a specific type
 
-// Many-to-many relationship between Movie and Episode through a junction table
-Episode.belongsToMany(Movie, { through: 'episode_movie', foreignKey: 'ep_id' });
-Movie.belongsToMany(Episode, { through: 'episode_movie', foreignKey: 'mov_id' });
+Movie.belongsToMany(Category, { through: 'category_movie', foreignKey: 'mov_id' });
+Category.belongsToMany(Movie, { through: 'category_movie', foreignKey: 'cat_id' });
+
+Movie.belongsToMany(Actor, { through: 'actor_movie', foreignKey: 'mov_id' });
+Actor.belongsToMany(Movie, { through: 'actor_movie', foreignKey: 'act_id' });
+
+Movie.belongsToMany(Director, { through: 'director_movie', foreignKey: 'mov_id' });
+Director.belongsToMany(Movie, { through: 'director_movie', foreignKey: 'dir_id' });
+
+Movie.belongsToMany(Country, { through: 'country_movie', foreignKey: 'mov_id' });
+Country.belongsToMany(Movie, { through: 'country_movie', foreignKey: 'ctr_id' });
 
 module.exports = Movie;

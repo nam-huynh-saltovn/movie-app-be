@@ -10,11 +10,8 @@ module.exports = {
       const episodes = await Episode.findAll();
       
       // If episodes are found, return episodes
-      if (episodes.length > 0) {
+      if (episodes) {
         res.json(episodes);
-      } else {
-        // If no episodes are found, return a 404 error with a message
-        res.status(404).json({ error: 'Không tìm thấy tập phim nào' });
       }
     } catch (error) {
       console.error('Error:', error);
@@ -22,6 +19,12 @@ module.exports = {
       res.status(500).json({ error: 'Không thể lấy các tập phim này' });
     }
   },
+
+      // validate
+      // check list diễn viên -> thằng nào chưa có tạo mới
+      // check loai có chưa -> chưa có tạo
+      // tạo fim
+      // loop -> tạo tập fi
 
   // Get episode by ID
   getById: async (req, res) => {

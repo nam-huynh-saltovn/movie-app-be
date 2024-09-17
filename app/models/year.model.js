@@ -11,7 +11,7 @@ const Year = db.define('Year', {
     primaryKey: true,               // Set year_id as the primary key
     autoIncrement: true,            // Automatically increment the ID
   },
-  year_name: { type: DataTypes.STRING },   // Year name (e.g., 2021, 2022)
+  year_name: { type: DataTypes.INTEGER },   // Year name (e.g., 2021, 2022)
   status: { type: DataTypes.BOOLEAN }      // Status (e.g., active or inactive)
 });
 

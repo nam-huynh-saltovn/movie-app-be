@@ -17,7 +17,12 @@ const Episode = db.define('Episode', {
   ep_name: { type: DataTypes.STRING },   // Episode name
   ep_slug: { type: DataTypes.STRING },   // Slug for URLs (e.g., episode-1)
   ep_link: { type: DataTypes.STRING },   // Link to the episode video or content
+  sort_order: { type: DataTypes.INTEGER },   // Link to the episode video or content
   status: { type: DataTypes.BOOLEAN }    // Status (e.g., active or inactive)
 });
+
+// Establish N-N relationship
+Episode.belongsToMany(Movie, { through: 'episode_movie', foreignKey: 'ep_id' });
+Movie.belongsToMany(Episode, { through: 'episode_movie', foreignKey: 'mov_id' });
 
 module.exports = Episode;

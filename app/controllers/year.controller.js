@@ -10,11 +10,8 @@ module.exports = {
       const years = await Year.findAll();
       
       // If years are found, return years
-      if (years.length > 0) {
+      if (years) {
         res.json(years);
-      } else {
-        // If no years are found, return a 404 error with a message
-        res.status(404).json({ error: 'Không tìm thấy năm nào' });
       }
     } catch (error) {
       console.error('Error:', error);

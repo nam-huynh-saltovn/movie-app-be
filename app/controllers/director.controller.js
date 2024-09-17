@@ -10,11 +10,8 @@ module.exports = {
       const directors = await Director.findAll();
       
       // If directors are found, return directors
-      if (directors.length > 0) {
+      if (directors) {
         res.json(directors);
-      } else {
-        // If no directors are found, return a 404 error with a message
-        res.status(404).json({ error: 'Không tìm thấy đạo diễn nào' });
       }
     } catch (error) {
       console.error('Error:', error);

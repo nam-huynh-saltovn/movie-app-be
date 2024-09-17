@@ -18,8 +18,4 @@ const Actor = db.define('Actor', {
   status: { type: DataTypes.BOOLEAN }     // Status (e.g., active or inactive)
 });
 
-// Define many-to-many relationship between Actor and Movie models
-Actor.belongsToMany(Movie, { through: 'MovieActors' });   // An actor can be associated with many movies
-Movie.belongsToMany(Actor, { through: 'MovieActors' });   // A movie can have many actors
-
 module.exports = Actor;

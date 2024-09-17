@@ -18,9 +18,5 @@ const Country = db.define('Country', {
   status: { type: DataTypes.BOOLEAN }     // Status (e.g., active or inactive)
 });
 
-// Define many-to-many relationship between Country and Movie models
-Country.belongsToMany(Movie, { through: 'MovieCountries' });   // A country can be associated with many movies
-Movie.belongsToMany(Country, { through: 'MovieCountries' });   // A movie can have many associated countries
-
 
 module.exports = Country;

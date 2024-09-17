@@ -2,6 +2,8 @@
 const db = require("../common/connect");
 const Actor = require("../models/actor.model");
 
+const actorService = require("../service/actor.service");
+
 module.exports = {
   // Get all actors
   getAll: async (req, res) => {
@@ -10,11 +12,8 @@ module.exports = {
       const actors = await Actor.findAll();
       
       // If actors are found, return actors
-      if (actors.length > 0) {
+      if (actors) {
         res.json(actors);
-      } else {
-        // If no actors are found, return a 404 error with a message
-        res.status(404).json({ error: 'Không tìm thấy diễn viên nào' });
       }
     } catch (error) {
       console.error('Error:', error);
@@ -44,28 +43,24 @@ module.exports = {
   },
 
   // Create a new actor
-  insert: async (req, res) => {
-    const { name, sortOrder, status } = req.body; // Extract data from the request body
-    
+  insert: async(req, res) => {
+    const data = req.body; // Extract data from the request body
     let t;
     try {
-      // Start a transaction to ensure atomicity
-      t = await db.transaction();
-      
-      // Create a new actor with the provided data
-      const result = await Actor.create(
-        { act_name: name, sort_order: sortOrder, status: status },
-        { transaction: t }
-      );
-      
-      // Commit the transaction if creation is successful
-      await t.commit();
-      res.status(201).json({ message: 'Tạo diễn viên mới thành công', result });
+        // Start a transaction to ensure atomicity
+        t = await db.transaction();
+        
+        // Create a new actor with the provided data
+        const result = actorService.createActor(data, t);
+        
+        // Commit the transaction if creation is successful
+        await t.commit();
+        res.status(201).json({ message: 'Tạo diễn viên mới thành công', result });
     } catch (error) {
-      console.error(error);
-      // Rollback the transaction in case of an error
-      await t.rollback();
-      res.status(500).json({ error: 'Không thể tạo diễn viên này' });
+        console.error(error);
+        // Rollback the transaction in case of an error
+        await t.rollback();
+        res.status(500).json({ error: 'Không thể tạo diễn viên này' });
     }
   }
 };

@@ -10,12 +10,9 @@ module.exports = {
       const types = await Type.findAll();
       
       // If types are found, return them in the response
-      if (types.length > 0) {
+      if (types) {
         res.json(types);
-      } else {
-        // If no types are found, return a 404 error with a message
-        res.status(404).json({ error: 'Không tìm thấy type nào' });
-      }
+      } 
     } catch (error) {
       console.error('Error:', error);
       // If there's a server error, return a 500 error with a message

@@ -10,11 +10,8 @@ module.exports = {
       const countries = await Country.findAll();
       
       // If countries are found, return countries
-      if (countries.length > 0) {
+      if (countries) {
         res.json(countries);
-      } else {
-        // If no countries are found, return a 404 error with a message
-        res.status(404).json({ error: 'Không tìm thấy quốc gia nào' });
       }
     } catch (error) {
       console.error('Error:', error);

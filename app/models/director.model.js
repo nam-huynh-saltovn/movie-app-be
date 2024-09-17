@@ -13,14 +13,9 @@ const Director = db.define('Director', {
     primaryKey: true,               // Set dir_id as the primary key
     autoIncrement: true,            // Automatically increment the ID
   },
-  ctr_name: { type: DataTypes.STRING },   // Director's name
-  ctr_slug: { type: DataTypes.STRING },   // Slug for URLs (e.g., director-name)
+  dir_name: { type: DataTypes.STRING },   // Director's name
   status: { type: DataTypes.BOOLEAN }     // Status (e.g., active or inactive)
 });
-
-// Define many-to-many relationship between Director and Movie models
-Director.belongsToMany(Movie, { through: 'MovieDirectors' });   // Director can be related to many movies
-Movie.belongsToMany(Director, { through: 'MovieDirectors' });   // Movie can have many directors
 
 
 module.exports = Director;

@@ -1,5 +1,6 @@
 // Load environment variables from .env file
 require("dotenv").config();
+var cors = require('cors');
 
 // Import lib
 const express = require("express");
@@ -11,6 +12,10 @@ const app = express();
 // Set port from environment variables or default to 8080
 const port = process.env.PORT || 8080;
 
+app.use(cors())
+ app.listen(80, function () {
+  console.log('CORS-enabled web server listening on port 80')
+})
 
 // Configure express to parse URL-encoded data and JSON
 app.use(bodyParser.urlencoded({ extended: false }));

@@ -18,9 +18,5 @@ const Category = db.define('Category', {
   status: { type: DataTypes.BOOLEAN }     // Status (e.g., active or inactive)
 });
 
-// Define many-to-many relationship between Category and Movie models
-Category.belongsToMany(Movie, { through: 'MovieCategories' });   // A category can be related to many movies
-Movie.belongsToMany(Category, { through: 'MovieCategories' });   // A movie can have many categories
-
 
 module.exports = Category;

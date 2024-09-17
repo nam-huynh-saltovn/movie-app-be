@@ -10,11 +10,8 @@ module.exports = {
       const categories = await Category.findAll();
       
       // If categories are found, return categories
-      if (categories.length > 0) {
+      if (categories) {
         res.json(categories);
-      } else {
-        // If no categories are found, return a 404 error with a message
-        res.status(404).json({ error: 'Không tìm thấy thể loại nào' });
       }
     } catch (error) {
       console.error('Error:', error);
