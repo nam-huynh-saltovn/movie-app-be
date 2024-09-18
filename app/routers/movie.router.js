@@ -4,13 +4,14 @@ module.exports = function (router) {
 
   // Define routes
   router.get("/movie", movieController.getAll);
-  router.get("/movie/:id", movieController.getById);
+  router.get("/movie/id/:id", movieController.getById);
+  router.get("/movie/slug/:slug", movieController.getBySlug);
   router.get("/latest-movie", movieController.getLatestMovies);
 
   router.post("/movie", movieController.insert);
   router.post("/movie-api", movieController.insertByApi);
 
-  router.put("/movie/:id", movieController.update);
+  router.put("/movie", movieController.update);
 
   router.delete("/movie/:id", movieController.delete);
 };

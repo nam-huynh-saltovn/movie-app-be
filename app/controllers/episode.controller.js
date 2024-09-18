@@ -1,6 +1,8 @@
 // Import models and database connection
 const db = require("../common/connect");
 const Episode = require("../models/episode.model");
+const episodeService = require("../service/episode.service");
+const episodeValidator = require("../validator/episode.validator");
 
 module.exports = {
   // Get all episodes
@@ -19,12 +21,6 @@ module.exports = {
       res.status(500).json({ error: 'Không thể lấy các tập phim này' });
     }
   },
-
-      // validate
-      // check list diễn viên -> thằng nào chưa có tạo mới
-      // check loai có chưa -> chưa có tạo
-      // tạo fim
-      // loop -> tạo tập fi
 
   // Get episode by ID
   getById: async (req, res) => {
@@ -81,5 +77,52 @@ module.exports = {
       await t.rollback();
       res.status(500).json({ error: 'Không thể tạo tập phim này' });
     }
-  }
+  },
+
+  // Update episode by id
+  update: async (req, res) => {
+    const episode = req.body;  // Extract the updated episode data from the request body
+
+    const transaction = await db.transaction();
+
+    const validationErrors = await episodeValidator.validateEpisodeData(episode); //validation data
+    try {
+      if (validationErrors) {
+        // if error -> return fe
+        return res.status(400).json({ message: validationErrors });
+      }
+      
+      // Create a new movie with the provided data
+      const result = await episodeService.updateEpisode(episode, transaction);
+
+      // Commit transaction
+      await transaction.commit();
+
+      res.status(201).json({ message: 'Cập nhật tập phim thành công',  result});
+    } catch (error) {
+      if (transaction) await transaction.rollback();  // Ensure rollback happens if an error occurs
+      console.error("Transaction error:", error);  // Log the exact error
+      res.status(500).json({ error: 'Không thể cập nhật' });
+    }
+  },
+
+  // delete episode by ID
+  delete: async (req, res) => {
+    const id = req.params.id;  // Extract the movie ID from the URL parameters
+
+    const transaction = await db.transaction();
+
+    try {
+      await episodeService.deleteEpisode(id, transaction);
+
+      // Commit transaction
+      await transaction.commit();
+
+      res.status(201).json({ message: 'Xóa tập phim thành công'});
+    } catch (error) {
+      if (transaction) await transaction.rollback();  // Ensure rollback happens if an error occurs
+      console.error("Transaction error:", error);  // Log the exact error
+      res.status(500).json({ error: 'Không thể xóa tập phim' });
+    }
+  },
 };

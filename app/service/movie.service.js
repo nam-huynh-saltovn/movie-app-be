@@ -69,6 +69,30 @@ module.exports = {
   return formattedResults;
   },
 
+  getById: async(id) => {
+    const movie = await Movie.findOne({ where: { mov_id: id }, include: [Year, Type, Country, Category, Director, Actor, Episode] });
+    if(movie){
+      const formattedMovie = {
+        ...movie.get(), // Lấy toàn bộ dữ liệu của movie
+        createdAt: customFormat(movie.createdAt),
+        updatedAt: customFormat(movie.updatedAt)
+      };
+      return formattedMovie;
+    }
+  },
+
+  getBySlug: async(slug) => {
+    const movie = await Movie.findOne({ where: { mov_slug: slug }, include: [Year, Type, Country, Category, Director, Actor, Episode] });
+    if(movie){
+      const formattedMovie = {
+        ...movie.get(), // Lấy toàn bộ dữ liệu của movie
+        createdAt: customFormat(movie.createdAt),
+        updatedAt: customFormat(movie.updatedAt)
+      };
+      return formattedMovie;
+    }
+  },
+
   getLatestMovie: async () => {
     const results = await Movie.findAll({
       limit: 20,
@@ -82,16 +106,6 @@ module.exports = {
     });
     
     return formattedResults;
-  },
-
-  getBySlug: async(slug) => {
-    const movie = await Movie.findOne({ where: { mov_slug: slug } });
-    const formattedMovie = {
-      ...movie.get(), // Lấy toàn bộ dữ liệu của movie
-      createdAt: customFormat(movie.createdAt),
-      updatedAt: customFormat(movie.updatedAt)
-    };
-    return formattedMovie;
   },
 
   createMovie: async (movieData, transaction) => {
@@ -115,5 +129,72 @@ module.exports = {
     }
 
     return movie;
+  },
+
+  updateMovie: async (movieData, transaction) => {
+    // Tìm movie trước khi tiến hành cập nhật
+    const movie = await Movie.findByPk(movieData.movie.id, { transaction });
+    
+    // Cập nhật thông tin cơ bản của movie
+    const result = await movie.update({
+      mov_name: movieData.movie.name,
+      mov_slug: movieData.movie.slug,
+      ori_name: movieData.movie.originName,
+      content: movieData.movie.content,
+      poster_url: movieData.movie.posterUrl,
+      thumb_url: movieData.movie.thumbUrl,
+      time: movieData.movie.time,
+      episode_current: movieData.movie.currentEp,
+      episode_total: movieData.movie.totalEp,
+      quality: movieData.movie.quality,
+      lang: movieData.movie.lang,
+      year_id: movieData.movie.year,    // Cập nhật year
+      type_id: movieData.movie.type     // Cập nhật type
+    }, { transaction });
+
+    // Cập nhật quan hệ nhiều-nhiều với Category
+    if (movieData.movie.category) {
+      const categoryIds = movieData.movie.category.map(cat => cat.cat_id);
+      const categories = await Category.findAll({ where: { cat_id: categoryIds }, transaction});
+      await movie.setCategories(categories, { transaction });
+    }
+    
+    // Cập nhật quan hệ nhiều-nhiều với Country
+    if (movieData.movie.country) {
+      const countryIds = movieData.movie.country.map(ctr => ctr.ctr_id);
+      const countries = await Country.findAll({ where: { ctr_id: countryIds }, transaction});
+      await movie.setCountries(countries, { transaction });
+    }
+    
+    // Cập nhật quan hệ nhiều-nhiều với Actor
+    if (movieData.movie.actor) {
+      const actorIds = movieData.movie.actor.map(act => act.act_name.act_id);
+      const actors = await Actor.findAll({ where: { act_id: actorIds }, transaction});
+      await movie.setActors(actors, { transaction });
+    }
+    
+    // Cập nhật quan hệ nhiều-nhiều với Director
+    if (movieData.movie.director) {
+      const directorIds = movieData.movie.director.map(dir => dir.dir_id);
+      const directors = await Director.findAll({ where: { dir_id: directorIds }, transaction});
+      await movie.setDirectors(directors, { transaction });
+    }
+
+    return result;
+  },
+
+  deleteMovie: async (id, transaction) => {
+    // find movie
+    const movie = await Movie.findByPk(id, { transaction });
+
+    // Delete related records from junction tables (category_movie, country_movie, etc.)
+    await movie.setCategories([], { transaction });  // Delete related with Category
+    await movie.setCountries([], { transaction });   // Delete related with Country
+    await movie.setActors([], { transaction });      // Delete related with Actor
+    await movie.setDirectors([], { transaction });   // Delete related with Director
+    await movie.setEpisodes([], { transaction });   // Delete related with Episode
+
+    // Sau khi xóa các quan hệ, xóa movie
+    await movie.destroy({ transaction });
   }
 };
