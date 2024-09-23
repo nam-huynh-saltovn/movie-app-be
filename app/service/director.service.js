@@ -7,7 +7,7 @@ module.exports = {
     return Director.findOrCreate({
       where: { dir_name },
       defaults: { status },
-      transaction,
+      transaction
     });
   },
 };

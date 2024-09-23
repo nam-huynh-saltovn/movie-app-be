@@ -18,5 +18,4 @@ const Category = db.define('Category', {
   status: { type: DataTypes.BOOLEAN }     // Status (e.g., active or inactive)
 });
 
-
 module.exports = Category;

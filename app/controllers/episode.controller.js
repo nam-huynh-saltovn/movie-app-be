@@ -1,6 +1,7 @@
 // Import models and database connection
 const db = require("../common/connect");
 const Episode = require("../models/episode.model");
+const Movie = require("../models/movie.model");
 const episodeService = require("../service/episode.service");
 const episodeValidator = require("../validator/episode.validator");
 
@@ -36,6 +37,37 @@ module.exports = {
       }
       // If found, return the episode data
       res.json(episode);
+    } catch (error) {
+      // If there's a server error, return a 500 error with a message
+      res.status(500).json({ error: 'Không thể lấy tập phim này' });
+    }
+  },
+
+  // Get episode by ID
+  getByMovieId: async (req, res) => {
+    const { movId } = req.params; // Extract the episode ID from the URL parameters
+    const { page=1, limit=10 } = req.query;
+    
+    try {
+      const offset = (page - 1) * limit;
+
+      const totalEpisodes = await Episode.count({include: {model: Movie, where: {mov_id: movId}}})
+
+      // Fetch a single episode where ep_id matches and status is true
+      const results = await episodeService.getByMovieId(movId, offset, limit);
+      
+      // If the episode is not found, return a 404 error
+      if (!results) {
+        return res.status(404).json({ error: 'Không tìm thấy tập phim nào' });
+      }
+      // If found, return the episode data
+      res.status(200).json({
+        episodes: results,
+        totalEpisodes: totalEpisodes,
+        currentPage: parseInt(page),
+        totalPages: Math.ceil(totalEpisodes / limit),
+        totalRows: 50
+      });
     } catch (error) {
       // If there's a server error, return a 500 error with a message
       res.status(500).json({ error: 'Không thể lấy tập phim này' });

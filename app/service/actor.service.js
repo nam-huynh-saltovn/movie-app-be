@@ -16,7 +16,7 @@ module.exports = {
         return Actor.findOrCreate({
           where: { act_name },
           defaults: { sort_order, status },
-          transaction,
+          transaction
         });
     }
 }

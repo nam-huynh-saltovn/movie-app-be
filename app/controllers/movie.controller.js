@@ -11,102 +11,278 @@ const yearService = require("../service/year.service");
 const typeService = require("../service/type.service");
 const episodeService = require("../service/episode.service");
 const movieValidator = require("../validator/movie.validator");
+const { Op } = require("sequelize");
+const Category = require("../models/category.model");
+const Year = require("../models/year.model");
+const Country = require("../models/country.model");
+const Director = require("../models/director.model");
+const Actor = require("../models/actor.model");
+const Type = require("../models/type.model");
+
+// Helper functions
+const paginate = (page, limit) => ({
+  offset: (page - 1) * limit,
+  page: parseInt(page),
+  limit: parseInt(limit),
+});
+
+const sendResponse = (res, results, totalMovies, currentPage, limit) => {
+  res.json({
+    movies: results,
+    totalMovies,
+    currentPage,
+    totalPages: Math.ceil(totalMovies / limit),
+  });
+};
+
+const handleError = (res, error, message = "Có lỗi xảy ra", status = 500) => {
+  console.error(error);
+  res.status(status).json({ error: message });
+};
 
 module.exports = {
   // Get all movies with related Year, Type, and Episode data
   getAll: async (req, res) => {
-    try {
-      // Fetch all movies including related Year, Type, and Episode models
-      const results = await movieService.getAll();
+    const { page = 1, limit = 10 } = req.query;
+    const { offset } = paginate(page, limit);
 
-      // If movies are found, return movies
-      if (results.length > 0) {
-        res.json(results);
-      } else {
-        // If no movies are found, return a 404 error with a message
-        res.status(404).json({ error: 'Không tìm thấy phim nào' });
-      }
+    try {
+      const totalMovies = await Movie.count();
+      const results = await movieService.getAll(offset, limit);
+
+      results.length > 0
+        ? sendResponse(res, results, totalMovies, page, limit)
+        : res.status(404).json({ error: 'Không tìm thấy phim nào' });
     } catch (error) {
-      console.error(error);
-      // If there's a server error, return a 500 error with a message
-      res.status(500).json({ error: 'Không thể lấy các phim này' });
+      handleError(res, error, 'Không thể lấy các phim này');
     }
   },
 
-  // Get a single movie by ID with related Year, Type, and Episode data
   getById: async (req, res) => {
-    const { id } = req.params; // Extract the movie ID from the URL parameters
+    const { id } = req.params;
 
     try {
-      // Fetch a single movie where mov_id matches and status is true
       const movie = await movieService.getById(id);
-
-      // If the movie is not found, return a 404 error
-      if (!movie) {
-        return res.status(404).json({ error: 'Không tìm thấy phim nào' });
-      }
-      // If found, return the movie data
-      res.json(movie);
+      movie
+        ? res.json(movie)
+        : res.status(404).json({ error: 'Không tìm thấy phim nào' });
     } catch (error) {
-      // If there's a server error, return a 500 error
-      res.status(500).json({ error: 'Không thể lấy phim này' });
+      handleError(res, error, 'Không thể lấy phim này');
     }
   },
 
-  // Get a single movie by ID with related Year, Type, and Episode data
   getBySlug: async (req, res) => {
-    const { slug } = req.params; // Extract the movie ID from the URL parameters
+    const { slug } = req.params;
 
     try {
-      // Fetch a single movie where mov_id matches and status is true
       const movie = await movieService.getBySlug(slug);
-
-      // If the movie is not found, return a 404 error
-      if (!movie) {
-        return res.status(404).json({ error: 'Không tìm thấy phim nào' });
-      }
-      // If found, return the movie data
-      res.json(movie);
+      movie
+        ? res.json(movie)
+        : res.status(404).json({ error: 'Không tìm thấy phim nào' });
     } catch (error) {
-      // If there's a server error, return a 500 error
-      res.status(500).json({ error: 'Không thể lấy phim này' });
+      handleError(res, error, 'Không thể lấy phim này');
     }
   },
 
-  // Get a lasted movie order by updatedAt field
-  getLatestMovies: async (req, res) => {
-    try {
-      // Fetch all movies including related Year, Type, and Episode models
-      const results = await movieService.getLatestMovie();
+  getByType: async (req, res) => {
+    const { typeSlug } = req.params;
+    const { page = 1, limit = 15 } = req.query;
+    const { offset } = paginate(page, limit);
 
-      // If movies are found, return movies
-      if (results.length > 0) {
-        res.json(results);
-      } else {
-        // If no movies are found, return a 404 error with a message
-        res.status(404).json({ error: 'Không tìm thấy phim nào' });
-      }
+    try {
+      const totalMovies = await Movie.count({
+        include: [{ model: Type, where: { type_slug: typeSlug } }],
+      });
+      const results = await movieService.getByType(typeSlug, offset, limit);
+
+      results
+        ? sendResponse(res, results, totalMovies, page, limit)
+        : res.status(404).json({ error: 'Không tìm thấy phim nào' });
     } catch (error) {
-      console.error(error);
-      // If there's a server error, return a 500 error with a message
-      res.status(500).json({ error: 'Không thể lấy các phim này' });
+      handleError(res, error, 'Không thể lấy phim này');
+    }
+  },
+
+  getByCategory: async (req, res) => {
+    const { catSlug } = req.params;
+    const { page = 1, limit = 15 } = req.query;
+    const { offset } = paginate(page, limit);
+
+    try {
+      const totalMovies = await Movie.count({
+        include: [{ model: Category, where: { cat_slug: catSlug } }],
+      });
+      const results = await movieService.getByCategory(catSlug, offset, limit);
+
+      results
+        ? sendResponse(res, results, totalMovies, page, limit)
+        : res.status(404).json({ error: 'Không tìm thấy phim nào' });
+    } catch (error) {
+      handleError(res, error, 'Không thể lấy phim này');
+    }
+  },
+
+  getByCountry: async (req, res) => {
+    const { ctrSlug } = req.params;
+    const { page = 1, limit = 15 } = req.query;
+    const { offset } = paginate(page, limit);
+
+    try {
+      const totalMovies = await Movie.count({
+        include: [{ model: Country, where: { ctr_slug: ctrSlug } }],
+      });
+      const results = await movieService.getByCountry(ctrSlug, offset, limit);
+
+      results
+        ? sendResponse(res, results, totalMovies, page, limit)
+        : res.status(404).json({ error: 'Không tìm thấy phim nào' });
+    } catch (error) {
+      handleError(res, error, 'Không thể lấy phim này');
+    }
+  },
+
+  getByYear: async (req, res) => {
+    const { year } = req.params;
+    const { page = 1, limit = 15 } = req.query;
+    const { offset } = paginate(page, limit);
+
+    try {
+      const totalMovies = await Movie.count({
+        include: [{ model: Year, where: { year_name: year } }],
+      });
+      const results = await movieService.getByYear(year, offset, limit);
+
+      results
+        ? sendResponse(res, results, totalMovies, page, limit)
+        : res.status(404).json({ error: 'Không tìm thấy phim nào' });
+    } catch (error) {
+      handleError(res, error, 'Không thể lấy phim này');
+    }
+  },
+
+  getLatestMovies: async (req, res) => {
+    const { page = 1, limit = 15 } = req.query;
+    const { offset } = paginate(page, limit);
+
+    try {
+      const totalMovies = await Movie.count();
+      const results = await movieService.getLatestMovie(offset, limit);
+
+      results.length > 0
+        ? sendResponse(res, results, totalMovies, page, limit)
+        : res.status(404).json({ error: 'Không tìm thấy phim nào' });
+    } catch (error) {
+      handleError(res, error, 'Không thể lấy các phim này');
+    }
+  },
+
+  // Search movie by name or slug
+  searchByNameOrSlug: async (req, res) => {
+    const { query, page = 1, limit = 10 } = req.query;
+
+    try {
+      // Build pagination options
+      const offset = (page - 1) * limit;
+      
+      // If query is provided, search both 'name' and 'slug'
+      const whereClause = query 
+        ? {
+          [Op.or]: [
+            { mov_name: { [Op.like]: `%${query}%` } },  // find by name
+            { mov_slug: { [Op.like]: `%${query}%` } },  // find by slug
+            { ori_name: { [Op.like]: `%${query}%` } }   // find by origin name
+          ]
+        }
+        : {};
+
+      const totalMovies = await Movie.count({  where: whereClause });
+  
+      const result = await movieService.getByNameOrSlug(whereClause, offset, limit);
+
+      res.status(200).json({
+        movies: result,
+        totalMovies: totalMovies,
+        currentPage: parseInt(page),
+        totalPages: Math.ceil(totalMovies / limit),
+      });
+    } catch (error) {
+      res.status(500).json({ message: "Không thể lấy phim", error });
     }
   },
   
+  // Search movie by name or slug
+  filterMovie: async (req, res) => {
+    const { page=1, limit=10 } = req.query;
+  
+    try {
+      // Build pagination options
+      const offset = (page - 1) * limit;
+  
+      // Build include clauses for relations
+      const includeClauses = [];
+
+      // Create a mapping of filters to their respective models and fields
+      const filters = [
+        { key: 'year', model: Year, field: 'year_name' },
+        { key: 'type', model: Type, field: 'type_slug' },
+        { key: 'category', model: Category, field: 'cat_slug' },
+        { key: 'country', model: Country, field: 'ctr_slug' },
+        { key: 'actor', model: Actor, field: 'act_name' },
+        { key: 'director', model: Director, field: 'dir_name' },
+      ];
+
+      // Loop through each filter and add to includeClauses if a query value exists
+      filters.forEach(({ key, model, field }) => {
+        if (req.query[key]) {
+          includeClauses.push({
+            model,
+            where: { [field]: { [Op.like]: `%${req.query[key]}%` } },
+            required: true, // inner join to ensure we only get movies with this filter
+          });
+        }
+      });
+
+      // Thêm filter cho category nhưng vẫn lấy tất cả category của movie
+      if (req.query.category) {
+        includeClauses.push({
+          model: Category,
+          where: { cat_slug: { [Op.like]: `%${req.query.category}%` } },
+          required: true, // Inner join
+        });
+      }
+  
+      // Count total movies matching the filter
+      const totalMovies = await Movie.count({include: includeClauses });
+  
+      // Fetch filtered movies with pagination
+      const result = await movieService.filterMovie(includeClauses, offset, limit);
+  
+      res.status(200).json({
+        movies: result,
+        totalMovies: totalMovies,
+        currentPage: parseInt(page),
+        totalPages: Math.ceil(totalMovies / limit),
+      });
+    } catch (error) {
+      console.error(error);
+      res.status(500).json({ message: "Không thể lấy phim", error });
+    }
+  },
+
   // Create a new movie
   insert: async (req, res) => {
     const data = req.body; // Extract data from the request body
+    const transaction = await db.transaction(); // Start a transaction
 
-    const t = await db.transaction();
-    const validationErrors = movieValidator.validateMovieData(data); //validation data
+    const validationErrors = movieValidator.validateMovieData(data); // Validate the movie data
     try {
       if (validationErrors) {
-        // if error -> return fe
+        // Return validation errors if found
         return res.status(400).json({ message: validationErrors });
       }
 
       // Create a new movie with the provided data
-      const result = await Movie.create({
+      const movie = await Movie.create({
         mov_name: data.name,
         mov_slug: data.slug,
         ori_name: data.origin_name,
@@ -121,37 +297,34 @@ module.exports = {
         year_id: data.year_id,
         type_id: data.type_id,
         status: data.status
-      }, { transaction: t });
+      }, { transaction });
 
-      // Commit the transaction if movie creation is successful
-      await t.commit();
-      res.status(201).json({ message: 'Tạo phim thành công', result });
+      await transaction.commit(); // Commit the transaction if the movie is created successfully
+      res.status(201).json({ message: 'Movie created successfully', movie });
     } catch (error) {
-      // Rollback the transaction in case of an error
-      await t.rollback();
-      console.log(error);
-      res.status(500).json({ error: 'Không thể tạo phim mới' });
+      await transaction.rollback(); // Rollback the transaction in case of an error
+      console.error(error);
+      res.status(500).json({ error: 'Unable to create movie' });
     }
   },
 
-  // Create movie by api
+  // Create a new movie using API data
   insertByApi: async (req, res) => {
     const data = req.body; // Extract data from the request body
+    const transaction = await db.transaction(); // Start a transaction
 
-    const transaction = await db.transaction();
-
-    const validationErrors = await movieValidator.validateMovieData(data); //validation data
+    const validationErrors = await movieValidator.validateMovieData(data); // Validate the movie data
     try {
       if (validationErrors) {
-        // if error -> return fe
+        // Return validation errors if found
         return res.status(400).json({ message: validationErrors });
       }
 
-      // Handle types
-      const type = await typeService.findType(data.movie.type, transaction);
-      
-      // Handle years
-      const year = await yearService.findYear(data.movie.year[0].year_name, transaction);
+      // Find or create related data (type, year, actors, directors, categories, countries)
+      const [type, year] = await Promise.all([
+        typeService.findType(data.movie.type, transaction),
+        yearService.findYear(data.movie.year, transaction)
+      ]);
       
       // Handle actors
       const actors = await Promise.all(data.movie.actor.map(async (act) => {
@@ -163,7 +336,7 @@ module.exports = {
         );
         return actor;
       }));
-  
+
       // Handle directors
       const directors = await Promise.all(data.movie.director.map(async (dir) => {
         const [director] = await directorService.findOrCreateDirector(
@@ -173,9 +346,9 @@ module.exports = {
         );
         return director;
       }));
-  
-      // Handle categories
-      const categories = await Promise.all(data.movie.category.map(async (cat) => {
+
+       // Handle categories
+       const categories = await Promise.all(data.movie.category.map(async (cat) => {
         const [category] = await categoryService.findOrCreateCategory(
           cat.cat_name, 
           cat.cat_slug, 
@@ -195,8 +368,8 @@ module.exports = {
         );
         return country;
       }));
-      
-      // Create movie
+
+      // Create movie and related episodes
       const movie = await movieService.createMovie({
         mov_name: data.movie.name,
         mov_slug: data.movie.slug,
@@ -217,75 +390,65 @@ module.exports = {
         actor: actors.map(act => act.dataValues.act_id),
         director: directors.map(dir => dir.dataValues.dir_id),
       }, transaction);
-      
 
-      // Create episode
-      await Promise.all(data.episode.map(async (ep) => {
-        const episode = await episodeService.createEpisode({
+      await Promise.all(data.episode.map(ep => 
+        episodeService.createEpisode({
           ep_title: ep.filename,
           ep_name: ep.name,
           ep_slug: ep.slug,
           ep_link: ep.link_embed,
           sort_order: ep.sort_order,
-          status: ep.status !== undefined ? ep.status : true,
+          status: ep.status ?? true,
           movie: [movie.dataValues.mov_id]
-        }, transaction);
-        return episode;
-      }));
-      
-      // Commit transaction
-      await transaction.commit();
-      res.status(201).json({ message: 'Tạo phim thành công', movie });
+        }, transaction)
+      ));
+
+      await transaction.commit(); // Commit the transaction if everything is successful
+      res.status(201).json({ message: 'Phim đã được tạo thành công', movie });
     } catch (error) {
-      if (transaction) await transaction.rollback();  // Ensure rollback happens if an error occurs
-      console.error("Transaction error:", error);  // Log the exact error
+      await transaction.rollback(); // Rollback the transaction in case of an error
+      console.error('Transaction error:', error);
       res.status(500).json({ error: 'Không thể tạo phim' });
     }
   },
 
   // Update movie by ID
   update: async (req, res) => {
-    const movie = req.body;  // Extract the updated movie data from the request body
+    const movie = req.body; // Extract the updated movie data from the request body
+    const transaction = await db.transaction(); // Start a transaction
 
-    const transaction = await db.transaction();
-
-    const validationErrors = await movieValidator.validateMovieData(movie); //validation data
+    const validationErrors = await movieValidator.validateMovieData(movie); // Validate the movie data
     try {
       if (validationErrors) {
-        // if error -> return fe
+        // Return validation errors if found
         return res.status(400).json({ message: validationErrors });
       }
-      
-      // Create a new movie with the provided data
-      const result = await movieService.updateMovie(movie, transaction);
 
-      // Commit transaction
-      await transaction.commit();
+      // Update the movie data
+      const updatedMovie = await movieService.updateMovie(movie, transaction);
 
-      res.status(201).json({ message: 'Cập nhật phim thành công',  result});
+      await transaction.commit(); // Commit the transaction if the update is successful
+      res.status(200).json({ message: 'Cập nhật phim thành công', updatedMovie });
     } catch (error) {
-      if (transaction) await transaction.rollback();  // Ensure rollback happens if an error occurs
-      console.error("Transaction error:", error);  // Log the exact error
+      await transaction.rollback(); // Rollback the transaction in case of an error
+      console.error('Transaction error:', error);
       res.status(500).json({ error: 'Không thể cập nhật phim' });
     }
   },
 
-  // delete movie by ID
+  // Delete movie by ID
   delete: async (req, res) => {
-    const id = req.params.id;  // Extract the movie ID from the URL parameters
-
-    const transaction = await db.transaction();
-
+    const id = req.params.id; // Extract the movie ID from the URL parameters
+    const transaction = await db.transaction(); // Start a transaction
+    console.log("id: ", id);
+    
     try {
-      await movieService.deleteMovie(id, transaction);
-
-      // Commit transaction
-      await transaction.commit();
-
-      res.status(201).json({ message: 'Xóa phim thành công'});
+      await movieService.deleteMovie(id, transaction); // Delete the movie by ID
+      await transaction.commit(); // Commit the transaction if the deletion is successful
+      res.status(200).json({ message: 'Xóa phim thành công' });
     } catch (error) {
-      if (transaction) await transaction.rollback();  // Ensure rollback happens if an error occurs
-      console.error("Transaction error:", error);  // Log the exact error
+      await transaction.rollback(); // Rollback the transaction in case of an error
+      console.error('Transaction error:', error);
       res.status(500).json({ error: 'Không thể xóa phim' });
     }
   }

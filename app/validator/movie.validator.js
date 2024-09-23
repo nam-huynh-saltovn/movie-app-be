@@ -11,7 +11,6 @@ module.exports = {
       { field: 'content', message: "Nội dung phải từ 50 đến 3000   ký tự", check: v => v.length >= 50 && v.length <= 3000},
       { field: 'posterUrl', message: "Link poster không hợp lệ", check: validateLink},
       { field: 'thumbUrl', message: "Link thumbnail không hợp lệ", check: validateLink},
-      { field: 'year', message: "Năm phát hành không hợp lệ" },
       { field: 'category', message: "Chọn ít nhất 1 thể loại", check: v => v.length > 0 },
       { field: 'country', message: "Chọn ít nhất 1 quốc gia", check: v => v.length > 0 },
       { field: 'actor', message: "Danh sách diễn viên không được để trống", check: v => v.length > 0 }

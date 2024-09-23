@@ -1,5 +1,6 @@
 // Import models and database connection
 const Episode = require("../models/episode.model");
+const Movie = require("../models/movie.model");
 
 module.exports = {
   createEpisode: async(episodeData, transaction) => {
@@ -13,13 +14,23 @@ module.exports = {
     return episode
   },
 
-  findOrCreateDirector: async (ep_id, ep_title, ep_name, ep_slug, ep_link, status, transaction) => {
+  findOrCreateEpisode: async (ep_id, ep_title, ep_name, ep_slug, ep_link, status, transaction) => {
       return Episode.findOrCreate({
         where: { ep_id },
         defaults: { ep_title, ep_name, ep_slug, ep_link, status },
         transaction,
       });
   },
+
+  getByMovieId: async (movId, offset, limit) => {
+    const result = await Episode.findAll({
+      include: {model: Movie, where: {mov_id: movId} , attributes: ['mov_id'], through: { attributes: [] }, required: true},
+      offset: parseInt(offset),
+      limit: parseInt(limit),
+    });
+    return result;
+},
+
 
   updateEpisode: async(episodeData, transaction) => {
     // Tìm episode trước khi tiến hành cập nhật

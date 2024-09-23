@@ -7,7 +7,7 @@ module.exports = {
     return Country.findOrCreate({
       where: { ctr_slug },
       defaults: { ctr_name, status },
-      transaction,
+      transaction
     });
   },
 };

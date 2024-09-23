@@ -7,7 +7,7 @@ module.exports = {
     return Category.findOrCreate({
       where: { cat_slug },
       defaults: { cat_name, status },
-      transaction,
+      transaction
     });
   },
 };
