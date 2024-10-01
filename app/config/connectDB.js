@@ -2,11 +2,11 @@ const { Sequelize } = require('sequelize');
 require('dotenv').config();
 
 // Initialize a Sequelize instance to connect to database
-const sequelize = new Sequelize(process.env.DB_DEV_DATABASE_NAME, process.env.DB_DEV_USER_NAME, process.env.DB_DEV_PASSWORD, 
+const sequelize = new Sequelize(process.env.DB_PRO_DATABASE_NAME, process.env.DB_PRO_USER_NAME, process.env.DB_PRO_PASSWORD, 
   {
-  host: process.env.DB_DEV_HOST,
-  port: process.env.DB_DEV_PORT,
-  dialect: process.env.DB_DEV_DIALECT,
+  host: process.env.DB_PRO_HOST,
+  port: process.env.DB_PRO_PORT,
+  dialect: process.env.DB_PRO_DIALECT,
   timezone: process.env.DB_TIMEZONE || "+07:00",
   pool: { 
     max: parseInt(process.env.DB_POOL_MAX) || 20,

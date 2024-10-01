@@ -21,6 +21,8 @@ module.exports = {
     "password": process.env.DB_PRO_PASSWORD,
     "database": process.env.DB_PRO_DATABASE_NAME,
     "host":     process.env.DB_PRO_HOST,
+    "port":     process.env.DB_PRO_PORT,
     "dialect":  process.env.DB_PRO_DIALECT,
+    "timezone": process.env.DB_TIMEZONE
   },
 };
