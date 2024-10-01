@@ -1,7 +1,7 @@
 // Import models and database connection
-const db = require("../common/connect");
-const Movie = require("../models/movie.model");
-
+// const db = require("../config/connectDB");
+const db = require('../models/index');
+const { sequelize } = require('../config/connectDB');
 const actorService = require("../service/actor.service");
 const directorService = require("../service/director.service");
 const categoryService = require("../service/category.service");
@@ -12,12 +12,6 @@ const typeService = require("../service/type.service");
 const episodeService = require("../service/episode.service");
 const movieValidator = require("../validator/movie.validator");
 const { Op } = require("sequelize");
-const Category = require("../models/category.model");
-const Year = require("../models/year.model");
-const Country = require("../models/country.model");
-const Director = require("../models/director.model");
-const Actor = require("../models/actor.model");
-const Type = require("../models/type.model");
 
 // Helper functions
 const paginate = (page, limit) => ({
@@ -43,21 +37,23 @@ const handleError = (res, error, message = "Có lỗi xảy ra", status = 500) =
 module.exports = {
   // Get all movies with related Year, Type, and Episode data
   getAll: async (req, res) => {
-    const { page = 1, limit = 10 } = req.query;
+    
+    const { page = 1, limit = 10, sort = '' } = req.query;
     const { offset } = paginate(page, limit);
 
     try {
-      const totalMovies = await Movie.count();
-      const results = await movieService.getAll(offset, limit);
+      const sortOrder = sort==2?[["updatedAt","ASC"]]:sort==3?[["mov_name","ASC"]]:[["updatedAt","DESC"]]
 
-      results.length > 0
-        ? sendResponse(res, results, totalMovies, page, limit)
-        : res.status(404).json({ error: 'Không tìm thấy phim nào' });
+      const totalMovies = await db.Movie.count();
+      const results = await movieService.getAll(sortOrder, offset, limit);
+
+      sendResponse(res, results, totalMovies, page, limit);
     } catch (error) {
       handleError(res, error, 'Không thể lấy các phim này');
     }
   },
 
+  // Get movies by id
   getById: async (req, res) => {
     const { id } = req.params;
 
@@ -71,6 +67,7 @@ module.exports = {
     }
   },
 
+  // Get movies by slug
   getBySlug: async (req, res) => {
     const { slug } = req.params;
 
@@ -84,14 +81,15 @@ module.exports = {
     }
   },
 
+  // Get movies by type
   getByType: async (req, res) => {
     const { typeSlug } = req.params;
     const { page = 1, limit = 15 } = req.query;
     const { offset } = paginate(page, limit);
 
     try {
-      const totalMovies = await Movie.count({
-        include: [{ model: Type, where: { type_slug: typeSlug } }],
+      const totalMovies = await db.Movie.count({
+        include: [{ model: db.Type, as: 'Type', where: { type_slug: typeSlug } }],
       });
       const results = await movieService.getByType(typeSlug, offset, limit);
 
@@ -103,14 +101,15 @@ module.exports = {
     }
   },
 
+  // Get movies by category
   getByCategory: async (req, res) => {
     const { catSlug } = req.params;
     const { page = 1, limit = 15 } = req.query;
     const { offset } = paginate(page, limit);
 
     try {
-      const totalMovies = await Movie.count({
-        include: [{ model: Category, where: { cat_slug: catSlug } }],
+      const totalMovies = await db.Movie.count({
+        include: [{ model: db.Category, as: 'Categories', where: { cat_slug: catSlug } }],
       });
       const results = await movieService.getByCategory(catSlug, offset, limit);
 
@@ -122,14 +121,15 @@ module.exports = {
     }
   },
 
+  // Get movies by country
   getByCountry: async (req, res) => {
     const { ctrSlug } = req.params;
     const { page = 1, limit = 15 } = req.query;
     const { offset } = paginate(page, limit);
 
     try {
-      const totalMovies = await Movie.count({
-        include: [{ model: Country, where: { ctr_slug: ctrSlug } }],
+      const totalMovies = await db.Movie.count({
+        include: [{ model: db.Country, as: 'Countries', where: { ctr_slug: ctrSlug } }],
       });
       const results = await movieService.getByCountry(ctrSlug, offset, limit);
 
@@ -141,14 +141,15 @@ module.exports = {
     }
   },
 
+  // Get movies by year
   getByYear: async (req, res) => {
     const { year } = req.params;
     const { page = 1, limit = 15 } = req.query;
     const { offset } = paginate(page, limit);
 
     try {
-      const totalMovies = await Movie.count({
-        include: [{ model: Year, where: { year_name: year } }],
+      const totalMovies = await db.Movie.count({
+        include: [{ model: db.Year, as: 'Year', where: { year_name: year } }],
       });
       const results = await movieService.getByYear(year, offset, limit);
 
@@ -160,12 +161,13 @@ module.exports = {
     }
   },
 
+  // Get latest movies
   getLatestMovies: async (req, res) => {
     const { page = 1, limit = 15 } = req.query;
     const { offset } = paginate(page, limit);
 
     try {
-      const totalMovies = await Movie.count();
+      const totalMovies = await db.Movie.count();
       const results = await movieService.getLatestMovie(offset, limit);
 
       results.length > 0
@@ -178,11 +180,13 @@ module.exports = {
 
   // Search movie by name or slug
   searchByNameOrSlug: async (req, res) => {
-    const { query, page = 1, limit = 10 } = req.query;
-
+    const { query, page = 1, limit = 10, sort = 1 } = req.query;
+    
     try {
       // Build pagination options
       const offset = (page - 1) * limit;
+
+      const sortOrder = sort==2?[["updatedAt","DESC"]]:sort==3?[["updatedAt","ASC"]]:[["mov_name","DESC"]]
       
       // If query is provided, search both 'name' and 'slug'
       const whereClause = query 
@@ -195,15 +199,13 @@ module.exports = {
         }
         : {};
 
-      const totalMovies = await Movie.count({  where: whereClause });
-  
-      const result = await movieService.getByNameOrSlug(whereClause, offset, limit);
+      const result = await movieService.getByNameOrSlug(whereClause, sortOrder, offset, limit);
 
       res.status(200).json({
-        movies: result,
-        totalMovies: totalMovies,
+        movies: result.rows,
+        totalMovies: result.count,
         currentPage: parseInt(page),
-        totalPages: Math.ceil(totalMovies / limit),
+        totalPages: Math.ceil(result.count / limit),
       });
     } catch (error) {
       res.status(500).json({ message: "Không thể lấy phim", error });
@@ -212,56 +214,66 @@ module.exports = {
   
   // Search movie by name or slug
   filterMovie: async (req, res) => {
-    const { page=1, limit=10 } = req.query;
+    const { page = 1, limit = 10, sort = '' } = req.query;
   
     try {
       // Build pagination options
       const offset = (page - 1) * limit;
   
+      const sortOrder = sort == 2 ? [["updatedAt", "ASC"]] : sort == 3 ? [["mov_name", "ASC"]] : [["updatedAt", "DESC"]];
+
+      // Build where clause for movie search
+      const whereClause = {};
+      const conditions = [
+        req.query.query && { mov_name: { [Op.like]: `%${req.query.query}%` }},
+        req.query.query && { mov_slug: { [Op.like]: `%${req.query.query}%` }},
+        req.query.query && { ori_name: { [Op.like]: `%${req.query.query}%` }},
+        req.query.lang && { lang: { [Op.like]: `%${req.query.lang}%` }},
+        req.query.quality && { quality: req.query.quality }
+      ].filter(Boolean); // Loại bỏ các giá trị `false` hoặc `undefined`
+  
+      if (conditions.length) {
+        whereClause[Op.or] = conditions;
+      }
+  
       // Build include clauses for relations
       const includeClauses = [];
-
+  
       // Create a mapping of filters to their respective models and fields
       const filters = [
-        { key: 'year', model: Year, field: 'year_name' },
-        { key: 'type', model: Type, field: 'type_slug' },
-        { key: 'category', model: Category, field: 'cat_slug' },
-        { key: 'country', model: Country, field: 'ctr_slug' },
-        { key: 'actor', model: Actor, field: 'act_name' },
-        { key: 'director', model: Director, field: 'dir_name' },
+        { key: 'type', model: db.Type, as: 'Type', field: 'type_slug' },
+        { key: 'year', model: db.Year, as: 'Year', field: 'year_name' },
+        { key: 'category', model: db.Category, as: 'Categories', field: 'cat_slug' },
+        { key: 'country', model: db.Country, as: 'Countries', field: 'ctr_slug' },
+        { key: 'actor', model: db.Actor, as: 'Actors', field: 'act_name' },
+        { key: 'director', model: db.Director, as: 'Directors', field: 'dir_name' },
       ];
 
-      // Loop through each filter and add to includeClauses if a query value exists
-      filters.forEach(({ key, model, field }) => {
+      filters.forEach(({ key, model, as, field }) => {
         if (req.query[key]) {
           includeClauses.push({
             model,
+            as,
             where: { [field]: { [Op.like]: `%${req.query[key]}%` } },
-            required: true, // inner join to ensure we only get movies with this filter
+            require: true
+          });
+        }else{
+          includeClauses.push({
+            model,
+            as,
+            require: false
           });
         }
       });
-
-      // Thêm filter cho category nhưng vẫn lấy tất cả category của movie
-      if (req.query.category) {
-        includeClauses.push({
-          model: Category,
-          where: { cat_slug: { [Op.like]: `%${req.query.category}%` } },
-          required: true, // Inner join
-        });
-      }
   
-      // Count total movies matching the filter
-      const totalMovies = await Movie.count({include: includeClauses });
-  
-      // Fetch filtered movies with pagination
-      const result = await movieService.filterMovie(includeClauses, offset, limit);
+      // Fetch filtered movies with pagination and HAVING clause
+      const result = await movieService.filterMovie(whereClause, includeClauses, sortOrder, offset, limit);
   
       res.status(200).json({
-        movies: result,
-        totalMovies: totalMovies,
+        movies: result.rows,
+        totalMovies: result.count,
         currentPage: parseInt(page),
-        totalPages: Math.ceil(totalMovies / limit),
+        totalPages: Math.ceil(result.count / limit),
       });
     } catch (error) {
       console.error(error);
@@ -272,7 +284,7 @@ module.exports = {
   // Create a new movie
   insert: async (req, res) => {
     const data = req.body; // Extract data from the request body
-    const transaction = await db.transaction(); // Start a transaction
+    const transaction = await sequelize.transaction(); // Start a transaction
 
     const validationErrors = movieValidator.validateMovieData(data); // Validate the movie data
     try {
@@ -282,7 +294,7 @@ module.exports = {
       }
 
       // Create a new movie with the provided data
-      const movie = await Movie.create({
+      const movie = await db.Movie.create({
         mov_name: data.name,
         mov_slug: data.slug,
         ori_name: data.origin_name,
@@ -311,7 +323,7 @@ module.exports = {
   // Create a new movie using API data
   insertByApi: async (req, res) => {
     const data = req.body; // Extract data from the request body
-    const transaction = await db.transaction(); // Start a transaction
+    const transaction = await sequelize.transaction(); // Start a transaction
 
     const validationErrors = await movieValidator.validateMovieData(data); // Validate the movie data
     try {
@@ -322,7 +334,7 @@ module.exports = {
 
       // Find or create related data (type, year, actors, directors, categories, countries)
       const [type, year] = await Promise.all([
-        typeService.findType(data.movie.type, transaction),
+        typeService.findTypeBySlug(data.movie.type, transaction),
         yearService.findYear(data.movie.year, transaction)
       ]);
       
@@ -368,6 +380,7 @@ module.exports = {
         );
         return country;
       }));
+      
 
       // Create movie and related episodes
       const movie = await movieService.createMovie({
@@ -398,7 +411,7 @@ module.exports = {
           ep_slug: ep.slug,
           ep_link: ep.link_embed,
           sort_order: ep.sort_order,
-          status: ep.status ?? true,
+          status: ep.status?ep.status:true,
           movie: [movie.dataValues.mov_id]
         }, transaction)
       ));
@@ -415,7 +428,7 @@ module.exports = {
   // Update movie by ID
   update: async (req, res) => {
     const movie = req.body; // Extract the updated movie data from the request body
-    const transaction = await db.transaction(); // Start a transaction
+    const transaction = await sequelize.transaction(); // Start a transaction
 
     const validationErrors = await movieValidator.validateMovieData(movie); // Validate the movie data
     try {
@@ -439,7 +452,7 @@ module.exports = {
   // Delete movie by ID
   delete: async (req, res) => {
     const id = req.params.id; // Extract the movie ID from the URL parameters
-    const transaction = await db.transaction(); // Start a transaction
+    const transaction = await sequelize.transaction(); // Start a transaction
     console.log("id: ", id);
     
     try {

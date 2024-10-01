@@ -1,13 +1,13 @@
 // Import models and database connection
-const db = require("../common/connect");
-const Category = require("../models/category.model");
+const { sequelize } = require('../config/connectDB');
+const categoryService = require('../service/category.service');
 
 module.exports = {
   // Get all categories
   getAll: async (req, res) => {
     try {
       // Fetch all categories from the database
-      const categories = await Category.findAll();
+      const categories = await categoryService.getAll();
       
       // If categories are found, return categories
       if (categories) {
@@ -26,7 +26,7 @@ module.exports = {
     
     try {
       // Fetch a single category where cat_id matches and status is true
-      const category = await Category.findOne({ where: { cat_id: id, status: true } });
+      const category = await categoryService.getById(id);
       
       // If the category is not found, return a 404 error
       if (!category) {
@@ -47,13 +47,10 @@ module.exports = {
     let t;
     try {
       // Start a transaction to ensure atomicity
-      t = await db.transaction();
+      t = await sequelize.transaction();
       
-      // Create a new category with the provided data
-      const result = await Category.create(
-        { cat_name: name, cat_slug: slug, status: status },
-        { transaction: t }
-      );
+      // Create a new category
+      const result = await categoryService.createCategory({ cat_name: name, cat_slug: slug, status: status }, t);
       
       // Commit the transaction if creation is successful
       await t.commit();

@@ -1,23 +1,27 @@
+const { autoUpdateMovie } = require("../common/scheduleUpdateMovie");
+
 module.exports = function (router) {
   // Import the actor controller to handle the logic for each route
   const movieController = require("../controllers/movie.controller");
 
   // Define routes
-  router.get("/movie", movieController.getAll);                           // get all movie
-  router.get("/movie/id/:id", movieController.getById);                   // get by id
-  router.get("/movie/slug/:slug", movieController.getBySlug);             // get by slug
-  router.get("/movie/type/:typeSlug", movieController.getByType);         // get by type
-  router.get("/movie/category/:catSlug", movieController.getByCategory);  // get by Category
-  router.get("/movie/country/:ctrSlug", movieController.getByCountry);    // get by Country
-  router.get("/movie/year/:year", movieController.getByYear);             // get by year
-  router.get("/latest-movie", movieController.getLatestMovies);           // get latest movie
-  router.get("/movie/search", movieController.searchByNameOrSlug);        // search by name || slug
-  router.get("/movie/filter", movieController.filterMovie);               // filter movie movie
+  router.get("/api/v1/movie", movieController.getAll);                           // get all movie
+  router.get("/api/v1/movie/id/:id", movieController.getById);                   // get by id
+  router.get("/api/v1/movie/slug/:slug", movieController.getBySlug);             // get by slug
+  router.get("/api/v1/movie/type/:typeSlug", movieController.getByType);         // get by type
+  router.get("/api/v1/movie/category/:catSlug", movieController.getByCategory);  // get by Category
+  router.get("/api/v1/movie/country/:ctrSlug", movieController.getByCountry);    // get by Country
+  router.get("/api/v1/movie/year/:year", movieController.getByYear);             // get by year
+  router.get("/api/v1/latest-movie", movieController.getLatestMovies);           // get latest movie
+  router.get("/api/v1/movie/search", movieController.searchByNameOrSlug);        // search by name || slug
+  router.get("/api/v1/movie/filter", movieController.filterMovie);               // filter movie movie
+  router.get("/api/v1/movie/test", autoUpdateMovie);                             // filter movie movie
 
-  router.post("/movie", movieController.insert);                          // create movie
-  router.post("/movie-api", movieController.insertByApi);                 // create by api
 
-  router.put("/movie", movieController.update);                           // update movie
+  router.post("/api/v1/movie", movieController.insert);                          // create movie
+  router.post("/api/v1/movie-api", movieController.insertByApi);                 // create by api
 
-  router.delete("/movie/:id", movieController.delete);                    // delete movie
+  router.put("/api/v1/movie", movieController.update);                           // update movie
+
+  router.delete("/api/v1/movie/:id", movieController.delete);                    // delete movie
 };

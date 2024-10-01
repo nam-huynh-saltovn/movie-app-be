@@ -1,13 +1,14 @@
 // Import models and database connection
-const db = require("../common/connect");
-const Director = require("../models/director.model");
+const db = require('../models/index');
+const { sequelize } = require('../config/connectDB');
+const directorService = require('../service/director.service');
 
 module.exports = {
   // Get all directors
   getAll: async (req, res) => {
     try {
       // Fetch all directors from the database
-      const directors = await Director.findAll();
+      const directors = await directorService.getAll();
       
       // If directors are found, return directors
       if (directors) {
@@ -26,7 +27,7 @@ module.exports = {
     
     try {
       // Fetch a single director where dir_id matches and status is true
-      const director = await Director.findOne({ where: { dir_id: id, status: true } });
+      const director = await directorService.getById(id);
       
       // If the director is not found, return a 404 error
       if (!director) {
@@ -47,13 +48,10 @@ module.exports = {
     let t;
     try {
       // Start a transaction to ensure atomicity
-      t = await db.transaction();
+      t = await sequelize.transaction();
       
-      // Create a new director with the provided data
-      const result = await Director.create(
-        { dir_name: name, status: status },
-        { transaction: t }
-      );
+      // Create a new director
+      const result = await directorService.createDirector({ dir_name: name, status: status }, t);
       
       // Commit the transaction if creation is successful
       await t.commit();

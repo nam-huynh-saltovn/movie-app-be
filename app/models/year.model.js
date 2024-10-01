@@ -1,19 +1,30 @@
-// Import Sequelize's DataTypes for defining model attributes
-const { DataTypes } = require('sequelize');
-// Import the database connection instance
-const db = require("../common/connect");
+'use strict';
+const { Model } = require('sequelize');
 
-// Define the Year model with its attributes
-const Year = db.define('Year', {
-  year_id: {
-    type: DataTypes.INTEGER,        // Integer data type for year ID
-    allowNull: false,               // ID cannot be null
-    primaryKey: true,               // Set year_id as the primary key
-    autoIncrement: true,            // Automatically increment the ID
-  },
-  year_name: { type: DataTypes.INTEGER },   // Year name (e.g., 2021, 2022)
-  status: { type: DataTypes.BOOLEAN }      // Status (e.g., active or inactive)
-});
+module.exports = (sequelize, DataTypes) => {
+  class Year extends Model {
+    static associate(models) {
+      // add N-1 relationship
+      Year.hasMany(models.Movie, { foreignKey: 'year_id', as: 'Movies' });
+    }
+  }
 
+  // Initialize the Year model
+  Year.init({
+    year_id: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      primaryKey: true,
+      autoIncrement: true,
+    },
+    year_name: { type: DataTypes.INTEGER },
+    status: { type: DataTypes.BOOLEAN }
+  }, {
+    sequelize,
+    modelName: 'Year',
+    tableName: 'years',
+    timestamps: true
+  });
 
-module.exports = Year;
+  return Year;
+};

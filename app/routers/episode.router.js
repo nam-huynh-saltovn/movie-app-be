@@ -3,13 +3,15 @@ module.exports = function (router) {
   const episodeController = require("../controllers/episode.controller");
 
   // Define routes
-  router.get("/episode", episodeController.getAll);
-  router.get("/episode/:id", episodeController.getById);
-  router.get("/episode/mv/:movId", episodeController.getByMovieId);
+  router.get("/api/v1/episode", episodeController.getAll);
+  router.get("/api/v1/episode/:id", episodeController.getById);
+  router.get("/api/v1/episode/mv/:movId", episodeController.getByMovieId);
+  router.get("/api/v1/episode/mv/all/:movId", episodeController.getAllByMovieId);
 
-  router.post("/episode", episodeController.insert);
+  router.post("/api/v1/episode", episodeController.insert);
 
-  router.put("/episode", episodeController.update);
+  router.put("/api/v1/episode", episodeController.update);
+  router.put("/api/v1/episode/sort-oder/:id", episodeController.updateSortOrder);
 
-  router.delete("/episode/:id", episodeController.delete);
+  router.delete("/api/v1/episode/:id", episodeController.delete);
 };

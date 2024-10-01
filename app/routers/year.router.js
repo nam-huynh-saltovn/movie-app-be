@@ -3,7 +3,7 @@ module.exports = function (router) {
   const yearController = require("../controllers/year.controller");
 
   // Define routes
-  router.get("/year", yearController.getAll);
-  router.get("/year/:id", yearController.getById);
-  router.post("/year", yearController.insert);
+  router.get("/api/v1/year", yearController.getAll);
+  router.get("/api/v1/year/:id", yearController.getById);
+  router.post("/api/v1/year", yearController.insert);
 };

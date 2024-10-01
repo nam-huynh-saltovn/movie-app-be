@@ -1,22 +1,31 @@
-// Import Sequelize's DataTypes for defining model attributes
-const { DataTypes } = require('sequelize');
-// Import the database connection instance
-const db = require("../common/connect");
-// Import the Movie model to establish relationships
-const Movie = require("./movie.model");
+'use strict';
+const { Model } = require('sequelize');
 
-// Define the Country model with its attributes
-const Country = db.define('Country', {
-  ctr_id: {
-    type: DataTypes.INTEGER,        // Integer data type for country ID
-    allowNull: false,               // ID cannot be null
-    primaryKey: true,               // Set ctr_id as the primary key
-    autoIncrement: true,            // Automatically increment the ID
-  },
-  ctr_name: { type: DataTypes.STRING },   // Country name (e.g., USA, UK)
-  ctr_slug: { type: DataTypes.STRING },   // Slug for URLs (e.g., usa, uk)
-  status: { type: DataTypes.BOOLEAN }     // Status (e.g., active or inactive)
-});
+module.exports = (sequelize, DataTypes) => {
+  class Country extends Model {
+    static associate(models) {
+      // add N-N relationship
+      Country.belongsToMany(models.Movie, { through: 'country_movie', foreignKey: 'ctr_id', as: 'Movies' });
+    }
+  }
 
+  // Initialize the Country model
+  Country.init({
+    ctr_id: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      primaryKey: true,
+      autoIncrement: true,
+    },
+    ctr_name: { type: DataTypes.STRING },
+    ctr_slug: { type: DataTypes.STRING },
+    status: { type: DataTypes.BOOLEAN }
+  }, {
+    sequelize,
+    modelName: 'Country',
+    tableName: 'countries',
+    timestamps: true
+  });
 
-module.exports = Country;
+  return Country;
+};

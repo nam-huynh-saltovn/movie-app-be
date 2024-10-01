@@ -1,13 +1,13 @@
 // Import models and database connection
-const db = require("../common/connect");
-const Type = require("../models/type.model");
+const { sequelize } = require('../config/connectDB');
+const typeService = require("../service/type.service");
 
 module.exports = {
   // Get all types
   getAll: async (req, res) => {
     try {
       // Fetch all types from the database
-      const types = await Type.findAll();
+      const types = await typeService.getAllType();
       
       // If types are found, return them in the response
       if (types) {
@@ -26,7 +26,7 @@ module.exports = {
     
     try {
       // Fetch a single type where type_id matches and status is true
-      const type = await Type.findOne({ where: { type_id: id, status: true } });
+      const type = await typeService.getById(id);
       
       // If the type is not found, return a 404 error
       if (!type) {
@@ -47,13 +47,10 @@ module.exports = {
     let t;
     try {
       // Start a transaction to ensure atomicity
-      t = await db.transaction();
+      t = await sequelize.transaction();
       
-      // Create a new type with the provided data
-      const result = await Type.create(
-        { type_name: type, type_slug: slug, status: status },
-        { transaction: t }
-      );
+      // Create a new type
+      const result = await typeService.createType({ type_name: type, type_slug: slug, status: status }, t);
       
       // Commit the transaction if type creation is successful
       await t.commit();
