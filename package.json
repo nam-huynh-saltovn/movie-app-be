@@ -7,9 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon app/index.js",
     "migrate": "sequelize-cli db:migrate",
+    "import-data": "mysql -h $DB_PRO_HOST -u $DB_PRO_USER_NAME -p$DB_PRO_PASSWORD $DB_PRO_DATABASE_NAME < data-mysql.sql",
     "build-app": "babel app -d build --copy-files",
-    "build": "node build/index.js",
-    "production": "node app/index.js"
+    "production": "node build/index.js"
   },
   "author": "",
   "license": "ISC",
