@@ -1,7 +1,6 @@
 // Import models and database connection
-const db = require("../common/connect");
-const Actor = require("../models/actor.model");
-
+const db = require('../models/index');
+const { sequelize } = require('../config/connectDB');
 const actorService = require("../service/actor.service");
 
 module.exports = {
@@ -9,7 +8,7 @@ module.exports = {
   getAll: async (req, res) => {
     try {
       // Fetch all actors from the database
-      const actors = await Actor.findAll();
+      const actors = await actorService.getAllActors();
       
       // If actors are found, return actors
       if (actors) {
@@ -28,7 +27,7 @@ module.exports = {
     
     try {
       // Fetch a single actor where act_id matches and status is true
-      const actor = await Actor.findOne({ where: { act_id: id, status: true } });
+      const actor = await actorService.getActorById(id);
       
       // If the actor is not found, return a 404 error
       if (!actor) {
@@ -48,7 +47,7 @@ module.exports = {
     let t;
     try {
         // Start a transaction to ensure atomicity
-        t = await db.transaction();
+        t = await sequelize.transaction();
         
         // Create a new actor with the provided data
         const result = actorService.createActor(data, t);

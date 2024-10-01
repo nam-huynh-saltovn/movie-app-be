@@ -1,13 +1,14 @@
 // Import the database connection instance and Country model
-const db = require("../common/connect");
-const Country = require("../models/country.model");
+const db = require('../models/index');
+const { sequelize } = require('../config/connectDB');
+const countryService = require('../service/country.service');
 
 module.exports = {
   // Get all countries
   getAll: async (req, res) => {
     try {
       // Fetch all countries from the database
-      const countries = await Country.findAll();
+      const countries = await countryService.getAll();
       
       // If countries are found, return countries
       if (countries) {
@@ -26,7 +27,7 @@ module.exports = {
     
     try {
       // Fetch a single country where ctr_id matches and status is true
-      const country = await Country.findOne({ where: { ctr_id: id, status: true } });
+      const country = await countryService.getById(id);
       
       // If the country is not found, return a 404 error
       if (!country) {
@@ -47,13 +48,10 @@ module.exports = {
     let t;
     try {
       // Start a transaction to ensure atomicity
-      t = await db.transaction();
+      t = await sequelize.transaction();
       
       // Create a new country with the provided data
-      const result = await Country.create(
-        { ctr_name: name, ctr_slug: slug, status: status },
-        { transaction: t }
-      );
+      const result = await countryService.createCountry({ ctr_name: name, ctr_slug: slug, status: status }, t);
       
       // Commit the transaction if creation is successful
       await t.commit();

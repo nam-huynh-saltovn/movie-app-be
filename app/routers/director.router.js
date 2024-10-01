@@ -3,7 +3,7 @@ module.exports = function (router) {
   const directorController = require("../controllers/director.controller");
 
   // Define routes
-  router.get("/director", directorController.getAll);
-  router.get("/director/:id", directorController.getById);
-  router.post("/director", directorController.insert);
+  router.get("/api/v1/director", directorController.getAll);
+  router.get("/api/v1/director/:id", directorController.getById);
+  router.post("/api/v1/director", directorController.insert);
 };

@@ -1,0 +1,10 @@
+# Jetbrains IDEs files
+*.iml
+.idea
+
+# ng project file
+/node_modules
+/build
+.outs
+.env
+package-lock.json

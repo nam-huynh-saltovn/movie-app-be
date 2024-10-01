@@ -3,7 +3,7 @@ module.exports = function (router) {
   const categoryController = require("../controllers/category.controller");
 
   // Define routes
-  router.get("/category", categoryController.getAll);
-  router.get("/category/:id", categoryController.getById);
-  router.post("/category", categoryController.insert);
+  router.get("/api/v1/category", categoryController.getAll);
+  router.get("/api/v1/category/:id", categoryController.getById);
+  router.post("/api/v1/category", categoryController.insert);
 };

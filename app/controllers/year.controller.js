@@ -1,13 +1,13 @@
 // Import models and database connection
-const db = require("../common/connect");
-const Year = require("../models/year.model");
+const { sequelize } = require('../config/connectDB');
+const yearService = require("../service/year.service");
 
 module.exports = {
   // Get all years
   getAll: async (req, res) => {
     try {
       // Fetch all years from the database
-      const years = await Year.findAll();
+      const years = await yearService.getAllYear();
       
       // If years are found, return years
       if (years) {
@@ -26,7 +26,7 @@ module.exports = {
     
     try {
       // Fetch a single year where year_id matches and status is true
-      const year = await Year.findOne({ where: { year_id: id, status: true } });
+      const year = await yearService.getById(id);
       
       // If the year is not found, return a 404 error
       if (!year) {
@@ -47,10 +47,10 @@ module.exports = {
     let t;
     try {
       // Start a transaction to ensure atomicity
-      t = await db.transaction();
+      t = await sequelize.transaction();
       
-      // Create a new year with the provided data
-      const result = await Year.create({ year_name: year, status: status }, { transaction: t });
+      // Create a new year
+      const result = await yearService.createYear({ year_name: year, status: status }, t);
       
       // Commit the transaction if year creation is successful
       await t.commit();
