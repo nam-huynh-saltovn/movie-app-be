@@ -3,7 +3,7 @@ module.exports = function (router) {
   const typeController = require("../controllers/type.controller");
 
   // Define routes
-  router.get("/type", typeController.getAll);
-  router.get("/type/:id", typeController.getById);
-  router.post("/type", typeController.insert);
+  router.get("/api/v1/type", typeController.getAll);
+  router.get("/api/v1/type/:id", typeController.getById);
+  router.post("/api/v1/type", typeController.insert);
 };

@@ -1,72 +1,61 @@
-// Import Sequelize's DataTypes for defining model attributes
-const { DataTypes } = require('sequelize');
-// Import the database connection instance
-const db = require("../common/connect");
-// Import related models
-const Type = require('./type.model');
-const Year = require('./year.model');
-const Category = require('./category.model');
-const Country = require('./country.model');
-const Actor = require('./actor.model');
-const Director = require('./director.model');
+'use strict';
+const { Model } = require('sequelize');
 
-// Define the Movie model with various attributes
-const Movie = db.define("Movie", {
-  mov_id: {
-    type: DataTypes.INTEGER, 
-    allowNull: false,
-    primaryKey: true,       // Set mov_id as the primary key
-    autoIncrement: true,    // Automatically increment the ID
-  },
-  mov_name: { type: DataTypes.STRING, },         // Name of the movie                    
-  mov_slug: { type: DataTypes.STRING, },         // Slug of the movie
-  ori_name: { type: DataTypes.STRING },          // Original name of the movie
-  content: { type: DataTypes.STRING },           // Movie content/description
-  poster_url: { type: DataTypes.STRING },        // URL for the movie poster
-  thumb_url: { type: DataTypes.STRING },         // URL for thumbnail image
-  time: { type: DataTypes.STRING },              // Movie duration
-  episode_current: { type: DataTypes.STRING },   // Current episode number
-  episode_total: { type: DataTypes.STRING },     // Total number of episodes
-  quality: { type: DataTypes.STRING },           // Quality of the movie (e.g., HD, SD)
-  lang: { type: DataTypes.STRING },              // Language of the movie (vietsub, eng,...)
-  status: { type: DataTypes.BOOLEAN },           // Status (e.g., complited/ongoing)
-  year_id: {
-    type: DataTypes.INTEGER,
-    references: {
-      model: Year,          // Reference the Year model
-      key: 'id'             // Foreign key in the Year model
-    }
-  },
-  type_id: {
-    type: DataTypes.INTEGER,
-    references: {
-      model: Type,          // Reference the Type model
-      key: 'id'             // Foreign key in the Type model
+module.exports = (sequelize, DataTypes) => {
+  class Movie extends Model {
+    static associate(models) {
+      // add 1-N relationships
+      Movie.belongsTo(models.Year, { foreignKey: 'year_id', as: 'Year' });
+      Movie.belongsTo(models.Type, { foreignKey: 'type_id', as: 'Type' });
+
+      // add N-N relationships
+      Movie.belongsToMany(models.Category, { through: 'category_movie', foreignKey: 'mov_id', as: 'Categories' });
+      Movie.belongsToMany(models.Director, { through: 'director_movie', foreignKey: 'mov_id', as: 'Directors' });
+      Movie.belongsToMany(models.Country, { through: 'country_movie', foreignKey: 'mov_id', as: 'Countries' });
+      Movie.belongsToMany(models.Episode, { through: 'episode_movie', foreignKey: 'mov_id', as: 'Episodes' });
+      Movie.belongsToMany(models.Actor, { through: 'actor_movie', foreignKey: 'mov_id', as: 'Actors' });
     }
   }
-}, {
-  timestamps: true,          // Enable timestamps
-  createdAt: 'createdAt',     // Custom name for created timestamp
-  updatedAt: 'updatedAt'      // Custom name for updated timestamp
-});
 
-// Establish 1-N relationship
-Year.hasMany(Movie, { foreignKey: 'year_id' });   // A year has many movies
-Movie.belongsTo(Year, { foreignKey: 'year_id' }); // A movie belongs to a specific year
+  // Initialize the Movie model
+  Movie.init({
+    mov_id: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      primaryKey: true,
+      autoIncrement: true,
+    },
+    mov_name: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    mov_slug: { type: DataTypes.STRING(255) },
+    ori_name: { type: DataTypes.STRING(255) },
+    content: { type: DataTypes.TEXT },
+    poster_url: { type: DataTypes.STRING },
+    thumb_url: { type: DataTypes.STRING },
+    time: { type: DataTypes.STRING },
+    episode_current: { type: DataTypes.STRING },
+    episode_total: { type: DataTypes.STRING },
+    quality: { type: DataTypes.STRING },
+    lang: { type: DataTypes.STRING },
+    status: { type: DataTypes.BOOLEAN },
+    year_id: {
+      type: DataTypes.INTEGER,
+      references: { model: 'Years', key: 'year_id' }
+    },
+    type_id: {
+      type: DataTypes.INTEGER,
+      references: { model: 'Types', key: 'type_id' }
+    }
+  }, {
+    sequelize,
+    modelName: 'Movie',
+    tableName: 'movies',
+    timestamps: true,
+    createdAt: 'createdAt',
+    updatedAt: 'updatedAt',
+  });
 
-Type.hasMany(Movie, { foreignKey: 'type_id' });   // A type has many movies
-Movie.belongsTo(Type, { foreignKey: 'type_id' }); // A movie belongs to a specific type
-
-Movie.belongsToMany(Category, { through: 'category_movie', foreignKey: 'mov_id' });
-Category.belongsToMany(Movie, { through: 'category_movie', foreignKey: 'cat_id' });
-
-Movie.belongsToMany(Actor, { through: 'actor_movie', foreignKey: 'mov_id' });
-Actor.belongsToMany(Movie, { through: 'actor_movie', foreignKey: 'act_id' });
-
-Movie.belongsToMany(Director, { through: 'director_movie', foreignKey: 'mov_id' });
-Director.belongsToMany(Movie, { through: 'director_movie', foreignKey: 'dir_id' });
-
-Movie.belongsToMany(Country, { through: 'country_movie', foreignKey: 'mov_id' });
-Country.belongsToMany(Movie, { through: 'country_movie', foreignKey: 'ctr_id' });
-
-module.exports = Movie;
+  return Movie;
+};

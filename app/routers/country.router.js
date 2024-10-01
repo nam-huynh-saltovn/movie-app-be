@@ -3,7 +3,7 @@ module.exports = function (router) {
   const countryController = require("../controllers/country.controller");
 
   // Define routes
-  router.get("/country", countryController.getAll);
-  router.get("/country/:id", countryController.getById);
-  router.post("/country", countryController.insert);
+  router.get("/api/v1/country", countryController.getAll);
+  router.get("/api/v1/country/:id", countryController.getById);
+  router.post("/api/v1/country", countryController.insert);
 };

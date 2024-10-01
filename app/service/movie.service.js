@@ -1,142 +1,203 @@
 // Import models and database connection
+const db = require('../models/index');
 const customFormat = require("../common/customFormat");
-const Actor = require("../models/actor.model");
-const Category = require("../models/category.model");
-const Country = require("../models/country.model");
-const Director = require("../models/director.model");
-const Episode = require("../models/episode.model");
-const Movie = require("../models/movie.model");
-const Type = require("../models/type.model");
-const Year = require("../models/year.model");
 
-const formatData = (movie) =>{
-  // Format the movie object
-  const formatTimestamps = (object) => {
-    return {
-      ...object.get(),
-      createdAt: customFormat(object.createdAt),
-      updatedAt: customFormat(object.updatedAt),
-    };
-  };
+// include related model
+const includeCommonModels = (additionalModels = []) => [
+  { model: db.Type, as: 'Type', attributes: ['type_id', 'type_name', 'type_slug'] },
+  { model: db.Year, as: 'Year', attributes: ['year_id', 'year_name'] },
+  { model: db.Category, as: 'Categories', attributes: ['cat_id', 'cat_name'], through: { attributes: [] } },
+  { model: db.Actor, as: 'Actors', attributes: ['act_id', 'act_name'], through: { attributes: [] } },
+  { model: db.Director, as: 'Directors', attributes: ['dir_id', 'dir_name'], through: { attributes: [] } },
+  { model: db.Country, as: 'Countries', attributes: ['ctr_id', 'ctr_name', 'ctr_slug'], through: { attributes: [] } },
+  ...additionalModels
+];
 
-  const formattedMovie = {
-    ...formatTimestamps(movie),
-    Year: formatTimestamps(movie.Year),
-    Type: formatTimestamps(movie.Type),
-    Episodes: movie.Episodes.map(episode => formatTimestamps(episode)),
-    Actors: movie.Actors.map(actor => formatTimestamps(actor)),
-    Directors: movie.Directors.map(director => formatTimestamps(director)),
-    Categories: movie.Categories.map(category => formatTimestamps(category)),
-    Countries: movie.Countries.map(country => formatTimestamps(country)),
-  };
+// format time in createdAt & updatedAt
+const formatMovie = (movie) => ({
+  ...movie.get(),
+  createdAt: customFormat(movie.createdAt),
+  updatedAt: customFormat(movie.updatedAt),
+});
 
-  return formattedMovie;
-}
+// common find all query
+const fetchMovies = async (whereClause, offset, limit, additionalModels = [], order = []) => {
+  const results = await db.Movie.findAll({
+    order: order,
+    where: whereClause,
+    offset: parseInt(offset),
+    limit: parseInt(limit),
+    include: includeCommonModels(additionalModels),
+  });
+  return results.map(formatMovie);
+};
 
 module.exports = {
-  getAll: async () => {
-    // Fetch all movies including related Year, Type, and Episode models
-    const results = await Movie.findAll({
-      include: 
-      [Year, 
-      Type, 
-      {
-        model: Episode,
-        attributes: [
-          ['ep_id', 'id'], 
-          ['ep_title', 'filename'], // Rename ep_title to filename
-          ['ep_name', 'name'],      // Rename ep_name to name
-          ['ep_slug', 'slug'],      // Rename ep_slug to slug
-          ['ep_link', 'link_embed'],// Rename ep_link to link_embed
-          'sort_order',
-          'status',
-          'createdAt',
-          'updatedAt'
-        ],
-      },
-      Actor,
-      Director,
-      Country,
-      Category
-    ] });
-
-    // Format the results
-  const formattedResults = results.map(movie => {
-    // Format the movie object
-    return formatData(movie);
-  });
-
-  return formattedResults;
+  // get all movies
+  getAll: async (sortOrder, offset, limit) => {
+    return fetchMovies({}, offset, limit, [], sortOrder);
   },
 
-  getById: async(id) => {
-    const movie = await Movie.findOne({ where: { mov_id: id }, include: [Year, Type, Country, Category, Director, Actor, Episode] });
-    if(movie){
-      const formattedMovie = {
-        ...movie.get(), // Lấy toàn bộ dữ liệu của movie
-        createdAt: customFormat(movie.createdAt),
-        updatedAt: customFormat(movie.updatedAt)
-      };
-      return formattedMovie;
-    }
+  // get movie by id
+  getById: async (id) => {
+    const movie = await db.Movie.findOne({ where: { mov_id: id }, include: includeCommonModels([{model: db.Episode, as:'Episodes'}]) });
+    return movie ? formatMovie(movie) : null;
   },
 
-  getBySlug: async(slug) => {
-    const movie = await Movie.findOne({ where: { mov_slug: slug }, include: [Year, Type, Country, Category, Director, Actor, Episode] });
-    if(movie){
-      const formattedMovie = {
-        ...movie.get(), // Lấy toàn bộ dữ liệu của movie
-        createdAt: customFormat(movie.createdAt),
-        updatedAt: customFormat(movie.updatedAt)
-      };
-      return formattedMovie;
-    }
+  // get movie by slug
+  getBySlug: async (slug) => {
+    const movie = await db.Movie.findOne({ where: { mov_slug: slug }, include: includeCommonModels([{model: db.Episode, as: 'Episodes'}]) });
+    return movie ? formatMovie(movie) : null;
   },
 
-  getLatestMovie: async () => {
-    const results = await Movie.findAll({
-      limit: 20,
-      order: [['updatedAt', 'DESC']],
-      include: [Year, Type, Category, Actor, Director, Country, Episode] 
+  // get movie by status
+  getByStatus: async (status) => {
+    const movie = await db.Movie.findAll({
+      where: { status: status }, 
+      include: [{model: db.Episode, as: 'Episodes', attributes: ['ep_id', 'ep_name', 'ep_slug'], through: {attributes: []}}],
+      distinct: true
     });
-    
-    const formattedResults = results.map(movie => {
-      // Format the movie object
-      return formatData(movie);
-    });
-    
-    return formattedResults;
-  },
-
-  createMovie: async (movieData, transaction) => {
-    const movie = await Movie.create(movieData, { transaction });
-
-    // add to intermediate table
-    if (movieData.category) {
-      await movie.addCategories(movieData.category, { transaction });
-    }
-
-    if (movieData.country) {
-      await movie.addCountries(movieData.country, { transaction });
-    }
-
-    if (movieData.actor) {
-      await movie.addActors(movieData.actor, { transaction });
-    }
-
-    if (movieData.director) {
-      await movie.addDirectors(movieData.director, { transaction });
-    }
-
     return movie;
   },
 
-  updateMovie: async (movieData, transaction) => {
-    // Tìm movie trước khi tiến hành cập nhật
-    const movie = await Movie.findByPk(movieData.movie.id, { transaction });
+  // get movie by type
+  getByType: async (typeSlug, offset, limit) => {
+    const results = await db.Movie.findAll({
+      offset: parseInt(offset),
+      limit: parseInt(limit),
+      include: [
+        ...includeCommonModels([
+          {
+            model: db.Type,
+            as: 'Type',
+            attributes: ['type_id', 'type_name'],
+            where: { type_slug: typeSlug }  // Filtering by the slug in the associated Category model
+          }
+        ])
+      ],
+    });
+  
+    return results.map(formatMovie);
+  },
+
+  // get movie by category
+  getByCategory: async (catSlug, offset, limit) => {
+    const results = await db.Movie.findAll({
+      offset: parseInt(offset),
+      limit: parseInt(limit),
+      include: [
+        ...includeCommonModels([
+          {
+            model: db.Category,
+            as: 'Categories',
+            attributes: ['cat_id', 'cat_name'],
+            where: { cat_slug: catSlug }  // Filtering by the slug in the associated Category model
+          }
+        ])
+      ],
+    });
+  
+    return results.map(formatMovie);
+  },
+
+  // get movie by country
+  getByCountry: async (ctrSlug, offset, limit) => {
+    const results = await db.Movie.findAll({
+      offset: parseInt(offset),
+      limit: parseInt(limit),
+      include: [
+        ...includeCommonModels([
+          {
+            model: db.Country,
+            as: 'Countries',
+            attributes: ['ctr_id', 'ctr_name'],
+            where: { ctr_slug: ctrSlug }  // Filtering by the slug in the associated Category model
+          }
+        ])
+      ],
+    });
+  
+    return results.map(formatMovie);
+  },
+
+  // get movie by year
+  getByYear: async (year, offset, limit) => {
+    const results = await db.Movie.findAll({
+      offset: parseInt(offset),
+      limit: parseInt(limit),
+      include: [
+        ...includeCommonModels([
+          {
+            model: db.Year,
+            as: 'Year',
+            attributes: ['year_id', 'year_name'],
+            where: { year_name: year }  // Filtering by the slug in the associated Category model
+          }
+        ])
+      ],
+    });
+  
+    return results.map(formatMovie);
+  },
+
+  // get latest movies
+  getLatestMovie: async (offset, limit) => {
+    return fetchMovies({}, offset, limit, [], [['updatedAt', 'DESC']]);
+  },
+
+  // get movie by name or slug
+  getByNameOrSlug: async (whereClause, sortOrder, offset, limit) => {
+    const result = await db.Movie.findAndCountAll({
+      where: whereClause,
+      order: sortOrder,
+      offset: parseInt(offset),
+      limit: parseInt(limit),
+      include: [
+        { model: db.Type, as: 'Type', attributes: ['type_id', 'type_name', 'type_slug'], required: false },
+        { model: db.Year, as: 'Year', attributes: ['year_id', 'year_name'], required: false },
+        { model: db.Category, as: 'Categories', attributes: ['cat_id', 'cat_name'], through: { attributes: [] }, required: false },
+        { model: db.Actor, as: 'Actors', attributes: ['act_id', 'act_name'], through: { attributes: [] }, required: false },
+        { model: db.Director, as: 'Directors', attributes: ['dir_id', 'dir_name'], through: { attributes: [] }, required: false },
+        { model: db.Country, as: 'Countries', attributes: ['ctr_id', 'ctr_name', 'ctr_slug'], through: { attributes: [] }, required: false }
+      ],
+      distinct: true
+    });
     
-    // Cập nhật thông tin cơ bản của movie
-    const result = await movie.update({
+    return {rows: result.rows.map(formatMovie), count: result.count};
+  },
+
+  // filter movie by year, type, category, country, actor, director, mov_name, mov_slug, ori_name
+  filterMovie: async (whereClause, includeClauses, sortOrder, offset, limit) => {
+    const result = await db.Movie.findAndCountAll({
+      where: whereClause,
+      include: includeClauses,
+      order: sortOrder,
+      offset: parseInt(offset),
+      limit: parseInt(limit),
+      distinct: true
+    });
+    
+    return result;
+  },
+
+  // create new movie
+  createMovie: async (movieData, transaction) => {
+    const movie = await db.Movie.create(movieData, { transaction });
+    
+    if (movieData.category) await movie.addCategories(movieData.category, { transaction });
+    if (movieData.country) await movie.addCountries(movieData.country, { transaction });
+    if (movieData.actor) await movie.addActors(movieData.actor, { transaction });
+    if (movieData.director) await movie.addDirectors(movieData.director, { transaction });
+    
+    return movie;
+  },
+
+  // update movie
+  updateMovie: async (movieData, transaction) => {
+    const movie = await db.Movie.findByPk(movieData.movie.id, { transaction });
+    if (!movie) throw new Error('Movie not found');
+
+    await movie.update({
       mov_name: movieData.movie.name,
       mov_slug: movieData.movie.slug,
       ori_name: movieData.movie.originName,
@@ -148,53 +209,42 @@ module.exports = {
       episode_total: movieData.movie.totalEp,
       quality: movieData.movie.quality,
       lang: movieData.movie.lang,
-      year_id: movieData.movie.year,    // Cập nhật year
-      type_id: movieData.movie.type     // Cập nhật type
+      year_id: movieData.movie.year,
+      type_id: movieData.movie.type
     }, { transaction });
 
-    // Cập nhật quan hệ nhiều-nhiều với Category
     if (movieData.movie.category) {
-      const categoryIds = movieData.movie.category.map(cat => cat.cat_id);
-      const categories = await Category.findAll({ where: { cat_id: categoryIds }, transaction});
+      const categories = await db.Category.findAll({ where: { cat_id: movieData.movie.category.map(cat => cat.cat_id) }, transaction});
       await movie.setCategories(categories, { transaction });
     }
-    
-    // Cập nhật quan hệ nhiều-nhiều với Country
     if (movieData.movie.country) {
-      const countryIds = movieData.movie.country.map(ctr => ctr.ctr_id);
-      const countries = await Country.findAll({ where: { ctr_id: countryIds }, transaction});
-      await movie.setCountries(countries, { transaction });
+      const countries = await db.Country.findAll({ where: { ctr_id: movieData.movie.country.map(ctr => ctr.ctr_id) }, transaction});
+      await movie.setCountries(countries, { transaction })
     }
-    
-    // Cập nhật quan hệ nhiều-nhiều với Actor
     if (movieData.movie.actor) {
-      const actorIds = movieData.movie.actor.map(act => act.act_name.act_id);
-      const actors = await Actor.findAll({ where: { act_id: actorIds }, transaction});
+      const actors = await db.Actor.findAll({ where: { act_id: movieData.movie.actor.map(act => act.act_name.act_id) }, transaction});
       await movie.setActors(actors, { transaction });
     }
-    
-    // Cập nhật quan hệ nhiều-nhiều với Director
-    if (movieData.movie.director) {
-      const directorIds = movieData.movie.director.map(dir => dir.dir_id);
-      const directors = await Director.findAll({ where: { dir_id: directorIds }, transaction});
+    if (movieData.movie.director){
+      const directors = await db.Director.findAll({ where: { dir_id: movieData.movie.director.map(dir => dir.dir_id) }, transaction});
       await movie.setDirectors(directors, { transaction });
     }
 
-    return result;
+    return movie;
   },
 
+  // delete movie
   deleteMovie: async (id, transaction) => {
-    // find movie
-    const movie = await Movie.findByPk(id, { transaction });
+    const movie = await db.Movie.findByPk(id, { transaction });
+    if (!movie) throw new Error('Movie not found');
 
-    // Delete related records from junction tables (category_movie, country_movie, etc.)
-    await movie.setCategories([], { transaction });  // Delete related with Category
-    await movie.setCountries([], { transaction });   // Delete related with Country
-    await movie.setActors([], { transaction });      // Delete related with Actor
-    await movie.setDirectors([], { transaction });   // Delete related with Director
-    await movie.setEpisodes([], { transaction });   // Delete related with Episode
 
-    // Sau khi xóa các quan hệ, xóa movie
+    await movie.setCategories([], { transaction });
+    await movie.setCountries([], { transaction });
+    await movie.setActors([], { transaction });
+    await movie.setDirectors([], { transaction });
+    await movie.setEpisodes([], { transaction });
+
     await movie.destroy({ transaction });
   }
 };
