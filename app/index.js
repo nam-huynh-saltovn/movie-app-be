@@ -38,8 +38,8 @@ require("./routers/country.router")(app);
 require("./routers/actor.router")(app);
 require("./routers/director.router")(app);
 
-// Schedule create new movie run every 30 minutes
-cron.schedule('0/30 * * * *', async () => {
+// Schedule create new movie run every 20 minutes
+cron.schedule('*/20 * * * *', async () => {
   try {
     await autoCreateMovie(); // Call your function
   } catch (error) {
