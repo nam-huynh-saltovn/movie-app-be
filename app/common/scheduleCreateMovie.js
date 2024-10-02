@@ -97,7 +97,7 @@ async function createMovie(data) {
 
         // create type & year
         const [type, year] = await Promise.all([
-            typeService.findType(data.movie.type, transaction),
+            typeService.findTypeBySlug(data.movie.type, transaction),
             yearService.findYear(data.movie.year, transaction)
         ]);
 

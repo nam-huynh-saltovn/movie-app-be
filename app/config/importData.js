@@ -1,27 +1,36 @@
 // importData.js
+const mysql = require('mysql2');
 const fs = require('fs');
-const { Sequelize } = require('sequelize');
+const path = require('path');
 require('dotenv').config();
 
 const env = process.env.NODE_ENV || 'development';
 const config = require(__dirname + '/../config/config.js')[env];
 
-const sequelize = new Sequelize(config.database, config.username, config.password,
-  {
-    host: config.host,
-    dialect: config.dialect,
-  }
-);
-
 async function importData() {
+  const connection = mysql.createConnection({
+    host: config.host,
+    user: config.username,
+    password: config.password,
+    database: config.database,
+    multipleStatements: true,
+  });
+
   try {
-    const sql = fs.readFileSync('../../data-mysql.sql', 'utf-8');
-    await sequelize.query(sql);
-    console.log('Data imported successfully!');
+    const pathFile = path.join(__dirname, '../../data-mysql.sql');
+    const sql = fs.readFileSync(pathFile, 'utf-8');
+
+    connection.query(sql, (error, results) => {
+      if (error) {
+        console.error('Error import data:', error);
+        return;
+      }
+      console.log('Data imported successfully:', results);
+    });
   } catch (error) {
     console.error('Error importing data:', error);
   } finally {
-    await sequelize.close();
+    connection.end();
   }
 }
 

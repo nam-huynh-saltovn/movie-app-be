@@ -1,9 +1,61 @@
+INSERT INTO years (year_id,year_name,createdAt,updatedAt,status) VALUES 
+(1,1980,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),
+(2,1981,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),
+(3,1982,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),
+(4,1983,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),
+(5,1984,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),
+(6,1985,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),
+(7,1986,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),
+(8,1987,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),
+(9,1988,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),
+(10,1989,'2024-09-27 17:01:59','2024-09-27 17:01:59',1);
+INSERT INTO years (year_id,year_name,createdAt,updatedAt,status) VALUES
+(11,1990,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),
+(12,1991,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),
+(13,1992,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),
+(14,1993,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),
+(15,1994,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),
+(16,1995,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),
+(17,1996,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),
+(18,1997,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),
+(19,1998,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),
+(20,1999,'2024-09-27 17:01:59','2024-09-27 17:01:59',1);
+INSERT INTO years (year_id,year_name,createdAt,updatedAt,status) VALUES
+(21,2000,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),
+(22,2001,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),
+(23,2002,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),
+(24,2003,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),
+(25,2004,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),
+(26,2005,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),
+(27,2006,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),
+(28,2007,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),
+(29,2008,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),
+(30,2009,'2024-09-27 17:01:59','2024-09-27 17:01:59',1);
+INSERT INTO years (year_id,year_name,createdAt,updatedAt,status) VALUES
+(31,2010,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),
+(32,2011,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),
+(33,2012,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),
+(34,2013,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),
+(35,2014,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),
+(36,2015,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),
+(37,2016,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),
+(38,2017,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),
+(39,2018,'2024-09-27 17:01:59','2024-09-27 17:01:59',1);
+INSERT INTO years (year_id,year_name,createdAt,updatedAt,status) VALUES
+(40,2019,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),
+(41,2020,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),
+(42,2021,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),
+(43,2022,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),
+(44,2023,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),
+(45,2024,'2024-09-27 17:01:59','2024-09-27 17:01:59',1);
 
-INSERT INTO movie_schema.years VALUES (1,1980,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),(2,1981,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),(3,1982,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),(4,1983,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),(5,1984,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),(6,1985,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),(7,1986,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),(8,1987,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),(9,1988,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),(10,1989,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),(11,1990,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),(12,1991,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),(13,1992,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),(14,1993,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),(15,1994,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),(16,1995,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),(17,1996,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),(18,1997,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),(19,1998,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),(20,1999,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),(21,2000,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),(22,2001,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),(23,2002,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),(24,2003,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),(25,2004,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),(26,2005,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),(27,2006,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),(28,2007,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),(29,2008,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),(30,2009,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),(31,2010,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),(32,2011,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),(33,2012,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),(34,2013,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),(35,2014,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),(36,2015,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),(37,2016,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),(38,2017,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),(39,2018,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),(40,2019,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),(41,2020,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),(42,2021,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),(43,2022,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),(44,2023,'2024-09-27 17:01:59','2024-09-27 17:01:59',1),(45,2024,'2024-09-27 17:01:59','2024-09-27 17:01:59',1);
+INSERT INTO types (type_id,type_name,type_slug,createdAt,updatedAt,status) VALUES 
+(1,'Phim Bộ','series','2024-09-27 17:01:59','2024-09-27 17:01:59',1),
+(2,'Phim Lẻ','single','2024-09-27 17:01:59','2024-09-27 17:01:59',1),
+(3,'TV Show','tvshows','2024-09-27 17:01:59','2024-09-27 17:01:59',1),
+(4,'Hoạt Hình','hoathinh','2024-09-27 17:01:59','2024-09-27 17:01:59',1);
 
-INSERT INTO movie_schema.types VALUES (1,'Phim Bộ','series','2024-09-27 17:01:59','2024-09-27 17:01:59',1),(2,'Phim Lẻ','single','2024-09-27 17:01:59','2024-09-27 17:01:59',1),(3,'TV Show','tvshows','2024-09-27 17:01:59','2024-09-27 17:01:59',1),(4,'Hoạt Hình','hoathinh','2024-09-27 17:01:59','2024-09-27 17:01:59',1);
-
-INSERT INTO movie_schema.categories (cat_name,cat_slug,createdAt,updatedAt,status) VALUES
+INSERT INTO categories (cat_name,cat_slug,createdAt,updatedAt,status) VALUES
 	 ('Hành Động','hanh-dong','2024-09-27 17:01:59','2024-09-27 17:01:59',1),
 	 ('Viễn Tưởng','vien-tuong','2024-09-27 17:01:59','2024-09-27 17:01:59',1),
 	 ('Bí ẩn','bi-an','2024-09-27 17:01:59','2024-09-27 17:01:59',1),
@@ -14,7 +66,7 @@ INSERT INTO movie_schema.categories (cat_name,cat_slug,createdAt,updatedAt,statu
 	 ('Kinh Điển','kinh-dien','2024-09-27 17:01:59','2024-09-27 17:01:59',1),
 	 ('Cổ Trang','co-trang','2024-09-27 17:01:59','2024-09-27 17:01:59',1),
 	 ('Kinh Dị','kinh-di','2024-09-27 17:01:59','2024-09-27 17:01:59',1);
-INSERT INTO movie_schema.categories (cat_name,cat_slug,createdAt,updatedAt,status) VALUES
+INSERT INTO categories (cat_name,cat_slug,createdAt,updatedAt,status) VALUES
 	 ('Phim 18+','phim-18','2024-09-27 17:01:59','2024-09-27 17:01:59',1),
 	 ('Thể Thao','the-thao','2024-09-27 17:01:59','2024-09-27 17:01:59',1),
 	 ('Gia Đình','gia-dinh','2024-09-27 17:01:59','2024-09-27 17:01:59',1),
@@ -25,7 +77,7 @@ INSERT INTO movie_schema.categories (cat_name,cat_slug,createdAt,updatedAt,statu
 	 ('Tình Cảm','tinh-cam','2024-09-27 17:01:59','2024-09-27 17:01:59',1),
 	 ('Phiêu Lưu','phieu-luu','2024-09-27 17:01:59','2024-09-27 17:01:59',1),
 	 ('Học Đường','hoc-duong','2024-09-27 17:01:59','2024-09-27 17:01:59',1);
-INSERT INTO movie_schema.categories (cat_name,cat_slug,createdAt,updatedAt,status) VALUES
+INSERT INTO categories (cat_name,cat_slug,createdAt,updatedAt,status) VALUES
 	 ('Võ Thuật','vo-thuat','2024-09-27 17:01:59','2024-09-27 17:01:59',1),
 	 ('Chính Kịch','chinh-kich','2024-09-27 17:01:59','2024-09-27 17:01:59',1),
 	 ('Hoạt Hình','hoat-hinh','2024-09-27 10:11:38','2024-09-27 10:11:38',1),
@@ -35,7 +87,7 @@ INSERT INTO movie_schema.categories (cat_name,cat_slug,createdAt,updatedAt,statu
 	 ('Trẻ Em','tre-em','2024-09-27 11:01:21','2024-09-27 11:01:21',1),
 	 ('Gây Cấn','gay-can','2024-09-28 09:04:07','2024-09-28 09:04:07',1);
 
-INSERT INTO movie_schema.countries (ctr_name,ctr_slug,createdAt,updatedAt,status) VALUES
+INSERT INTO countries (ctr_name,ctr_slug,createdAt,updatedAt,status) VALUES
 	 ('Trung Quốc','trung-quoc','2024-09-27 17:01:59','2024-09-27 17:01:59',1),
 	 ('Pháp','phap','2024-09-27 17:01:59','2024-09-27 17:01:59',1),
 	 ('Mexico','mexico','2024-09-27 17:01:59','2024-09-27 17:01:59',1),
@@ -46,7 +98,7 @@ INSERT INTO movie_schema.countries (ctr_name,ctr_slug,createdAt,updatedAt,status
 	 ('UAE','uae','2024-09-27 17:01:59','2024-09-27 17:01:59',1),
 	 ('Nhật Bản','nhat-ban','2024-09-27 17:01:59','2024-09-27 17:01:59',1),
 	 ('Thổ Nhĩ Kỳ','tho-nhi-ky','2024-09-27 17:01:59','2024-09-27 17:01:59',1);
-INSERT INTO movie_schema.countries (ctr_name,ctr_slug,createdAt,updatedAt,status) VALUES
+INSERT INTO countries (ctr_name,ctr_slug,createdAt,updatedAt,status) VALUES
 	 ('Brazil','brazil','2024-09-27 17:01:59','2024-09-27 17:01:59',1),
 	 ('Nam Phi','nam-phi','2024-09-27 17:01:59','2024-09-27 17:01:59',1),
 	 ('Thái Lan','thai-lan','2024-09-27 17:01:59','2024-09-27 17:01:59',1),
@@ -57,7 +109,7 @@ INSERT INTO movie_schema.countries (ctr_name,ctr_slug,createdAt,updatedAt,status
 	 ('Tây Ban Nha','tay-ban-nha','2024-09-27 17:01:59','2024-09-27 17:01:59',1),
 	 ('Malaysia','malaysia','2024-09-27 17:01:59','2024-09-27 17:01:59',1),
 	 ('Châu Phi','chau-phi','2024-09-27 17:01:59','2024-09-27 17:01:59',1);
-INSERT INTO movie_schema.countries (ctr_name,ctr_slug,createdAt,updatedAt,status) VALUES
+INSERT INTO countries (ctr_name,ctr_slug,createdAt,updatedAt,status) VALUES
 	 ('Đài Loan','dai-loan','2024-09-27 17:01:59','2024-09-27 17:01:59',1),
 	 ('Nga','nga','2024-09-27 17:01:59','2024-09-27 17:01:59',1),
 	 ('Ý','y','2024-09-27 17:01:59','2024-09-27 17:01:59',1),
@@ -68,7 +120,7 @@ INSERT INTO movie_schema.countries (ctr_name,ctr_slug,createdAt,updatedAt,status
 	 ('Ukraina','ukraina','2024-09-27 17:01:59','2024-09-27 17:01:59',1),
 	 ('Ấn Độ','an-do','2024-09-27 17:01:59','2024-09-27 17:01:59',1),
 	 ('Indonesia','indonesia','2024-09-27 17:01:59','2024-09-27 17:01:59',1);
-INSERT INTO movie_schema.countries (ctr_name,ctr_slug,createdAt,updatedAt,status) VALUES
+INSERT INTO countries (ctr_name,ctr_slug,createdAt,updatedAt,status) VALUES
 	 ('Bồ Đào Nha','bo-dao-nha','2024-09-27 17:01:59','2024-09-27 17:01:59',1),
 	 ('Ả Rập Xê Út','a-rap-xe-ut','2024-09-27 17:01:59','2024-09-27 17:01:59',1),
 	 ('Anh','anh','2024-09-27 17:01:59','2024-09-27 17:01:59',1),
@@ -79,7 +131,7 @@ INSERT INTO movie_schema.countries (ctr_name,ctr_slug,createdAt,updatedAt,status
 	 ('Phần Lan','phan-lan','2024-09-27 10:27:40','2024-09-27 10:27:40',1),
 	 ('Bỉ','bi','2024-09-27 10:28:10','2024-09-27 10:28:10',1),
 	 ('Ireland','ireland','2024-09-27 10:30:39','2024-09-27 10:30:39',1);
-INSERT INTO movie_schema.countries (ctr_name,ctr_slug,createdAt,updatedAt,status) VALUES
+INSERT INTO countries (ctr_name,ctr_slug,createdAt,updatedAt,status) VALUES
 	 ('Argentina','argentina','2024-09-27 10:32:40','2024-09-27 10:32:40',1),
 	 ('Hungary','hungary','2024-09-27 10:34:38','2024-09-27 10:34:38',1),
 	 ('New Zealand','new-zealand','2024-09-27 10:41:43','2024-09-27 10:41:43',1),
@@ -90,7 +142,7 @@ INSERT INTO movie_schema.countries (ctr_name,ctr_slug,createdAt,updatedAt,status
 	 ('Colombia','colombia','2024-09-27 10:56:12','2024-09-27 10:56:12',1),
 	 ('Peru','peru','2024-09-27 10:56:16','2024-09-27 10:56:16',1),
 	 ('Croatia','croatia','2024-09-27 11:03:16','2024-09-27 11:03:16',1);
-INSERT INTO movie_schema.countries (ctr_name,ctr_slug,createdAt,updatedAt,status) VALUES
+INSERT INTO countries (ctr_name,ctr_slug,createdAt,updatedAt,status) VALUES
 	 ('Israel','israel','2024-09-27 14:45:13','2024-09-27 14:45:13',1),
 	 ('Cambodia','cambodia','2024-09-28 07:40:11','2024-09-28 07:40:11',1),
 	 ('Kuwait','kuwait','2024-09-28 07:47:35','2024-09-28 07:47:35',1),
@@ -98,7 +150,7 @@ INSERT INTO movie_schema.countries (ctr_name,ctr_slug,createdAt,updatedAt,status
 	 ('Hy Lạp','hy-lap','2024-09-28 07:47:35','2024-09-28 07:47:35',1),
 	 ('Quốc Gia Khác','quoc-gia-khac','2024-09-27 10:12:14','2024-09-27 10:12:14',1);
 
-INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
 	 ('柿原徹也','10','2024-09-30 15:27:17','2024-09-30 15:27:17',1),
 	 ('平野綾','10','2024-09-30 15:27:17','2024-09-30 15:27:17',1),
 	 ('釘宮理恵','10','2024-09-30 15:27:17','2024-09-30 15:27:17',1),
@@ -109,7 +161,7 @@ INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status)
 	 ('Đang cập nhật','10','2024-09-30 15:31:05','2024-09-30 15:31:05',1),
 	 ('Park Sung Woong','10','2024-09-30 15:31:05','2024-09-30 15:31:05',1),
 	 ('Kang Ha Neul','10','2024-09-30 15:31:05','2024-09-30 15:31:05',1);
-INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Kim Hee Jung','10','2024-09-30 15:31:05','2024-09-30 15:31:05',1),
 	 ('Chun Woo Hee','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
 	 ('Kang So Ra','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
@@ -120,7 +172,7 @@ INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status)
 	 ('Loletta Lee','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
 	 ('Maggie Cheung','10','2024-09-30 15:31:05','2024-09-30 15:31:05',1),
 	 ('Raymond Wong','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1);
-INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Kris Aquino','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
 	 ('Sandy Lam San-San','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
 	 ('Charine Chan','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
@@ -131,7 +183,7 @@ INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status)
 	 ('Tyler Perry','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
 	 ('傅明宪','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
 	 ('黃光亮','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1);
-INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Teresa Carpio','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
 	 ('Ho Pak-Kwong','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
 	 ('Edward Burns','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
@@ -142,7 +194,7 @@ INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status)
 	 ('Walter Tso Tat-Wah','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
 	 ('Matthew Fox','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
 	 ('Dianne Wiest','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1);
-INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Tang Kei-Chan','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
 	 ('黃新','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
 	 ('Leung Shut-Fan','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
@@ -153,7 +205,7 @@ INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status)
 	 ('Leung Yuen-Cheung','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
 	 ('So Chung','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
 	 ('Ngai Tim-Choi','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1);
-INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Carmen Ejogo','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
 	 ('Jim Sturgess','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
 	 ('Raymond Wong','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
@@ -164,7 +216,7 @@ INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status)
 	 ('Jean Reno','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
 	 ('Marli Siu','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
 	 ('Pauline Yeung Bo-Ling','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1);
-INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
 	 ('袁潔瑩','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
 	 ('Chi-Shan Lai','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
 	 ('羅君左','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
@@ -175,7 +227,7 @@ INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status)
 	 ('Charine Chan','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
 	 ('Brenda Lo Yip-Mei','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
 	 ('James Lai Wing-Keung','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1);
-INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Giancarlo Esposito','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
 	 ('Andrew Buchan','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
 	 ('曹查理','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
@@ -186,7 +238,7 @@ INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status)
 	 ('Kobna Holdbrook-Smith','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
 	 ('黃光亮','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
 	 ('Leung Hung-Cheung','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1);
-INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Amy Chin Siu-Wai','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
 	 ('Veronica Chan','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
 	 ('Chad Lindberg','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
@@ -197,7 +249,7 @@ INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status)
 	 ('Chan Chi-Fai','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
 	 ('Stephanie Jacobsen','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
 	 ('Patrick Lyster','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1);
-INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
 	 ('May Lo Mei-Mei','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
 	 ('Wong Kong-Yin','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
 	 ('李忠志','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
@@ -208,7 +260,7 @@ INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status)
 	 ('林剛','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
 	 ('Yara Shahidi','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
 	 ('Steve Wong Ka-Keung','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1);
-INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Raphael Sowole','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
 	 ('Kerrick Wong Paak-Nin','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
 	 ('Gary A. Jones','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
@@ -219,7 +271,7 @@ INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status)
 	 ('Loletta Lee','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
 	 ('Andre Lillis','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
 	 ('鄭建萍','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1);
-INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Alexandra Ruddy','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
 	 ('陳妙瑛','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
 	 ('Rachel Atkins','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
@@ -230,7 +282,7 @@ INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status)
 	 ('徐愛心','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
 	 ('陳妙瑛','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
 	 ('成福安','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1);
-INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Hannah Morley','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
 	 ('袁潔瑩','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
 	 ('Shing Gw','10','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
@@ -241,7 +293,7 @@ INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status)
 	 ('Kubilay Aka','10','2024-09-30 15:31:23','2024-09-30 15:31:23',1),
 	 (' Kubilay Aka','10','2024-09-30 15:31:23','2024-09-30 15:31:23',1),
 	 ('Mert Yazıcıoğlu','10','2024-09-30 15:31:23','2024-09-30 15:31:23',1);
-INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
 	 (' Mert Yazıcıoğlu','10','2024-09-30 15:31:23','2024-09-30 15:31:23',1),
 	 ('Yin Fang','10','2024-09-30 15:31:23','2024-09-30 15:31:23',1),
 	 ('Jiao Junyan','10','2024-09-30 15:31:23','2024-09-30 15:31:23',1),
@@ -252,7 +304,7 @@ INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status)
 	 ('Loretta Devine','10','2024-09-30 15:31:23','2024-09-30 15:31:23',1),
 	 ('Jia Nai','10','2024-09-30 15:31:23','2024-09-30 15:31:23',1),
 	 ('Anthony Alabi','10','2024-09-30 15:31:23','2024-09-30 15:31:23',1);
-INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Tia Mowry','10','2024-09-30 15:31:23','2024-09-30 15:31:23',1),
 	 ('Tia Mowry','10','2024-09-30 15:31:23','2024-09-30 15:31:23',1),
 	 ('Talia Jackson','10','2024-09-30 15:31:23','2024-09-30 15:31:23',1),
@@ -263,7 +315,7 @@ INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status)
 	 ('Talia Jackson','10','2024-09-30 15:31:23','2024-09-30 15:31:23',1),
 	 ('Talia Jackson','10','2024-09-30 15:31:23','2024-09-30 15:31:23',1),
 	 ('Tia Mowry','10','2024-09-30 15:31:23','2024-09-30 15:31:23',1);
-INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Cameron J. Wright','10','2024-09-30 15:31:23','2024-09-30 15:31:23',1),
 	 ('Isaiah Russell-Bailey','10','2024-09-30 15:31:23','2024-09-30 15:31:23',1),
 	 ('Isaiah Russell-Bailey','10','2024-09-30 15:31:23','2024-09-30 15:31:23',1),
@@ -274,7 +326,7 @@ INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status)
 	 ('Talia Jackson','10','2024-09-30 15:31:23','2024-09-30 15:31:23',1),
 	 ('Richard Roundtree','10','2024-09-30 15:31:23','2024-09-30 15:31:23',1),
 	 ('Jordyn Raya James','10','2024-09-30 15:31:23','2024-09-30 15:31:23',1);
-INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Jordyn Raya James','10','2024-09-30 15:31:23','2024-09-30 15:31:23',1),
 	 ('Isaiah Russell-Bailey','10','2024-09-30 15:31:23','2024-09-30 15:31:23',1),
 	 ('Richard Roundtree','10','2024-09-30 15:31:23','2024-09-30 15:31:23',1),
@@ -285,7 +337,7 @@ INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status)
 	 ('이보영','10','2024-09-30 15:31:23','2024-09-30 15:31:23',1),
 	 ('김서형','10','2024-09-30 15:31:23','2024-09-30 15:31:23',1),
 	 ('이현욱','10','2024-09-30 15:31:23','2024-09-30 15:31:23',1);
-INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
 	 ('許凱','10','2024-09-30 15:31:23','2024-09-30 15:31:23',1),
 	 ('옥자연','10','2024-09-30 15:31:23','2024-09-30 15:31:23',1),
 	 ('程瀟','10','2024-09-30 15:31:23','2024-09-30 15:31:23',1),
@@ -296,7 +348,7 @@ INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status)
 	 ('박혁권','10','2024-09-30 15:31:23','2024-09-30 15:31:23',1),
 	 ('周翊然','10','2024-09-30 15:31:23','2024-09-30 15:31:23',1),
 	 ('박원숙','10','2024-09-30 15:31:23','2024-09-30 15:31:23',1);
-INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Wang Ruoshan','10','2024-09-30 15:31:23','2024-09-30 15:31:23',1),
 	 ('정동환','10','2024-09-30 15:31:23','2024-09-30 15:31:23',1),
 	 ('Li Deng Rui','10','2024-09-30 15:31:23','2024-09-30 15:31:23',1),
@@ -307,7 +359,7 @@ INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status)
 	 ('이중옥','10','2024-09-30 15:31:23','2024-09-30 15:31:23',1),
 	 ('Cui Shaoyang','10','2024-09-30 15:31:23','2024-09-30 15:31:23',1),
 	 ('김혜화','10','2024-09-30 15:31:23','2024-09-30 15:31:23',1);
-INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
 	 ('米熱','10','2024-09-30 15:31:23','2024-09-30 15:31:23',1),
 	 ('Jo Eun-sol','10','2024-09-30 15:31:23','2024-09-30 15:31:23',1),
 	 ('Xiao Kaizhong','10','2024-09-30 15:31:23','2024-09-30 15:31:23',1),
@@ -318,7 +370,7 @@ INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status)
 	 ('Yoon Geumseon-ah','10','2024-09-30 15:31:23','2024-09-30 15:31:23',1),
 	 ('Liu Jin Yu','10','2024-09-30 15:31:23','2024-09-30 15:31:23',1),
 	 ('김정화','10','2024-09-30 15:31:23','2024-09-30 15:31:23',1);
-INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Wang Yijun','10','2024-09-30 15:31:23','2024-09-30 15:31:23',1),
 	 ('최영준','10','2024-09-30 15:31:23','2024-09-30 15:31:23',1),
 	 ('DeDe','10','2024-09-30 15:31:23','2024-09-30 15:31:23',1),
@@ -329,7 +381,7 @@ INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status)
 	 ('王梓豪','10','2024-09-30 15:31:23','2024-09-30 15:31:23',1),
 	 ('Qi Yandi','10','2024-09-30 15:31:23','2024-09-30 15:31:23',1),
 	 ('楊朙娜','10','2024-09-30 15:31:23','2024-09-30 15:31:23',1);
-INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Hou Chang-Rong','10','2024-09-30 15:31:24','2024-09-30 15:31:24',1),
 	 ('Michelle Buteau','10','2024-09-30 15:31:27','2024-09-30 15:31:27',1),
 	 ('Brooke Satchwell','10','2024-09-30 15:31:27','2024-09-30 15:31:27',1),
@@ -340,7 +392,7 @@ INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status)
 	 ('Sudarsanan','10','2024-09-30 15:31:27','2024-09-30 15:31:27',1),
 	 ('AngelaBaby','10','2024-09-30 15:31:27','2024-09-30 15:31:27',1),
 	 ('A. Panneeirchelvam','10','2024-09-30 15:31:27','2024-09-30 15:31:27',1);
-INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Du Haitao','10','2024-09-30 15:31:27','2024-09-30 15:31:27',1),
 	 ('Jaivant Viknesh N','10','2024-09-30 15:31:27','2024-09-30 15:31:27',1),
 	 ('Yang Chaoyue','10','2024-09-30 15:31:27','2024-09-30 15:31:27',1),
@@ -351,7 +403,7 @@ INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status)
 	 ('Trương Chấn Nhạc','10','2024-09-30 15:31:27','2024-09-30 15:31:27',1),
 	 ('Hác Vân','10','2024-09-30 15:31:27','2024-09-30 15:31:27',1),
 	 ('양세찬','10','2024-09-30 15:31:27','2024-09-30 15:31:27',1);
-INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Ngô Trác Hy','10','2024-09-30 15:31:27','2024-09-30 15:31:27',1),
 	 ('이은지','10','2024-09-30 15:31:27','2024-09-30 15:31:27',1),
 	 ('Nhân Khoa','10','2024-09-30 15:31:27','2024-09-30 15:31:27',1),
@@ -362,7 +414,7 @@ INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status)
 	 ('송건희','10','2024-09-30 15:31:27','2024-09-30 15:31:27',1),
 	 ('노정의','10','2024-09-30 15:31:27','2024-09-30 15:31:27',1),
 	 ('Jung Dong-won','10','2024-09-30 15:31:27','2024-09-30 15:31:27',1);
-INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
 	 ('박하나','10','2024-09-30 15:31:27','2024-09-30 15:31:27',1),
 	 ('미연','10','2024-09-30 15:31:27','2024-09-30 15:31:27',1),
 	 ('손병호','10','2024-09-30 15:31:27','2024-09-30 15:31:27',1),
@@ -373,7 +425,7 @@ INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status)
 	 ('권은비','10','2024-09-30 15:31:27','2024-09-30 15:31:27',1),
 	 ('유성주','10','2024-09-30 15:31:27','2024-09-30 15:31:27',1),
 	 ('이원종','10','2024-09-30 15:31:27','2024-09-30 15:31:27',1);
-INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Yoo Jang-young','10','2024-09-30 15:31:27','2024-09-30 15:31:27',1),
 	 ('Han Sang-hyuk','10','2024-09-30 15:31:27','2024-09-30 15:31:27',1),
 	 ('태민','10','2024-09-30 15:31:27','2024-09-30 15:31:27',1),
@@ -384,7 +436,7 @@ INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status)
 	 ('Jung Haemin','10','2024-09-30 15:31:27','2024-09-30 15:31:27',1),
 	 ('Kyungmin','10','2024-09-30 15:31:27','2024-09-30 15:31:27',1),
 	 ('Lee Yungyu','10','2024-09-30 15:31:27','2024-09-30 15:31:27',1);
-INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Lee Seungheon','10','2024-09-30 15:31:27','2024-09-30 15:31:27',1),
 	 ('세림','10','2024-09-30 15:31:27','2024-09-30 15:31:27',1),
 	 ('앨런','10','2024-09-30 15:31:27','2024-09-30 15:31:27',1),
@@ -395,7 +447,7 @@ INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status)
 	 ('형준','10','2024-09-30 15:31:28','2024-09-30 15:31:28',1),
 	 ('태영','10','2024-09-30 15:31:28','2024-09-30 15:31:28',1),
 	 ('성민','10','2024-09-30 15:31:28','2024-09-30 15:31:28',1);
-INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Lee Seo Ho','10','2024-09-30 15:31:28','2024-09-30 15:31:28',1),
 	 ('Kim Gun Hak','10','2024-09-30 15:31:28','2024-09-30 15:31:28',1),
 	 ('Lee Keon Hee','10','2024-09-30 15:31:28','2024-09-30 15:31:28',1),
@@ -406,7 +458,7 @@ INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status)
 	 ('LEW','10','2024-09-30 15:31:28','2024-09-30 15:31:28',1),
 	 ('Koo Bonhyuk','10','2024-09-30 15:31:28','2024-09-30 15:31:28',1),
 	 ('Cho','10','2024-09-30 15:31:28','2024-09-30 15:31:28',1);
-INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
 	 ('福山潤','10','2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('小清水亜美','10','2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('花江夏樹','10','2024-09-30 15:31:31','2024-09-30 15:31:31',1),
@@ -417,7 +469,7 @@ INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status)
 	 ('松岡禎丞','10','2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('宮本侑芽','10','2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('岡本信彦','10','2024-09-30 15:31:31','2024-09-30 15:31:31',1);
-INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
 	 ('安済知佳','10','2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('櫻井孝宏','10','2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('伊藤彩沙','10','2024-09-30 15:31:31','2024-09-30 15:31:31',1),
@@ -428,7 +480,7 @@ INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status)
 	 ('张欣','10','2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Wang Xiaobing','10','2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('鈴代紗弓','10','2024-09-30 15:31:31','2024-09-30 15:31:31',1);
-INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Zhihao Su','10','2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('渡部紗弓','10','2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('張彬彬','10','2024-09-30 15:31:31','2024-09-30 15:31:31',1),
@@ -439,7 +491,7 @@ INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status)
 	 ('趙雙','10','2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('貫井柚佳','10','2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Lei Wu','10','2024-09-30 15:31:31','2024-09-30 15:31:31',1);
-INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
 	 ('李詩萌','10','2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('杉田智和','10','2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Yuze Sang','10','2024-09-30 15:31:31','2024-09-30 15:31:31',1),
@@ -450,7 +502,7 @@ INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status)
 	 ('楚越','10','2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Xie Ying','10','2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('李蘭陵','10','2024-09-30 15:31:31','2024-09-30 15:31:31',1);
-INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
 	 ('张晔','10','2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('閻麼麼','10','2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('赵梓涵','10','2024-09-30 15:31:31','2024-09-30 15:31:31',1),
@@ -461,7 +513,7 @@ INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status)
 	 ('劉琮','10','2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('弋凡','10','2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('張新成','10','2024-09-30 15:46:08','2024-09-30 15:46:08',1);
-INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
 	 ('敖瑞鵬','10','2024-09-30 15:46:09','2024-09-30 15:46:09',1),
 	 ('王玉雯','10','2024-09-30 15:46:09','2024-09-30 15:46:09',1),
 	 ('陈芳彤','10','2024-09-30 15:46:09','2024-09-30 15:46:09',1),
@@ -472,7 +524,7 @@ INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status)
 	 ('羅秋韻','10','2024-09-30 15:46:09','2024-09-30 15:46:09',1),
 	 ('歐豪','10','2024-09-30 15:46:09','2024-09-30 15:46:09',1),
 	 ('Jackey Zhu','10','2024-09-30 15:46:09','2024-09-30 15:46:09',1);
-INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
 	 ('陈紫函','10','2024-09-30 15:46:09','2024-09-30 15:46:09',1),
 	 ('張雪迎','10','2024-09-30 15:46:09','2024-09-30 15:46:09',1),
 	 ('Fang Sichang','10','2024-09-30 15:46:09','2024-09-30 15:46:09',1),
@@ -483,7 +535,7 @@ INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status)
 	 ('Xu Shiyue','10','2024-09-30 15:46:09','2024-09-30 15:46:09',1),
 	 ('Ting Wang','10','2024-09-30 15:46:09','2024-09-30 15:46:09',1),
 	 ('Nhậm Gia Luân','10','2024-09-30 15:46:09','2024-09-30 15:46:09',1);
-INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO actors (act_name,sort_order,createdAt,updatedAt,status) VALUES
 	 ('包文婧','10','2024-09-30 15:46:09','2024-09-30 15:46:09',1),
 	 ('Lý Lan Địch','10','2024-09-30 15:46:09','2024-09-30 15:46:09',1),
 	 ('Từ Chính Khê','10','2024-09-30 15:46:09','2024-09-30 15:46:09',1),
@@ -493,7 +545,7 @@ INSERT INTO movie_schema.actors (act_name,sort_order,createdAt,updatedAt,status)
 	 ('Ôn Tranh Vanh','10','2024-09-30 15:46:09','2024-09-30 15:46:09',1),
 	 ('Đào Hân Nhiên','10','2024-09-30 15:46:09','2024-09-30 15:46:09',1);
 
-INSERT INTO movie_schema.directors (dir_name,createdAt,updatedAt,status) VALUES
+INSERT INTO directors (dir_name,createdAt,updatedAt,status) VALUES
 	 ('Đang cập nhật','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
 	 ('Cho Jin Mo','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
 	 ('Choi Yeon Joo','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
@@ -504,7 +556,7 @@ INSERT INTO movie_schema.directors (dir_name,createdAt,updatedAt,status) VALUES
 	 ('Natalie Erika James','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
 	 ('高志森','2024-09-30 15:31:06','2024-09-30 15:31:06',1),
 	 ('高志森','2024-09-30 15:31:06','2024-09-30 15:31:06',1);
-INSERT INTO movie_schema.directors (dir_name,createdAt,updatedAt,status) VALUES
+INSERT INTO directors (dir_name,createdAt,updatedAt,status) VALUES
 	 ('Annette Baumeister','2024-09-30 15:31:23','2024-09-30 15:31:23',1),
 	 ('Wilfried Huismann','2024-09-30 15:31:23','2024-09-30 15:31:23',1),
 	 ('Lee Na-jeong','2024-09-30 15:31:24','2024-09-30 15:31:24',1),
@@ -515,7 +567,7 @@ INSERT INTO movie_schema.directors (dir_name,createdAt,updatedAt,status) VALUES
 	 ('Kim Hak-min','2024-09-30 15:31:27','2024-09-30 15:31:27',1),
 	 ('Don Aravind','2024-09-30 15:31:27','2024-09-30 15:31:27',1),
 	 ('Shin Yonghwi','2024-09-30 15:31:28','2024-09-30 15:31:28',1);
-INSERT INTO movie_schema.directors (dir_name,createdAt,updatedAt,status) VALUES
+INSERT INTO directors (dir_name,createdAt,updatedAt,status) VALUES
 	 ('Kim Jeonguk','2024-09-30 15:31:28','2024-09-30 15:31:28',1),
 	 ('Zhang Tong','2024-09-30 15:46:09','2024-09-30 15:46:09',1),
 	 ('He Jianan','2024-09-30 15:46:09','2024-09-30 15:46:09',1),
@@ -523,7 +575,7 @@ INSERT INTO movie_schema.directors (dir_name,createdAt,updatedAt,status) VALUES
 	 ('谢忠道','2024-09-30 15:46:09','2024-09-30 15:46:09',1),
 	 ('Châu Tĩnh Thao','2024-09-30 15:46:09','2024-09-30 15:46:09',1);
 
-INSERT INTO movie_schema.movies (mov_name,mov_slug,ori_name,content,poster_url,thumb_url,`time`,episode_current,episode_total,quality,lang,year_id,type_id,createdAt,updatedAt,status) VALUES
+INSERT INTO movies (mov_name,mov_slug,ori_name,content,poster_url,thumb_url,`time`,episode_current,episode_total,quality,lang,year_id,type_id,createdAt,updatedAt,status) VALUES
 	 ('Fairy Tail: Nhiệm Vụ 100 Năm','fairy-tail-nhiem-vu-100-nam','FAIRY TAIL 100 YEARS QUEST','<p>Một năm sau khi hội Fairy Tail vượt qua được thế lực ma quỷ của Acnologia và Zeref, Nats và nhóm của mình hành trình đến lục địa phía bắc Guiltina, nơi họ tìm kiếm chủ nhân của Nhiệm vụ 100 năm và nhận được nhiệm vụ gần như bất khả thi: phong ấn Ngũ Long Thần—một nhóm cá nhân có sức mạnh to lớn đến mức nếu để yên có thể gây ra sự tàn phá toàn cầu. Trong khi đó, một thành viên mới đầy nghị lực tên là Touka được tuyển vào Fairy Tail. Mặc dù năng lượng sôi nổi và bản chất đam mê khiến cô ấy trở thành người hoàn hảo cho hội, nhưng dường như cô ấy có nhiều điều hơn những gì bạn thấy.</p>','https://phimimg.com/upload/vod/20240713-1/5456fc99ccd18aa112302f866b287582.jpg','https://phimimg.com/upload/vod/20240713-1/e57e74bcee53168d1a1281a3d8d21796.jpg','24 phút/tập','Tập 13','25','FHD','Vietsub',45,4,'2024-09-30 15:27:17','2024-09-30 15:27:17',0),
 	 ('Thảm Đỏ Anh Trai Say Hi Concert 2024','tham-do-anh-trai-say-hi-concert-2024','Thảm Đỏ Anh Trai Say Hi Concert 2024','Cùng người đẹp Bùi Linh Chi và &#39;cây hề&#39; Võ Tấn Phát gặp gỡ và phỏng vấn 30 anh &#39;sai đẹp chiêu&#39; trước giờ diễn ra Concert. Thảm đỏ cũng đón dàn nghệ sĩ khách mời đình đám đến với sự kiện đáng mong chờ nhất năm nay - Anh Trai Say Hi Concert 2024,','https://phimimg.com/upload/vod/20240929-1/42d4098fb69949b177da829df88f0ff7.jpg','https://phimimg.com/upload/vod/20240929-1/8fb9d94c59ebf2e57c46c8b5d58d995f.jpg','118 phút','Full','1','FHD','Vietsub',45,2,'2024-09-30 05:27:08','2024-09-30 15:31:06',1),
 	 ('Chờ Em Đến Ngày Mưa','cho-em-den-ngay-mua','Waiting For Rain','Young Ho là một chàng trai cố gắng thi đại học nhưng không đỗ. Từ đó, anh không có mục tiêu sống nào đặc biệt. Một ngày nọ, anh quyết định gửi một lá thư cho người bạn cùng bàn thời tiểu học là So Hee và nhận được lời hồi đáp từ người chị gái cô. Sự kiện này trở thành nguồn an ủi lớn cho anh. Từ đây, mở ra câu chuyện tình lãng mạn, nhẹ nhàng sâu lắng.','https://phimimg.com/upload/vod/20240928-1/142a4603940f212731edda20b7dd41b1.jpg','https://phimimg.com/upload/vod/20240928-1/b506ccf5d39f91c724d5a54cb6b17d78.jpg','117 phút','Full','1','FHD','Vietsub',42,2,'2024-09-28 23:32:01','2024-09-30 15:31:06',1),
@@ -534,7 +586,7 @@ INSERT INTO movie_schema.movies (mov_name,mov_slug,ori_name,content,poster_url,t
 	 ('Căn Hộ 7A','can-ho-7a','Apartment 7A','&quot;Apartment 7A&quot; (2024) kể về câu chuyện của một vũ công gặp khó khăn trong sự nghiệp, vô tình bị cuốn vào chuỗi sự kiện bí ẩn và siêu nhiên sau khi chuyển đến sống trong một căn hộ mới. Tại đây, cô gặp một cặp đôi kỳ lạ, họ hứa hẹn sẽ giúp cô đạt được danh tiếng và thành công trong sự nghiệp nhảy múa của mình. Tuy nhiên, cơ hội này không hề miễn phí, và cô sớm nhận ra rằng ý định thực sự của cặp đôi này ẩn chứa nhiều điều đen tối hơn cô tưởng. Khi dần khám phá ra bản chất thật sự của họ và những thế lực đứng sau lời hứa, cô phải đối mặt với những nguy hiểm của tham vọng và đấu tranh để giữ vững bản thân mình.','https://phimimg.com/upload/vod/20240930-1/5cbeb855e028a2388e36b58b927e3af3.jpg','https://phimimg.com/upload/vod/20240930-1/a2c17d150a7590ba4702686a050beb4e.jpg','106 phút','Full','1','FHD','Vietsub',45,2,'2024-09-30 10:13:32','2024-09-30 15:31:06',1),
 	 ('Ma Vui Vẻ 2','ma-vui-ve-2','Happy Ghost II','Một giáo viên trung học liên tục bị học sinh chơi khăm. Anh trở thành một hồn ma với sức mạnh ma thuật, nhưng chúng liên tục khiến anh gặp rắc rối với cấp trên.','https://phimimg.com/upload/vod/20240930-1/06c2d1848228c06b7d8e4edc82b177b8.jpg','https://phimimg.com/upload/vod/20240930-1/3edf6dce9c1d2f45aa579baa81c06ec0.jpg','96 phút','Full','1','FHD','Vietsub',6,2,'2024-09-30 13:47:43','2024-09-30 15:31:06',1),
 	 ('Thám Tử Lừng Danh','tham-tu-lung-danh','Alex Cross','Alex Cross, một nhà tâm lý học đồng thời là một thám tử tài ba từng phục vụ trong ngành cảnh sát, buộc phải vào cuộc truy tìm tên giết người hàng loạt Picasso sau cuộc gọi nhờ giúp đỡ của người bạn thân từ thuở nhỏ Tommy Kane, đồng thời là đồng nghiệp cũ trong sở cảnh sát Detroit. Hai người còn có sự đồng hành của nữ thám tử Monica Ashe. Trong quá trình điều tra và truy tìm dấu vết của tên sát nhân, Cross nhận được lời đe dọa tính mạng người thân trong gia đình. Với sự tức giận tột độ, Cross thề sẽ hạ gục kẻ sát nhân bằng bất cứ giá nào. Hai đối thủ lao vào trò chơi “mèo vờn chuột” với một bên truy lùng và bên kia trốn chạy.','https://phimimg.com/upload/vod/20240928-1/d27285ba679e2901c53d0e1ce9418f29.jpg','https://phimimg.com/upload/vod/20240928-1/7d699515750d2464f2a2f0fee115e00a.jpg','101 phút','Full','1','FHD','Vietsub',33,2,'2024-09-28 23:51:58','2024-09-30 15:31:06',1);
-INSERT INTO movie_schema.movies (mov_name,mov_slug,ori_name,content,poster_url,thumb_url,`time`,episode_current,episode_total,quality,lang,year_id,type_id,createdAt,updatedAt,status) VALUES
+INSERT INTO movies (mov_name,mov_slug,ori_name,content,poster_url,thumb_url,`time`,episode_current,episode_total,quality,lang,year_id,type_id,createdAt,updatedAt,status) VALUES
 	 ('Ma Vui Vẻ 4','ma-vui-ve-4','Happy Ghost IV','Một nhóm sinh viên đại học phát hiện ra tàn tích của một lãnh chúa xấu xa từ một hang động cũ và mang nó về ký túc xá của họ, cuối cùng điều này đã đánh thức hồn ma của lãnh chúa. Nó đang tìm cách trả thù cho kẻ giết mình, người đã tái sinh thành cô bạn gái hợm hĩnh của ông Hong là Annie. Khi Hong và Annie gặp nguy hiểm, linh hồn tái sinh của Hong tiếp quản để cứu anh và Annie, đồng thời đánh bại con quỷ','https://phimimg.com/upload/vod/20240930-1/43e3bdc80910221e977c53b43c34e6e3.jpg','https://phimimg.com/upload/vod/20240930-1/c8030f717974eb1e1717d4c360ea0a21.jpg','88 phút','Full','1','FHD','Vietsub',11,2,'2024-09-30 13:49:16','2024-09-30 15:31:07',1),
 	 ('Giáo phái hiểm ác: Colonia Dignidad','giao-phai-hiem-ac-colonia-dignidad','A Sinister Sect: Colonia Dignidad','Một nhóm con chiên người Đức dưới sự lãnh đạo của kẻ đứng đầu lôi cuốn và giỏi thao túng tới Chile, an cư và trở thành công cụ đắc lực cho chế độ độc tài.','https://phimimg.com/upload/vod/20240929-1/5c3dd8bda359820844a9f6093cb90f53.jpg','https://phimimg.com/upload/vod/20240929-1/4691754a32c63539dec7d06e065273fc.jpg','41 phút/tập','Hoàn Tất (6/6)','6','FHD','Vietsub',42,1,'2024-09-30 05:10:57','2024-09-30 15:31:23',1),
 	 ('Đại Hải Đạo','dai-hai-dao','Brother','Câu chuyện thông qua một giải đua xe địa hình hàng đầu thế giới, mang đến cái nhìn sâu sắc về những người trẻ nhiệt huyết theo đuổi ước mơ. Nhóm thanh niên sống ở Tân Cương, đến từ nhiều dân tộc khác nhau, đã dùng đam mê của mình để tái khởi động con đường tơ lụa cổ xưa, trở thành những người hùng trong cuộc sống bình dị. Họ mang theo bản năng hoang dã từ vùng Đại Hải Đạo, kể lại một câu chuyện Tân Cương của thời đại mới, đầy tình người và cảm xúc, đồng thời giới thiệu với thế giới một bức tranh sống động về cuộc sống đương đại tại Tân Cương.','https://phimimg.com/upload/vod/20240930-1/17f9f7d623d4beacd6c92a1e4e6057a6.jpg','https://phimimg.com/upload/vod/20240930-1/225ff933c962bc5614305462f7122b4d.jpg','45 phút/tập','Tập 15','24','','Vietsub',45,1,'2024-09-30 14:55:44','2024-09-30 15:31:23',0),
@@ -545,7 +597,7 @@ INSERT INTO movie_schema.movies (mov_name,mov_slug,ori_name,content,poster_url,t
 	 ('Gia Đình Đoàn Tụ (Phần 4)','gia-dinh-doan-tu-phan-4','Family Reunion (Season 4)','Rắc rối trong gia đình đưa nhà McKellan xích lại gần nhau hơn khi các mối quan hệ mới, trở ngại bất ngờ và sinh nhật quan trọng mang đến bài học lớn trong cuộc sống.','https://phimimg.com/upload/vod/20240929-1/c0ee3e921f563b17509b5064b9ff7f73.jpg','https://phimimg.com/upload/vod/20240929-1/fc80c880099f75286dcace5e772168c1.jpg','34 phút/tập','Hoàn Tất (7/7)','7','FHD','Vietsub',42,1,'2024-09-30 05:07:50','2024-09-30 15:31:24',1),
 	 ('Gia Đình Đoàn Tụ (Phần 1)','gia-dinh-doan-tu-phan-1','Family Reunion (Season 1)','Khi nhà McKellan chuyển từ Seattle về thị trấn nhỏ Georgia, cuộc sống miền Nam cùng ông bà nội theo lối truyền thống trở thành thách thức với gia đình thành thị này.','https://phimimg.com/upload/vod/20240929-1/b31a161d96d6d547bf6c9b008a0c784f.jpg','https://phimimg.com/upload/vod/20240929-1/8073680286d0d32d38aef05998a3a514.jpg','34 phút/tập','Hoàn Tất (10/10)','10','FHD','Vietsub',40,1,'2024-09-30 05:06:18','2024-09-30 15:31:24',1),
 	 ('Sở Hữu','so-huu','Mine','Mắc kẹt trong cuộc sống dát vàng của bí mật và dối trá, hai người phụ nữ trong một gia đình tài phiệt tìm cách lật đổ mọi thứ cản đường họ để đi tìm niềm vui đích thực.','https://phimimg.com/upload/vod/20240929-1/50ffdbec6d8bd833d934513d18a3cf04.jpg','https://phimimg.com/upload/vod/20240929-1/0438ba32ea5f641fc7016fc730590e14.jpg','69 phút/tập','Hoàn Tất (16/16)','16','FHD','Vietsub',42,1,'2024-09-30 05:09:47','2024-09-30 15:31:24',1);
-INSERT INTO movie_schema.movies (mov_name,mov_slug,ori_name,content,poster_url,thumb_url,`time`,episode_current,episode_total,quality,lang,year_id,type_id,createdAt,updatedAt,status) VALUES
+INSERT INTO movies (mov_name,mov_slug,ori_name,content,poster_url,thumb_url,`time`,episode_current,episode_total,quality,lang,year_id,type_id,createdAt,updatedAt,status) VALUES
 	 ('Em Đẹp Nhất Là Khi Mỉm Cười','em-dep-nhat-la-khi-mim-cuoi','Falling Into Your Smile','Em Đẹp Nhất Là Khi Mỉm Cười - Falling Into Your Smile là bộ phim truyền hình hiện đại đô thị chuyển thể từ tiểu thuyết võng du Khi Em Mỉm Cười của Thanh Mỗi.
 
 Bộ phim lấy đề tài Esports (thể thao điện tử) nóng hổi, sở hữu dàn diễn viên trẻ tuổi đình đám: Hứa Khải, Trình Tiêu, Trạch Tiêu Văn, Diêu Trì,...','https://phimimg.com/upload/vod/20240929-1/a9d1dd9cf9333bb5d6316c927a45083c.jpg','https://phimimg.com/upload/vod/20240929-1/55b30505feea9d191607abe56463ae14.jpg','45 phút/tập','Hoàn Tất (31/31)','31','FHD','Vietsub',42,1,'2024-09-30 05:11:41','2024-09-30 15:31:24',1),
@@ -558,7 +610,7 @@ Bộ phim lấy đề tài Esports (thể thao điện tử) nóng hổi, sở h
 	 ('Cuộc Đời Nhiệt Huyết','cuoc-doi-nhiet-huyet','Braving Life','Nhân danh cháy bỏng, ngược gió, đời thường cũng có thể nóng','https://phimimg.com/upload/vod/20240615-1/52ac39d3484c650ec70cc8837524084b.jpg','https://phimimg.com/upload/vod/20240615-1/37ab2abbd329223dc7fa3d76e03a9b27.jpg','58 phút/tập','Hoàn Tất (19/19)','19','HD','Vietsub',42,3,'2024-06-16 05:31:21','2024-09-30 15:31:27',1),
 	 ('Cuộc Sống Nông Thôn Của Gen Z','cuoc-song-nong-thon-cua-gen-z','Country Life Of Gen-Z','Một chương trình tạp kỹ &quot;hipster&quot; ngoài đời thực, trong đó những người nổi tiếng thuộc Thế hệ Z từ thành phố trở thành đất nước Z bằng cách sống ở nông thôn.','https://phimimg.com/upload/vod/20240918-1/939f52c0f3afc7d43baab575be640d1a.jpg','https://phimimg.com/upload/vod/20240918-1/b0a9aa2053af38e3d71571f818829d4a.jpg','66 phút/tập','Tập 3','12','FHD','Vietsub',45,3,'2024-09-18 10:56:33','2024-09-30 15:31:28',0),
 	 ('Vở Kịch Vĩ Đại','vo-kich-vi-dai','The Great Show','Wi Dae Han là một nhà cựu lập pháp và nhà chính trị gia vật chất. Anh muốn được đắc cử trở thành nhà lập pháp một lần nữa. Một ngày nọ, cô gái 18 tuổi Da Jung tìm đến anh. Cô bé nói anh là cha ruột của cô. Mẹ cô bé một mình nuôi bốn đứa con, bao gồm cả Da Jung nhưng cô đã chết trong một vụ tai nạn. Hiện giờ Da Jung phải chăm sóc ba người em. Wi Dae Han chấp nhận Da Jung và 3 người em của cô bé. Anh tiến hành một &quot;vở kịch vĩ đại&quot; để trở thành nhà lập pháp lần nữa.','https://phimimg.com/upload/vod/20240628-1/758d287c50de0fe7de32d8f94bb84207.jpg','https://phimimg.com/upload/vod/20240628-1/ab3d1bbbc5909101b6c97e5186299d6c.jpg','65 phút/tập','Hoàn Tất (16/16)','16','HD','Vietsub',40,3,'2024-06-29 01:33:00','2024-09-30 15:31:28',1);
-INSERT INTO movie_schema.movies (mov_name,mov_slug,ori_name,content,poster_url,thumb_url,`time`,episode_current,episode_total,quality,lang,year_id,type_id,createdAt,updatedAt,status) VALUES
+INSERT INTO movies (mov_name,mov_slug,ori_name,content,poster_url,thumb_url,`time`,episode_current,episode_total,quality,lang,year_id,type_id,createdAt,updatedAt,status) VALUES
 	 ('Đường Tới Ngôi Vương (Mùa 2)','duong-toi-ngoi-vuong-mua-2','Road To Kingdom: Ace Of Ace','Mùa đầu tiên của &#39;Road to Kingdom&#39; đã tạo tiền đề cho một cuộc thi sinh tồn khó quên của nhóm nhạc nam. Bây giờ, nó trở lại với bảy nhóm nhạc nam mới sẵn sàng thể hiện tài năng của họ. TAEMIN của SHINee sẽ dẫn chương trình, mang đến sự cố vấn vô giá cho làn sóng ngôi sao K-pop tiếp theo.','https://phimimg.com/upload/vod/20240928-1/c3c486b2cb8b588df34426b0e1fdc1b5.jpg','https://phimimg.com/upload/vod/20240928-1/9bd3135f535b4e577fcb0a7d4ca5342b.jpg','120 phút/tập','Tập 2','8','FHD','Vietsub',45,3,'2024-09-28 10:45:45','2024-09-30 15:31:28',0),
 	 ('Trảm Thần: Phàm Trần Thần Vực','tram-than-pham-tran-than-vuc','Slay The Gods','&quot;Như ảm đêm cuối cùng lâm, ta tất đứng ở vạn vạn người trước, hoành đao hướng uyên, máu nhuộm thiên khung!&quot; Ngươi là có hay không nghĩ tới, tại nghê hồng óng ánh đô thị phía dưới, ẩn giấu đến từ xưa lão thần lời nói quái vật? Ngươi là có hay không nghĩ tới, tại kia treo cao tại thế đầu người đỉnh trên mặt trăng, đứng lặng lấy canh gác nhân gian thần minh? Ngươi là có hay không nghĩ tới, tại biển người mãnh liệt hiện đại trong thành thị, tồn tại thay thế thần minh hành tẩu nhân gian siêu phàm người?','https://phimimg.com/upload/vod/20240915-1/bdeb0bc7a4fb4f21fb31d89934de08d7.jpg','https://phimimg.com/upload/vod/20240915-1/6e3d6656524015d2ccee1aad60a31c1c.jpg','25 phút/tập','Tập 10','15','FHD','Vietsub',45,4,'2024-09-15 19:43:26','2024-09-30 15:31:31',0),
 	 ('Thần Võ Thiên Tôn','than-vo-thien-ton','The Legend of Sky Lord','Ta từ hư không mà tới, nhấc tay trời phải sập, lật tay hủy Hoàng tuyền. Ta là ma, là thần, là tiên, là người. Ta là Tiêu Thần, là vạn vật, cũng là chúa tể!','https://phimimg.com/upload/vod/20240819-1/93b19a206e073aaa523cf4371eb3347c.jpg','https://phimimg.com/upload/vod/20240819-1/0d0f5c429176e7ebf363f9cb62ab7b1c.jpg','10 phút/tập','Tập 236','999','FHD','Vietsub',41,4,'2024-08-19 23:34:48','2024-09-30 15:31:31',0),
@@ -569,14 +621,14 @@ INSERT INTO movie_schema.movies (mov_name,mov_slug,ori_name,content,poster_url,t
 	 ('Sự quyến rũ của 2.5D','su-quyen-ru-cua-25d','2.5 Dimensional Seduction','Tôi không có hứng thú với các cô gái 3D! Hôm nay, Giám đốc Phòng Nghiên cứu Manga, Okumura, ở một mình trong phòng câu lạc bộ, hét to tên nhân vật hai chiều yêu quý của mình, Liliel, người được phản chiếu ở phía bên kia màn hình... Người đến Okumura là Ririsa Amano là một cô gái 3D nói, ``Tôi muốn trở thành Liliel.&#39;&#39; Cô yêu thích những &quot;bộ trang phục&quot; nghịch ngợm, dễ thương của các cô gái xuất hiện trong manga. Và anh ấy là một otaku yêu Liliel nhiều như Okumura!','https://phimimg.com/upload/vod/20240713-1/6c7557779fba2e7ac72e1b4223597e07.jpg','https://phimimg.com/upload/vod/20240713-1/c674ecff1636bc7db322896bc9c5414c.jpg','24 phút/tập','Tập 13','24','FHD','Vietsub',45,4,'2024-07-14 03:52:04','2024-09-30 15:31:32',0),
 	 ('Thôn Phệ Tinh Không','thon-phe-tinh-khong','Swallowed Star','Một ngày nọ, một chiếc virus RR ko xác định xuất hiện trên trái đất, và thế giới rơi vào thảm họa. Động vật bị nhiễm bệnh đột biến thành quái vật đáng sợ và tấn công ồ ạt. Khi con người đối mặt sở hữu sự hủy diệt, họ xây tường và xây dựng các tỉnh thành căn cứ như pháo đài cuối cùng của con người. Những thử thách mà nhân loại trải qua trong khoảng thời gian này được gọi là “Thời kỳ Niết bàn.” Trong môi trường sống khắc nghiệt, sức mạnh của con người cũng dần thăng tiến và phát triển, võ công xuất hiện, sức mạnh của con người cũng tăng lên về chất so mang trước đây. Và thấp nhất trong số họ được gọi là Chiến binh. Luo Feng, 18 tuổi, cũng thèm khát trở nên một trong số họ.','https://phimimg.com/upload/vod/20240821-1/a651652396e9f53c09cd88d28700d5c4.jpg','https://phimimg.com/upload/vod/20240821-1/22c49ba9590b0e5f3d126696c0bfbecf.jpg','20 phút/tập','Tập 138','150','FHD','Vietsub',41,4,'2024-08-22 00:24:14','2024-09-30 15:31:32',0),
 	 ('Thế Giới Hoàn Mỹ','the-gioi-hoan-my','Perfect World','Thới Giới Hoàn Mỹ là phim hoạt hình kể về quá trình trưởng thành của một đứa trẻ trời sinh Chí Tôn cốt (đứa bé này tương lai có thể sánh vai cùng hung Thái cổ được trời ưu ái), có thể chinh chiến với Chân Hống, Kim Sí Đại Bàng có huyết mạnh tinh thuần đến hoàn mỹ, Nguyên thủy bảo thuật của nó sẽ danh chấn thiên hạ, được ghi khắc vào lịch sử của dân tộc.','https://phimimg.com/upload/vod/20240822-1/97aa8ce6feea9737ac591a26a289b725.jpg','https://phimimg.com/upload/vod/20240822-1/98b87edeb63d262313f864bc57df93d5.jpg','20 phút/tập','Tập 182','182','FHD','Vietsub',42,4,'2024-08-22 20:48:13','2024-09-30 15:31:32',0);
-INSERT INTO movie_schema.movies (mov_name,mov_slug,ori_name,content,poster_url,thumb_url,`time`,episode_current,episode_total,quality,lang,year_id,type_id,createdAt,updatedAt,status) VALUES
+INSERT INTO movies (mov_name,mov_slug,ori_name,content,poster_url,thumb_url,`time`,episode_current,episode_total,quality,lang,year_id,type_id,createdAt,updatedAt,status) VALUES
 	 ('Luyến Tiếc Những Vì Sao','luyen-tiec-nhung-vi-sao','You Are My Lover Friend','Ba năm cấp ba đã tạo nên &quot;tình anh em&quot; sâu đậm giữa Tưởng Thời Diên và Đường Dạng. Hiện tại, Đường Dạng được điều về làm phó trưởng phòng Thẩm định tín dụng tại ngân hàng Hối Thương chi nhánh Dung Thành, nhưng cô luôn bị cấp trên là Cam Nhất Minh chèn ép. Dù vậy cô vẫn chống lại ý kiến đám đông để duyệt khoản vay cho hộ kinh doanh nhỏ &quot;Đồ kho Chí Lan&quot;. Trong khi đó, Tưởng Thời Diên, người sáng lập ra &quot;Món ngon Nhất Hưu&quot; đã âm thầm giúp đỡ Đường Dạng thông qua sức ảnh hưởng của mình trong lĩnh vực truyền thông ẩm thực. Khi cấp trên Cam Nhất Minh giả vờ say rượu để quấy rối Đường Dạng, Tưởng Thời Diên đã đánh anh ta. Hai người bắt đầu nghi ngờ tình cảm giữa họ đã vượt qua ranh giới &quot;anh em tốt&quot;. Trong lúc bối rối mập mờ, Tưởng Thời Diên bị viêm ruột thừa phải nhập viện, Đường Dạng đã chăm sóc anh tận tình, cuối cùng hai người chính thức yêu nhau. Tuy nhiên mọi người xung quanh dường như không tin rằng cặp bạn thân lâu năm này thật sự đang yêu nhau, gây ra nhiều tình huống hiểu nhầm.','https://phimimg.com/upload/vod/20240924-1/37b334513da61d6437462109a24bee22.jpg','https://phimimg.com/upload/vod/20240924-1/ba09ddeeaed83d8dd364886bc05d551b.jpg','44 phút/tập','Tập 13','1','FHD','Vietsub',45,1,'2024-09-24 07:00:13','2024-09-30 15:46:09',0),
 	 ('Tài Nữ Nhà Ta Trưởng Thành Rồi','tai-nu-nha-ta-truong-thanh-roi','A Talented Girl Grows Up','Trình Mãn Ý, một cô gái yêu thích mơ mộng nhưng cuộc sống thực tại không như mong đợi. Sau khi dũng cảm cứu người và bị thương, cô ngất xỉu và mơ thấy mình trở thành nữ chính trong truyện tranh Thiên Hạ Đệ Nhất Tài Nữ . Trong giấc mơ, cô gặp Văn Thần Sí, người được gọi là &quot;Thiên Hạ Đệ Nhất Phu Tử&quot;. Cô gái &quot;mù chữ&quot; bèn giả vờ làm tài nữ và cùng Văn Thần Sí ký kết khế ước trở thành vợ chồng. Sự khác biệt về thời đại và tính cách khiến cả hai làm phát sinh vô số tình huống hài hước. Từ ngờ vực, thử thách rồi đến tin tưởng và yêu nhau, họ cùng vượt qua nhiều sóng gió và cuối cùng đến được với nhau. Trình Mãn Ý quyết tâm trở thành nữ Tuần Thành Ngự Sử đầu tiên của Đại Phượng. Cô cùng nhóm bạn thân thiết như ngũ hoàng tử Phượng Tê Ngô, Thôi Tuấn, Văn Thần Vi Vi… lập nên &quot;nhóm đệ nhất&quot; của Đại Phượng để phát triển sự nghiệp và chống lại các thế lực tàn ác. Bằng trí thông minh, họ đối đầu và chiến thắng Đỗ Nhã Cầm - kẻ có âm mưu xấu xa. Cuối cùng, cô thực hiện được ước mơ, bảo vệ cuộc sống bình yên cho người dân và gìn giữ danh dự văn hóa của Đại Phượng. Qua giấc mơ này, Trình Mãn Ý học được cách yêu thương và trưởng thành. Cô tìm ra được con đường thực hiện giá trị bản thân, hiểu thêm về tình yêu thực sự và nhận được tình thân, tình bạn quý giá.','https://phimimg.com/upload/vod/20240925-1/57afe19fa2cb1f023e1a5c3b4b8241be.jpg','https://phimimg.com/upload/vod/20240925-1/411430de67de311ce3c33c3a99a8fe98.jpg','45 phút/tập','Tập 22','24','FHD','Vietsub',45,1,'2024-09-25 13:27:26','2024-09-30 15:46:09',0),
 	 ('Phố Trấn Hồn: Nhiệt Huyết Sục Sôi','pho-tran-hon-nhiet-huyet-suc-soi','Hero Is Back','Nó kể về câu chuyện của Cao Yanbing, hậu duệ của Wei Wu, người có cơ thể của thần chiến tranh, Xia Ling, người có một linh hồn hộ mệnh bí ẩn, và linh hồn cựu tướng Beifo Shimen với những mục đích khác nhau của họ. nguy hiểm và nguy hiểm. Họ đã hỗ trợ nhau trên đường đi, hoàn thành trải nghiệm và trưởng thành trong tình trạng khó khăn, và khám phá ra một số bí mật gây sốc ...','https://phimimg.com/upload/vod/20240923-1/a68b9ea88a612dd34c8ce7d359953551.jpg','https://phimimg.com/upload/vod/20240923-1/67e84e62375373e05215c9a80a0eb704.jpg','36 phút/tập','Tập 12','24','FHD','Vietsub',45,1,'2024-09-24 03:44:18','2024-09-30 15:46:09',0),
 	 ('21 Ngày','21-ngay','The Limbo','Gần đến Tết, tại trung tâm thương mại lâu đời La Bách Bách Hóa thành phố Hải Châu đột ngột xảy ra sự cố lún sụt khiến 13 người bị mắc kẹt dưới lòng đất. Cuộc đua với thời gian và sinh mạng này mang đến những thử thách lớn về nhân tính, đạo đức và niềm tin...','https://phimimg.com/upload/vod/20240930-1/a2c1589e71b8fe7e0e58ae69c2f3ee28.jpg','https://phimimg.com/upload/vod/20240930-1/00ac0374666818ed6f1181ec83e0fec4.jpg','36 phút/tập','Tập 8','12','FHD','Vietsub',45,1,'2024-09-30 14:53:45','2024-09-30 15:46:09',0),
 	 ('Lưu Thủy Điều Điều','luu-thuy-dieu-dieu','Love Of Nirvana','Tiêu Vô Hà, thiếu thành chủ của thành Nguyệt Lạc, nhẫn nhục chịu đựng nằm vùng ở nước Lương nhiều năm với cái tên Vệ Chiêu, gánh vác tội danh gian thần. Vì muốn điều tra chân tướng về gia tộc năm xưa, Vệ Chiêu có ý định bắt cóc người còn sống sót duy nhất trong vụ án Tề Vương, song kế hoạch y dày công sắp đặt lại bị phá hỏng bởi cô gái trẻ bất ngờ xuất hiện, Giang Từ. Bùi Diễm nhân cơ hội này đưa Giang Từ đang bị thương nặng về phủ để tìm ra kẻ đã phá hỏng kế hoạch phía sau. Cảnh ngộ bi thương và đại nghĩa vì dân tộc của Vệ Chiêu đã lay động trái tim trong sáng của Giang Từ. Qua thời gian tiếp xúc, cả hai đã nhận ra điểm tốt đẹp ở đối phương, dần nảy sinh tình cảm. Cuối cùng, ba người Vệ Chiêu, Giang Từ và Bùi Diễm buông bỏ ân oán cá nhân, cùng nhau chống lại Lương Đế, thực hiện tâm nguyện bảo vệ Nguyệt Lạc, xây dựng một thiên hạ sạch trong.','https://phimimg.com/upload/vod/20240915-1/83d841a15456eff464b3cc91755131a0.jpg','https://phimimg.com/upload/vod/20240915-1/08fe783029ef9f14f2d6ac40b3f017c8.jpg','48 phút/tập','Tập 30','40','FHD','Vietsub',45,1,'2024-09-15 19:06:57','2024-09-30 15:46:09',0);
 
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Fairy Tail: Nhiệm Vụ 100 Năm - FAIRY TAIL 100 YEARS QUEST - 2024 - 1080p - Vietsub - Tập 01','Tập 01','tap-01','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240714/qVQHlRiJ/index.m3u8',1,'2024-09-30 15:27:18','2024-09-30 15:27:18',1),
 	 ('Fairy Tail: Nhiệm Vụ 100 Năm - FAIRY TAIL 100 YEARS QUEST - 2024 - 1080p - Vietsub - Tập 02','Tập 02','tap-02','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240717/rdD7kQ1q/index.m3u8',2,'2024-09-30 15:27:18','2024-09-30 15:27:18',1),
 	 ('Fairy Tail: Nhiệm Vụ 100 Năm - FAIRY TAIL 100 YEARS QUEST - 2024 - 1080p - Vietsub - Tập 03','Tập 03','tap-03','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240722/5VvurJ28/index.m3u8',3,'2024-09-30 15:27:18','2024-09-30 15:27:18',1),
@@ -587,7 +639,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Fairy Tail: Nhiệm Vụ 100 Năm - FAIRY TAIL 100 YEARS QUEST - 2024 - 1080p - Vietsub - Tập 08','Tập 08','tap-08','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240827/Ejd2heqO/index.m3u8',8,'2024-09-30 15:27:18','2024-09-30 15:27:18',1),
 	 ('Fairy Tail: Nhiệm Vụ 100 Năm - FAIRY TAIL 100 YEARS QUEST - 2024 - 1080p - Vietsub - Tập 09','Tập 09','tap-09','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240904/8bB312M1/index.m3u8',9,'2024-09-30 15:27:18','2024-09-30 15:27:18',1),
 	 ('Fairy Tail: Nhiệm Vụ 100 Năm - FAIRY TAIL 100 YEARS QUEST - 2024 - 1080p - Vietsub - Tập 10','Tập 10','tap-10','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240910/sv6d2yj5/index.m3u8',10,'2024-09-30 15:27:18','2024-09-30 15:27:18',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Fairy Tail: Nhiệm Vụ 100 Năm - FAIRY TAIL 100 YEARS QUEST - 2024 - 1080p - Vietsub - Tập 11','Tập 11','tap-11','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240919/LnaWL5ec/index.m3u8',11,'2024-09-30 15:27:18','2024-09-30 15:27:18',1),
 	 ('Fairy Tail: Nhiệm Vụ 100 Năm - FAIRY TAIL 100 YEARS QUEST - 2024 - 1080p - Vietsub - Tập 12','Tập 12','tap-12','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240925/zuXc6RKF/index.m3u8',12,'2024-09-30 15:27:18','2024-09-30 15:27:18',1),
 	 ('Fairy Tail: Nhiệm Vụ 100 Năm - FAIRY TAIL 100 YEARS QUEST - 2024 - 1080p - Vietsub - Tập 13','Tập 13','tap-13','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240930/i1MMg3eL/index.m3u8',13,'2024-09-30 15:27:18','2024-09-30 15:27:18',1),
@@ -598,7 +650,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Ma Vui Vẻ - The Happy Ghost - 1984 - 1080p - Vietsub - Full','Full','full','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240930/etAkYbm1/index.m3u8',1,'2024-09-30 15:31:07','2024-09-30 15:31:07',1),
 	 ('Ma Vui Vẻ 5 - Happy Ghost V - 1991 - 1080p - Vietsub - Full','Full','full','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240930/mDHdkptt/index.m3u8',1,'2024-09-30 15:31:07','2024-09-30 15:31:07',1),
 	 ('Căn Hộ 7A - Apartment 7A - 2024 - 1080p - Vietsub - Full','Full','full','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240930/lQQ7THow/index.m3u8',1,'2024-09-30 15:31:07','2024-09-30 15:31:07',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Ma Vui Vẻ 2 - Happy Ghost II - 1985 - 1080p - Vietsub - Full','Full','full','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240930/FcJe960y/index.m3u8',1,'2024-09-30 15:31:07','2024-09-30 15:31:07',1),
 	 ('Thám Tử Lừng Danh - Alex Cross - 2012 - 1080p - Vietsub - Full','Full','full','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240928/c54K8BZX/index.m3u8',1,'2024-09-30 15:31:07','2024-09-30 15:31:07',1),
 	 ('Ma Vui Vẻ 4 - Happy Ghost IV - 1990 - 1080p - Vietsub - Full','Full','full','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240930/kHPUqYdF/index.m3u8',1,'2024-09-30 15:31:07','2024-09-30 15:31:07',1),
@@ -609,7 +661,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Giáo phái hiểm ác: Colonia Dignidad - A Sinister Sect: Colonia Dignidad - 2021 - 1080p - Vietsub - Tập 05','Tập 05','tap-05','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240930/InZK6yHQ/index.m3u8',5,'2024-09-30 15:31:24','2024-09-30 15:31:24',1),
 	 ('Giáo phái hiểm ác: Colonia Dignidad - A Sinister Sect: Colonia Dignidad - 2021 - 1080p - Vietsub - Tập 06','Tập 06','tap-06','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240930/OQ4IlO7z/index.m3u8',6,'2024-09-30 15:31:24','2024-09-30 15:31:24',1),
 	 ('Tình Yêu 101 (Phần 2) - Love 101 (Season 2) - 2021 - 1080p - Vietsub - Tập 01','Tập 01','tap-01','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240930/BxlrC6tQ/index.m3u8',1,'2024-09-30 15:31:24','2024-09-30 15:31:24',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Đại Hải Đạo - Brother - 2024 - 1080p - Vietsub - Tập 01','Tập 01','tap-01','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240930/otWOPqo8/index.m3u8',1,'2024-09-30 15:31:24','2024-09-30 15:31:24',1),
 	 ('Đại Hải Đạo - Brother - 2024 - 1080p - Vietsub - Tập 02','Tập 02','tap-02','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240930/oUtexXtu/index.m3u8',2,'2024-09-30 15:31:24','2024-09-30 15:31:24',1),
 	 ('Tình Yêu 101 (Phần 2) - Love 101 (Season 2) - 2021 - 1080p - Vietsub - Tập 02','Tập 02','tap-02','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240930/skIfxyal/index.m3u8',2,'2024-09-30 15:31:24','2024-09-30 15:31:24',1),
@@ -620,7 +672,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Đại Hải Đạo - Brother - 2024 - 1080p - Vietsub - Tập 05','Tập 05','tap-05','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240930/ztVs6Xvj/index.m3u8',5,'2024-09-30 15:31:24','2024-09-30 15:31:24',1),
 	 ('Đại Hải Đạo - Brother - 2024 - 1080p - Vietsub - Tập 06','Tập 06','tap-06','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240930/EfLkfKPR/index.m3u8',6,'2024-09-30 15:31:24','2024-09-30 15:31:24',1),
 	 ('Tình Yêu 101 (Phần 1) - Love 101 (Season 1) - 2020 - 1080p - Vietsub - Tập 01','Tập 01','tap-01','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240930/5XSvU32X/index.m3u8',1,'2024-09-30 15:31:24','2024-09-30 15:31:24',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Đại Hải Đạo - Brother - 2024 - 1080p - Vietsub - Tập 07','Tập 07','tap-07','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240930/LGIM2rwl/index.m3u8',7,'2024-09-30 15:31:24','2024-09-30 15:31:24',1),
 	 ('Đại Hải Đạo - Brother - 2024 - 1080p - Vietsub - Tập 08','Tập 08','tap-08','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240930/mLtNixeZ/index.m3u8',8,'2024-09-30 15:31:24','2024-09-30 15:31:24',1),
 	 ('Đại Hải Đạo - Brother - 2024 - 1080p - Vietsub - Tập 09','Tập 09','tap-09','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240930/MhS1GyTB/index.m3u8',9,'2024-09-30 15:31:24','2024-09-30 15:31:24',1),
@@ -631,7 +683,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Đại Hải Đạo - Brother - 2024 - 1080p - Vietsub - Tập 11','Tập 11','tap-11','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240930/ELqMhnOL/index.m3u8',11,'2024-09-30 15:31:24','2024-09-30 15:31:24',1),
 	 ('Tình Yêu 101 (Phần 2) - Love 101 (Season 2) - 2021 - 1080p - Vietsub - Tập 06','Tập 06','tap-06','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240930/yAquXUzk/index.m3u8',6,'2024-09-30 15:31:24','2024-09-30 15:31:24',1),
 	 ('Đại Hải Đạo - Brother - 2024 - 1080p - Vietsub - Tập 12','Tập 12','tap-12','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240930/y7ByUPZ8/index.m3u8',12,'2024-09-30 15:31:24','2024-09-30 15:31:24',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Đại Hải Đạo - Brother - 2024 - 1080p - Vietsub - Tập 13','Tập 13','tap-13','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240930/eMKZ8j5z/index.m3u8',13,'2024-09-30 15:31:24','2024-09-30 15:31:24',1),
 	 ('Đại Hải Đạo - Brother - 2024 - 1080p - Vietsub - Tập 14','Tập 14','tap-14','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240930/8ydXSiOh/index.m3u8',14,'2024-09-30 15:31:24','2024-09-30 15:31:24',1),
 	 ('Đại Hải Đạo - Brother - 2024 - 1080p - Vietsub - Tập 15','Tập 15','tap-15','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240930/mGSFU2vM/index.m3u8',15,'2024-09-30 15:31:24','2024-09-30 15:31:24',1),
@@ -642,7 +694,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Tình Yêu 101 (Phần 1) - Love 101 (Season 1) - 2020 - 1080p - Vietsub - Tập 05','Tập 05','tap-05','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240930/QsCvs1np/index.m3u8',5,'2024-09-30 15:31:24','2024-09-30 15:31:24',1),
 	 ('Gia Đình Đoàn Tụ (Phần 2) - Family Reunion (Season 2) - 2020 - 1080p - Vietsub - Tập 02','Tập 02','tap-02','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240930/QAxF5cFi/index.m3u8',2,'2024-09-30 15:31:24','2024-09-30 15:31:24',1),
 	 ('Tình Yêu 101 (Phần 1) - Love 101 (Season 1) - 2020 - 1080p - Vietsub - Tập 06','Tập 06','tap-06','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240930/TWmG5QD8/index.m3u8',6,'2024-09-30 15:31:24','2024-09-30 15:31:24',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Gia Đình Đoàn Tụ (Phần 3) - Family Reunion (Season 3) - 2021 - 1080p - Vietsub - Tập 01','Tập 01','tap-01','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240930/B9fZqwVr/index.m3u8',1,'2024-09-30 15:31:24','2024-09-30 15:31:24',1),
 	 ('Gia Đình Đoàn Tụ (Phần 2) - Family Reunion (Season 2) - 2020 - 1080p - Vietsub - Tập 03','Tập 03','tap-03','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240930/TqmQPEZ5/index.m3u8',3,'2024-09-30 15:31:24','2024-09-30 15:31:24',1),
 	 ('Tình Yêu 101 (Phần 1) - Love 101 (Season 1) - 2020 - 1080p - Vietsub - Tập 07','Tập 07','tap-07','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240930/5sVUqtSP/index.m3u8',7,'2024-09-30 15:31:24','2024-09-30 15:31:24',1),
@@ -653,7 +705,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Gia Đình Đoàn Tụ (Phần 3) - Family Reunion (Season 3) - 2021 - 1080p - Vietsub - Tập 02','Tập 02','tap-02','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240930/hs8a0kz4/index.m3u8',2,'2024-09-30 15:31:24','2024-09-30 15:31:24',1),
 	 ('Gia Đình Đoàn Tụ (Phần 2) - Family Reunion (Season 2) - 2020 - 1080p - Vietsub - Tập 07','Tập 07','tap-07','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240930/uIzcjAHh/index.m3u8',7,'2024-09-30 15:31:24','2024-09-30 15:31:24',1),
 	 ('Gia Đình Đoàn Tụ (Phần 4) - Family Reunion (Season 4) - 2021 - 1080p - Vietsub - Tập 01','Tập 01','tap-01','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240930/pAzdIMBC/index.m3u8',1,'2024-09-30 15:31:24','2024-09-30 15:31:24',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Gia Đình Đoàn Tụ (Phần 3) - Family Reunion (Season 3) - 2021 - 1080p - Vietsub - Tập 03','Tập 03','tap-03','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240930/jiS3yGSM/index.m3u8',3,'2024-09-30 15:31:24','2024-09-30 15:31:24',1),
 	 ('Gia Đình Đoàn Tụ (Phần 2) - Family Reunion (Season 2) - 2020 - 1080p - Vietsub - Tập 08','Tập 08','tap-08','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240930/gKupLpOI/index.m3u8',8,'2024-09-30 15:31:24','2024-09-30 15:31:24',1),
 	 ('Gia Đình Đoàn Tụ (Phần 3) - Family Reunion (Season 3) - 2021 - 1080p - Vietsub - Tập 04','Tập 04','tap-04','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240930/Y5PJOMl9/index.m3u8',4,'2024-09-30 15:31:24','2024-09-30 15:31:24',1),
@@ -664,7 +716,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Gia Đình Đoàn Tụ (Phần 3) - Family Reunion (Season 3) - 2021 - 1080p - Vietsub - Tập 08','Tập 08','tap-08','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240930/6b5D3Vxm/index.m3u8',8,'2024-09-30 15:31:24','2024-09-30 15:31:24',1),
 	 ('Gia Đình Đoàn Tụ (Phần 4) - Family Reunion (Season 4) - 2021 - 1080p - Vietsub - Tập 02','Tập 02','tap-02','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240930/mkivHUNz/index.m3u8',2,'2024-09-30 15:31:24','2024-09-30 15:31:24',1),
 	 ('Gia Đình Đoàn Tụ (Phần 1) - Family Reunion (Season 1) - 2019 - 1080p - Vietsub - Tập 01','Tập 01','tap-01','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240930/cqiqYXjT/index.m3u8',1,'2024-09-30 15:31:24','2024-09-30 15:31:24',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Gia Đình Đoàn Tụ (Phần 4) - Family Reunion (Season 4) - 2021 - 1080p - Vietsub - Tập 03','Tập 03','tap-03','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240930/3cjJdW6P/index.m3u8',3,'2024-09-30 15:31:24','2024-09-30 15:31:24',1),
 	 ('Gia Đình Đoàn Tụ (Phần 4) - Family Reunion (Season 4) - 2021 - 1080p - Vietsub - Tập 04','Tập 04','tap-04','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240930/17qvJrPG/index.m3u8',4,'2024-09-30 15:31:24','2024-09-30 15:31:24',1),
 	 ('Gia Đình Đoàn Tụ (Phần 4) - Family Reunion (Season 4) - 2021 - 1080p - Vietsub - Tập 05','Tập 05','tap-05','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240930/EBfEo0Z6/index.m3u8',5,'2024-09-30 15:31:24','2024-09-30 15:31:24',1),
@@ -675,7 +727,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Gia Đình Đoàn Tụ (Phần 1) - Family Reunion (Season 1) - 2019 - 1080p - Vietsub - Tập 04','Tập 04','tap-04','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240930/imLrXkVH/index.m3u8',4,'2024-09-30 15:31:24','2024-09-30 15:31:24',1),
 	 ('Gia Đình Đoàn Tụ (Phần 1) - Family Reunion (Season 1) - 2019 - 1080p - Vietsub - Tập 05','Tập 05','tap-05','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240930/MNF1ZHDG/index.m3u8',5,'2024-09-30 15:31:24','2024-09-30 15:31:24',1),
 	 ('Gia Đình Đoàn Tụ (Phần 1) - Family Reunion (Season 1) - 2019 - 1080p - Vietsub - Tập 06','Tập 06','tap-06','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240930/QCntAeoz/index.m3u8',6,'2024-09-30 15:31:24','2024-09-30 15:31:24',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Gia Đình Đoàn Tụ (Phần 1) - Family Reunion (Season 1) - 2019 - 1080p - Vietsub - Tập 07','Tập 07','tap-07','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240930/A72Mq61R/index.m3u8',7,'2024-09-30 15:31:24','2024-09-30 15:31:24',1),
 	 ('Gia Đình Đoàn Tụ (Phần 1) - Family Reunion (Season 1) - 2019 - 1080p - Vietsub - Tập 08','Tập 08','tap-08','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240930/o0yuIqfO/index.m3u8',8,'2024-09-30 15:31:24','2024-09-30 15:31:24',1),
 	 ('Gia Đình Đoàn Tụ (Phần 1) - Family Reunion (Season 1) - 2019 - 1080p - Vietsub - Tập 09','Tập 09','tap-09','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240930/AsleVWLp/index.m3u8',9,'2024-09-30 15:31:24','2024-09-30 15:31:24',1),
@@ -686,7 +738,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Sở Hữu - Mine - 2021 - 1080p - Vietsub - Tập 04','Tập 04','tap-04','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240930/OcZ9VCgP/index.m3u8',4,'2024-09-30 15:31:24','2024-09-30 15:31:24',1),
 	 ('Sở Hữu - Mine - 2021 - 1080p - Vietsub - Tập 05','Tập 05','tap-05','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240930/mbxIdy2n/index.m3u8',5,'2024-09-30 15:31:24','2024-09-30 15:31:24',1),
 	 ('Sở Hữu - Mine - 2021 - 1080p - Vietsub - Tập 06','Tập 06','tap-06','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240930/QQoq1N7N/index.m3u8',6,'2024-09-30 15:31:24','2024-09-30 15:31:24',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Sở Hữu - Mine - 2021 - 1080p - Vietsub - Tập 07','Tập 07','tap-07','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240930/44IK44QW/index.m3u8',7,'2024-09-30 15:31:24','2024-09-30 15:31:24',1),
 	 ('Sở Hữu - Mine - 2021 - 1080p - Vietsub - Tập 08','Tập 08','tap-08','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240930/u245qkoj/index.m3u8',8,'2024-09-30 15:31:24','2024-09-30 15:31:24',1),
 	 ('Sở Hữu - Mine - 2021 - 1080p - Vietsub - Tập 09','Tập 09','tap-09','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240930/ScnRVxaf/index.m3u8',9,'2024-09-30 15:31:24','2024-09-30 15:31:24',1),
@@ -697,7 +749,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Sở Hữu - Mine - 2021 - 1080p - Vietsub - Tập 14','Tập 14','tap-14','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240930/VBH2Kb0R/index.m3u8',14,'2024-09-30 15:31:24','2024-09-30 15:31:24',1),
 	 ('Sở Hữu - Mine - 2021 - 1080p - Vietsub - Tập 15','Tập 15','tap-15','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240930/O97c9JCv/index.m3u8',15,'2024-09-30 15:31:24','2024-09-30 15:31:24',1),
 	 ('Sở Hữu - Mine - 2021 - 1080p - Vietsub - Tập 16','Tập 16','tap-16','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240930/UABg7EWX/index.m3u8',16,'2024-09-30 15:31:24','2024-09-30 15:31:24',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Em Đẹp Nhất Là Khi Mỉm Cười - Falling Into Your Smile - 2021 - 1080p - Vietsub - Tập 01','Tập 01','tap-01','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240930/bIPTWpap/index.m3u8',1,'2024-09-30 15:31:24','2024-09-30 15:31:24',1),
 	 ('Em Đẹp Nhất Là Khi Mỉm Cười - Falling Into Your Smile - 2021 - 1080p - Vietsub - Tập 02','Tập 02','tap-02','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240930/Qucd6ynw/index.m3u8',2,'2024-09-30 15:31:24','2024-09-30 15:31:24',1),
 	 ('Em Đẹp Nhất Là Khi Mỉm Cười - Falling Into Your Smile - 2021 - 1080p - Vietsub - Tập 03','Tập 03','tap-03','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240930/x88Ye2u6/index.m3u8',3,'2024-09-30 15:31:24','2024-09-30 15:31:24',1),
@@ -708,7 +760,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Em Đẹp Nhất Là Khi Mỉm Cười - Falling Into Your Smile - 2021 - 1080p - Vietsub - Tập 08','Tập 08','tap-08','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240930/7LaAA5Bq/index.m3u8',8,'2024-09-30 15:31:25','2024-09-30 15:31:25',1),
 	 ('Em Đẹp Nhất Là Khi Mỉm Cười - Falling Into Your Smile - 2021 - 1080p - Vietsub - Tập 09','Tập 09','tap-09','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240930/a5EwcSP9/index.m3u8',9,'2024-09-30 15:31:25','2024-09-30 15:31:25',1),
 	 ('Em Đẹp Nhất Là Khi Mỉm Cười - Falling Into Your Smile - 2021 - 1080p - Vietsub - Tập 10','Tập 10','tap-10','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240930/ZIdNDo9v/index.m3u8',10,'2024-09-30 15:31:25','2024-09-30 15:31:25',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Em Đẹp Nhất Là Khi Mỉm Cười - Falling Into Your Smile - 2021 - 1080p - Vietsub - Tập 11','Tập 11','tap-11','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240930/h3J9ODYA/index.m3u8',11,'2024-09-30 15:31:25','2024-09-30 15:31:25',1),
 	 ('Em Đẹp Nhất Là Khi Mỉm Cười - Falling Into Your Smile - 2021 - 1080p - Vietsub - Tập 12','Tập 12','tap-12','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240930/ZuHOy6Hr/index.m3u8',12,'2024-09-30 15:31:25','2024-09-30 15:31:25',1),
 	 ('Em Đẹp Nhất Là Khi Mỉm Cười - Falling Into Your Smile - 2021 - 1080p - Vietsub - Tập 13','Tập 13','tap-13','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240930/Qgqng7xa/index.m3u8',13,'2024-09-30 15:31:25','2024-09-30 15:31:25',1),
@@ -719,7 +771,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Em Đẹp Nhất Là Khi Mỉm Cười - Falling Into Your Smile - 2021 - 1080p - Vietsub - Tập 18','Tập 18','tap-18','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240930/JtjoIl3T/index.m3u8',18,'2024-09-30 15:31:25','2024-09-30 15:31:25',1),
 	 ('Em Đẹp Nhất Là Khi Mỉm Cười - Falling Into Your Smile - 2021 - 1080p - Vietsub - Tập 19','Tập 19','tap-19','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240930/7lWyl9XH/index.m3u8',19,'2024-09-30 15:31:25','2024-09-30 15:31:25',1),
 	 ('Em Đẹp Nhất Là Khi Mỉm Cười - Falling Into Your Smile - 2021 - 1080p - Vietsub - Tập 20','Tập 20','tap-20','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240930/ZMDiCFx2/index.m3u8',20,'2024-09-30 15:31:25','2024-09-30 15:31:25',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Em Đẹp Nhất Là Khi Mỉm Cười - Falling Into Your Smile - 2021 - 1080p - Vietsub - Tập 21','Tập 21','tap-21','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240930/Sux1pQgW/index.m3u8',21,'2024-09-30 15:31:25','2024-09-30 15:31:25',1),
 	 ('Em Đẹp Nhất Là Khi Mỉm Cười - Falling Into Your Smile - 2021 - 1080p - Vietsub - Tập 22','Tập 22','tap-22','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240930/fAQGOzat/index.m3u8',22,'2024-09-30 15:31:25','2024-09-30 15:31:25',1),
 	 ('Em Đẹp Nhất Là Khi Mỉm Cười - Falling Into Your Smile - 2021 - 1080p - Vietsub - Tập 23','Tập 23','tap-23','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240930/bzVTRP6N/index.m3u8',23,'2024-09-30 15:31:25','2024-09-30 15:31:25',1),
@@ -730,7 +782,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Em Đẹp Nhất Là Khi Mỉm Cười - Falling Into Your Smile - 2021 - 1080p - Vietsub - Tập 28','Tập 28','tap-28','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240930/NICzr3D2/index.m3u8',28,'2024-09-30 15:31:25','2024-09-30 15:31:25',1),
 	 ('Em Đẹp Nhất Là Khi Mỉm Cười - Falling Into Your Smile - 2021 - 1080p - Vietsub - Tập 29','Tập 29','tap-29','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240930/8VjCEmVe/index.m3u8',29,'2024-09-30 15:31:25','2024-09-30 15:31:25',1),
 	 ('Em Đẹp Nhất Là Khi Mỉm Cười - Falling Into Your Smile - 2021 - 1080p - Vietsub - Tập 30','Tập 30','tap-30','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240930/3F1BPO0T/index.m3u8',30,'2024-09-30 15:31:25','2024-09-30 15:31:25',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Em Đẹp Nhất Là Khi Mỉm Cười - Falling Into Your Smile - 2021 - 1080p - Vietsub - Tập 31','Tập 31','tap-31','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240930/RT1uITzF/index.m3u8',31,'2024-09-30 15:31:25','2024-09-30 15:31:25',1),
 	 ('Circle: Hoa Kỳ (Phần 3) - The Circle (Season 3) - 2021 - 1080p - Vietsub - Tập 01','Tập 01','tap-01','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240712/0HI4X4mv/index.m3u8',1,'2024-09-30 15:31:27','2024-09-30 15:31:27',1),
 	 ('Circle: Hoa Kỳ (Phần 3) - The Circle (Season 3) - 2021 - 1080p - Vietsub - Tập 02','Tập 02','tap-02','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240712/3xpZoEA2/index.m3u8',2,'2024-09-30 15:31:27','2024-09-30 15:31:27',1),
@@ -741,7 +793,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Circle: Hoa Kỳ (Phần 3) - The Circle (Season 3) - 2021 - 1080p - Vietsub - Tập 04','Tập 04','tap-04','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240712/O2x6HT3B/index.m3u8',4,'2024-09-30 15:31:27','2024-09-30 15:31:27',1),
 	 ('Tình Yêu Trên Phổ Tự Kỷ (Phần 2) - Love On The Spectrum (Season 2) - 2021 - 1080p - Vietsub - Tập 04','Tập 04','tap-04','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240621/CwBSZxzh/index.m3u8',4,'2024-09-30 15:31:27','2024-09-30 15:31:27',1),
 	 ('Circle: Hoa Kỳ (Phần 3) - The Circle (Season 3) - 2021 - 1080p - Vietsub - Tập 05','Tập 05','tap-05','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240712/qvpuVvPG/index.m3u8',5,'2024-09-30 15:31:27','2024-09-30 15:31:27',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Tình Yêu Trên Phổ Tự Kỷ (Phần 2) - Love On The Spectrum (Season 2) - 2021 - 1080p - Vietsub - Tập 05','Tập 05','tap-05','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240621/zsnamKQh/index.m3u8',5,'2024-09-30 15:31:27','2024-09-30 15:31:27',1),
 	 ('Circle: Hoa Kỳ (Phần 3) - The Circle (Season 3) - 2021 - 1080p - Vietsub - Tập 06','Tập 06','tap-06','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240712/331jizsO/index.m3u8',6,'2024-09-30 15:31:27','2024-09-30 15:31:27',1),
 	 ('Circle: Hoa Kỳ (Phần 3) - The Circle (Season 3) - 2021 - 1080p - Vietsub - Tập 07','Tập 07','tap-07','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240712/bgpyOXVV/index.m3u8',7,'2024-09-30 15:31:27','2024-09-30 15:31:27',1),
@@ -752,7 +804,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Alessandro Cattelan: Một Câu Hỏi Đơn Giản - Alessandro Cattelan: One Simple Question - 2021 - 1080p - Vietsub - Tập 03','Tập 03','tap-03','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240611/PtlsxX3b/index.m3u8',3,'2024-09-30 15:31:27','2024-09-30 15:31:27',1),
 	 ('Circle: Hoa Kỳ (Phần 3) - The Circle (Season 3) - 2021 - 1080p - Vietsub - Tập 09','Tập 09','tap-09','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240712/cR2rZE9P/index.m3u8',9,'2024-09-30 15:31:27','2024-09-30 15:31:27',1),
 	 ('Đại Chiến Tầng Lớp Ẩm Thực - Culinary Class Wars - 2024 - 1080p - Vietsub - Tập 01','Tập 01','tap-01','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240922/yHbtOFnB/index.m3u8',1,'2024-09-30 15:31:27','2024-09-30 15:31:27',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Alessandro Cattelan: Một Câu Hỏi Đơn Giản - Alessandro Cattelan: One Simple Question - 2021 - 1080p - Vietsub - Tập 04','Tập 04','tap-04','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240611/DAF8IsIj/index.m3u8',4,'2024-09-30 15:31:27','2024-09-30 15:31:27',1),
 	 ('Circle: Hoa Kỳ (Phần 3) - The Circle (Season 3) - 2021 - 1080p - Vietsub - Tập 10','Tập 10','tap-10','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240712/tDWbBsQA/index.m3u8',10,'2024-09-30 15:31:27','2024-09-30 15:31:27',1),
 	 ('Đại Chiến Tầng Lớp Ẩm Thực - Culinary Class Wars - 2024 - 1080p - Vietsub - Tập 02','Tập 02','tap-02','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240922/4blrwztR/index.m3u8',2,'2024-09-30 15:31:27','2024-09-30 15:31:27',1),
@@ -763,7 +815,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Tín Hiệu Con Tim S5 - Heart Signal S5 - 2022 - 1080p - Vietsub - Tập 01','Tập 01','tap-01','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240611/2Ka0JfWe/index.m3u8',1,'2024-09-30 15:31:27','2024-09-30 15:31:27',1),
 	 ('Circle: Hoa Kỳ (Phần 3) - The Circle (Season 3) - 2021 - 1080p - Vietsub - Tập 12','Tập 12','tap-12','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240712/PW8qCdCQ/index.m3u8',12,'2024-09-30 15:31:27','2024-09-30 15:31:27',1),
 	 ('Tín Hiệu Con Tim S5 - Heart Signal S5 - 2022 - 1080p - Vietsub - Tập 02','Tập 02','tap-02','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240611/WSXdiKrk/index.m3u8',2,'2024-09-30 15:31:27','2024-09-30 15:31:27',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Tín Hiệu Con Tim S5 - Heart Signal S5 - 2022 - 1080p - Vietsub - Tập 03','Tập 03','tap-03','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240611/E1uYECu7/index.m3u8',3,'2024-09-30 15:31:27','2024-09-30 15:31:27',1),
 	 ('Alessandro Cattelan: Một Câu Hỏi Đơn Giản - Alessandro Cattelan: One Simple Question - 2021 - 1080p - Vietsub - Tập 06','Tập 06','tap-06','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240611/LnPMKBpX/index.m3u8',6,'2024-09-30 15:31:27','2024-09-30 15:31:27',1),
 	 ('Circle: Hoa Kỳ (Phần 3) - The Circle (Season 3) - 2021 - 1080p - Vietsub - Tập 13','Tập 13','tap-13','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240712/cAo5CtLB/index.m3u8',13,'2024-09-30 15:31:27','2024-09-30 15:31:27',1),
@@ -774,7 +826,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Tín Hiệu Con Tim S5 - Heart Signal S5 - 2022 - 1080p - Vietsub - Tập 06','Tập 06','tap-06','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240611/xqRKYKdN/index.m3u8',6,'2024-09-30 15:31:27','2024-09-30 15:31:27',1),
 	 ('Câu Chuyện Ẩm Thực - Food Lore - 2019 - 1080p - Vietsub - Tập 03','Tập 03','tap-03','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240729/BAGK2voZ/index.m3u8',3,'2024-09-30 15:31:27','2024-09-30 15:31:27',1),
 	 ('Tín Hiệu Con Tim S5 - Heart Signal S5 - 2022 - 1080p - Vietsub - Tập 07','Tập 07','tap-07','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240611/wRguSSqX/index.m3u8',7,'2024-09-30 15:31:27','2024-09-30 15:31:27',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Tín Hiệu Con Tim S5 - Heart Signal S5 - 2022 - 1080p - Vietsub - Tập 08','Tập 08','tap-08','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240611/XwrAW0aZ/index.m3u8',8,'2024-09-30 15:31:27','2024-09-30 15:31:27',1),
 	 ('Tín Hiệu Con Tim S5 - Heart Signal S5 - 2022 - 1080p - Vietsub - Tập 09','Tập 09','tap-09','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240611/fnrW19Lk/index.m3u8',9,'2024-09-30 15:31:27','2024-09-30 15:31:27',1),
 	 ('Câu Chuyện Ẩm Thực - Food Lore - 2019 - 1080p - Vietsub - Tập 04','Tập 04','tap-04','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240730/EHie9QsV/index.m3u8',4,'2024-09-30 15:31:27','2024-09-30 15:31:27',1),
@@ -785,7 +837,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Câu Chuyện Ẩm Thực - Food Lore - 2019 - 1080p - Vietsub - Tập 07','Tập 07','tap-07','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240729/OpsdV5UI/index.m3u8',7,'2024-09-30 15:31:27','2024-09-30 15:31:27',1),
 	 ('Tín Hiệu Con Tim S5 - Heart Signal S5 - 2022 - 1080p - Vietsub - Tập 12','Tập 12','tap-12','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240611/H0kIWH4F/index.m3u8',12,'2024-09-30 15:31:27','2024-09-30 15:31:27',1),
 	 ('Câu Chuyện Ẩm Thực - Food Lore - 2019 - 1080p - Vietsub - Tập 08','Tập 08','tap-08','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240729/uWlD95U6/index.m3u8',8,'2024-09-30 15:31:27','2024-09-30 15:31:27',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Tín Hiệu Con Tim S5 - Heart Signal S5 - 2022 - 1080p - Vietsub - Tập 13','Tập 13','tap-13','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240611/FXRajpTA/index.m3u8',13,'2024-09-30 15:31:27','2024-09-30 15:31:27',1),
 	 ('Tín Hiệu Con Tim S5 - Heart Signal S5 - 2022 - 1080p - Vietsub - Tập 14','Tập 14','tap-14','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240611/Mpe3TlGU/index.m3u8',14,'2024-09-30 15:31:27','2024-09-30 15:31:27',1),
 	 ('Tín Hiệu Con Tim S5 - Heart Signal S5 - 2022 - 1080p - Vietsub - Tập 15','Tập 15','tap-15','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240611/5XN9EhQU/index.m3u8',15,'2024-09-30 15:31:27','2024-09-30 15:31:27',1),
@@ -796,7 +848,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Tín Hiệu Con Tim S5 - Heart Signal S5 - 2022 - 1080p - Vietsub - Tập 17','Tập 17','tap-17','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240611/CEWmeoeO/index.m3u8',17,'2024-09-30 15:31:27','2024-09-30 15:31:27',1),
 	 ('Cuộc Đời Nhiệt Huyết - Braving Life - 2021 - 1080p - Vietsub - Tập 04','Tập 04','tap-04','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240621/T5x3tnMm/index.m3u8',4,'2024-09-30 15:31:28','2024-09-30 15:31:28',1),
 	 ('Cuộc Đời Nhiệt Huyết - Braving Life - 2021 - 1080p - Vietsub - Tập 05','Tập 05','tap-05','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240621/sNPz5iSa/index.m3u8',5,'2024-09-30 15:31:28','2024-09-30 15:31:28',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Cuộc Đời Nhiệt Huyết - Braving Life - 2021 - 1080p - Vietsub - Tập 06','Tập 06','tap-06','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240621/rYh7noYG/index.m3u8',6,'2024-09-30 15:31:28','2024-09-30 15:31:28',1),
 	 ('Cuộc Đời Nhiệt Huyết - Braving Life - 2021 - 1080p - Vietsub - Tập 07','Tập 07','tap-07','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240620/cpwC2CXT/index.m3u8',7,'2024-09-30 15:31:28','2024-09-30 15:31:28',1),
 	 ('Cuộc Đời Nhiệt Huyết - Braving Life - 2021 - 1080p - Vietsub - Tập 08','Tập 08','tap-08','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240621/tFXfcFGl/index.m3u8',8,'2024-09-30 15:31:28','2024-09-30 15:31:28',1),
@@ -807,7 +859,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Tín Hiệu Con Tim S5 - Heart Signal S5 - 2022 - 1080p - Vietsub - Tập 18','Tập 18','tap-18','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240611/yioofknf/index.m3u8',18,'2024-09-30 15:31:27','2024-09-30 15:31:27',1),
 	 ('Cuộc Đời Nhiệt Huyết - Braving Life - 2021 - 1080p - Vietsub - Tập 13','Tập 13','tap-13','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240621/6VNQoEW6/index.m3u8',13,'2024-09-30 15:31:28','2024-09-30 15:31:28',1),
 	 ('Tín Hiệu Con Tim S5 - Heart Signal S5 - 2022 - 1080p - Vietsub - Tập 19','Tập 19','tap-19','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240611/jh8OHSHI/index.m3u8',19,'2024-09-30 15:31:27','2024-09-30 15:31:27',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Cuộc Đời Nhiệt Huyết - Braving Life - 2021 - 1080p - Vietsub - Tập 14','Tập 14','tap-14','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240618/uQKE3cWk/index.m3u8',14,'2024-09-30 15:31:28','2024-09-30 15:31:28',1),
 	 ('Tín Hiệu Con Tim S5 - Heart Signal S5 - 2022 - 1080p - Vietsub - Tập 20','Tập 20','tap-20','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240611/GBmOqfHh/index.m3u8',20,'2024-09-30 15:31:27','2024-09-30 15:31:27',1),
 	 ('Cuộc Đời Nhiệt Huyết - Braving Life - 2021 - 1080p - Vietsub - Tập 15','Tập 15','tap-15','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240621/aRGQTFx6/index.m3u8',15,'2024-09-30 15:31:28','2024-09-30 15:31:28',1),
@@ -818,7 +870,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Tín Hiệu Con Tim S5 - Heart Signal S5 - 2022 - 1080p - Vietsub - Tập 25','Tập 25','tap-25','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240611/LGjz6W4g/index.m3u8',25,'2024-09-30 15:31:27','2024-09-30 15:31:27',1),
 	 ('Tín Hiệu Con Tim S5 - Heart Signal S5 - 2022 - 1080p - Vietsub - Tập 26','Tập 26','tap-26','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240611/xyWSI0nO/index.m3u8',26,'2024-09-30 15:31:27','2024-09-30 15:31:27',1),
 	 ('Tín Hiệu Con Tim S5 - Heart Signal S5 - 2022 - 1080p - Vietsub - Tập 27','Tập 27','tap-27','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240611/U0vnmabK/index.m3u8',27,'2024-09-30 15:31:27','2024-09-30 15:31:27',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Cuộc Đời Nhiệt Huyết - Braving Life - 2021 - 1080p - Vietsub - Tập 16','Tập 16','tap-16','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240618/5y79vNzN/index.m3u8',16,'2024-09-30 15:31:28','2024-09-30 15:31:28',1),
 	 ('Tín Hiệu Con Tim S5 - Heart Signal S5 - 2022 - 1080p - Vietsub - Tập 28','Tập 28','tap-28','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240611/9UnpPuXC/index.m3u8',28,'2024-09-30 15:31:27','2024-09-30 15:31:27',1),
 	 ('Cuộc Đời Nhiệt Huyết - Braving Life - 2021 - 1080p - Vietsub - Tập 17','Tập 17','tap-17','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240621/TY5Kt54P/index.m3u8',17,'2024-09-30 15:31:28','2024-09-30 15:31:28',1),
@@ -829,7 +881,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Tín Hiệu Con Tim S5 - Heart Signal S5 - 2022 - 1080p - Vietsub - Tập 31','Tập 31','tap-31','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240611/6GglLJR1/index.m3u8',31,'2024-09-30 15:31:27','2024-09-30 15:31:27',1),
 	 ('Tín Hiệu Con Tim S5 - Heart Signal S5 - 2022 - 1080p - Vietsub - Tập 32','Tập 32','tap-32','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240611/ofFDcgfJ/index.m3u8',32,'2024-09-30 15:31:27','2024-09-30 15:31:27',1),
 	 ('Tín Hiệu Con Tim S5 - Heart Signal S5 - 2022 - 1080p - Vietsub - Tập 33','Tập 33','tap-33','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240611/x55M8Eos/index.m3u8',33,'2024-09-30 15:31:27','2024-09-30 15:31:27',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Cuộc Sống Nông Thôn Của Gen Z - Country Life Of Gen-Z - 2024 - 1080p - Vietsub - Tập 01','Tập 01','tap-01','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240918/ov8fZJgF/index.m3u8',1,'2024-09-30 15:31:28','2024-09-30 15:31:28',1),
 	 ('Cuộc Sống Nông Thôn Của Gen Z - Country Life Of Gen-Z - 2024 - 1080p - Vietsub - Tập 02','Tập 02','tap-02','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240918/d3AhaACV/index.m3u8',2,'2024-09-30 15:31:28','2024-09-30 15:31:28',1),
 	 ('Cuộc Sống Nông Thôn Của Gen Z - Country Life Of Gen-Z - 2024 - 1080p - Vietsub - Tập 03','Tập 03','tap-03','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240925/4mQHq9eY/index.m3u8',3,'2024-09-30 15:31:28','2024-09-30 15:31:28',1),
@@ -840,7 +892,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Vở Kịch Vĩ Đại - The Great Show - 2019 - 1080p - Vietsub - Tập 05','Tập 05','tap-05','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240702/GJqVjdqq/index.m3u8',5,'2024-09-30 15:31:28','2024-09-30 15:31:28',1),
 	 ('Vở Kịch Vĩ Đại - The Great Show - 2019 - 1080p - Vietsub - Tập 06','Tập 06','tap-06','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240702/2wthVRZa/index.m3u8',6,'2024-09-30 15:31:28','2024-09-30 15:31:28',1),
 	 ('Vở Kịch Vĩ Đại - The Great Show - 2019 - 1080p - Vietsub - Tập 07','Tập 07','tap-07','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240702/9I5xmJSc/index.m3u8',7,'2024-09-30 15:31:28','2024-09-30 15:31:28',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Vở Kịch Vĩ Đại - The Great Show - 2019 - 1080p - Vietsub - Tập 08','Tập 08','tap-08','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240702/48vY0sUd/index.m3u8',8,'2024-09-30 15:31:28','2024-09-30 15:31:28',1),
 	 ('Vở Kịch Vĩ Đại - The Great Show - 2019 - 1080p - Vietsub - Tập 09','Tập 09','tap-09','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240702/o2L7VzW4/index.m3u8',9,'2024-09-30 15:31:28','2024-09-30 15:31:28',1),
 	 ('Vở Kịch Vĩ Đại - The Great Show - 2019 - 1080p - Vietsub - Tập 10','Tập 10','tap-10','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240702/fQaLwCHw/index.m3u8',10,'2024-09-30 15:31:28','2024-09-30 15:31:28',1),
@@ -851,7 +903,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Vở Kịch Vĩ Đại - The Great Show - 2019 - 1080p - Vietsub - Tập 15','Tập 15','tap-15','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240702/kpr8WzS1/index.m3u8',15,'2024-09-30 15:31:28','2024-09-30 15:31:28',1),
 	 ('Vở Kịch Vĩ Đại - The Great Show - 2019 - 1080p - Vietsub - Tập 16','Tập 16','tap-16','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240702/RinRW60j/index.m3u8',16,'2024-09-30 15:31:28','2024-09-30 15:31:28',1),
 	 ('Đường Tới Ngôi Vương (Mùa 2) - Road To Kingdom: Ace Of Ace - 2024 - 1080p - Vietsub - Tập 01','Tập 01','tap-01','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240927/QVDUCt8i/index.m3u8',1,'2024-09-30 15:31:28','2024-09-30 15:31:28',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Đường Tới Ngôi Vương (Mùa 2) - Road To Kingdom: Ace Of Ace - 2024 - 1080p - Vietsub - Tập 02','Tập 02','tap-02','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240927/wpnuVLPM/index.m3u8',2,'2024-09-30 15:31:28','2024-09-30 15:31:28',1),
 	 ('Trảm Thần: Phàm Trần Thần Vực - Slay The Gods - 2024 - 1080p - Vietsub - Tập 01','Tập 01','tap-01','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240915/3mo8OAZQ/index.m3u8',1,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Trảm Thần: Phàm Trần Thần Vực - Slay The Gods - 2024 - 1080p - Vietsub - Tập 02','Tập 02','tap-02','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240915/x5xmTacI/index.m3u8',2,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
@@ -862,7 +914,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Niệm Vô Song - A Moment But Forever - 2024 - 1080p - Vietsub - Tập 01','Tập 01','tap-01','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240816/v1LeW6Bx/index.m3u8',1,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 003','Tập 003','tap-003','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/Z6s9uXkb/index.m3u8',3,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Trảm Thần: Phàm Trần Thần Vực - Slay The Gods - 2024 - 1080p - Vietsub - Tập 05','Tập 05','tap-05','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240915/h14v8nbb/index.m3u8',5,'2024-09-30 15:31:31','2024-09-30 15:31:31',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Niệm Vô Song - A Moment But Forever - 2024 - 1080p - Vietsub - Tập 02','Tập 02','tap-02','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240816/tGgHFiqP/index.m3u8',2,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 004','Tập 004','tap-004','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/qU1yKcLQ/index.m3u8',4,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Trảm Thần: Phàm Trần Thần Vực - Slay The Gods - 2024 - 1080p - Vietsub - Tập 06','Tập 06','tap-06','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240915/4oxIqEzw/index.m3u8',6,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
@@ -873,7 +925,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Niệm Vô Song - A Moment But Forever - 2024 - 1080p - Vietsub - Tập 04','Tập 04','tap-04','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240816/JulE9gG0/index.m3u8',4,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Trảm Thần: Phàm Trần Thần Vực - Slay The Gods - 2024 - 1080p - Vietsub - Tập 08','Tập 08','tap-08','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240915/dYcZo9ET/index.m3u8',8,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Niệm Vô Song - A Moment But Forever - 2024 - 1080p - Vietsub - Tập 05','Tập 05','tap-05','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/PVmMbiIu/index.m3u8',5,'2024-09-30 15:31:31','2024-09-30 15:31:31',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Niệm Vô Song - A Moment But Forever - 2024 - 1080p - Vietsub - Tập 06','Tập 06','tap-06','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240830/mz4QIz0r/index.m3u8',6,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Niệm Vô Song - A Moment But Forever - 2024 - 1080p - Vietsub - Tập 07','Tập 07','tap-07','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240907/4sN25rdS/index.m3u8',7,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 007','Tập 007','tap-007','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/LnRIWzCd/index.m3u8',7,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
@@ -884,7 +936,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 009','Tập 009','tap-009','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/3cuC3aE8/index.m3u8',9,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 010','Tập 010','tap-010','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/PWJlGSJh/index.m3u8',10,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 011','Tập 011','tap-011','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/e36MaOf2/index.m3u8',11,'2024-09-30 15:31:31','2024-09-30 15:31:31',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 012','Tập 012','tap-012','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/4U7kMzPT/index.m3u8',12,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 013','Tập 013','tap-013','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/wc1TCocd/index.m3u8',13,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Niệm Vô Song - A Moment But Forever - 2024 - 1080p - Vietsub - Tập 09','Tập 09','tap-09','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240919/BFhHc4GO/index.m3u8',9,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
@@ -895,7 +947,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Sói và gia vị: Thương nhân gặp sói thông thái - Spice and Wolf: MERCHANT MEETS THE WISE WOLF - 2024 - 1080p - Vietsub - Tập 03','Tập 03','tap-03','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240608/XDqN4nth/index.m3u8',3,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Sói và gia vị: Thương nhân gặp sói thông thái - Spice and Wolf: MERCHANT MEETS THE WISE WOLF - 2024 - 1080p - Vietsub - Tập 04','Tập 04','tap-04','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240608/xDtp4Dnf/index.m3u8',4,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Sói và gia vị: Thương nhân gặp sói thông thái - Spice and Wolf: MERCHANT MEETS THE WISE WOLF - 2024 - 1080p - Vietsub - Tập 05','Tập 05','tap-05','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240608/taFNv13k/index.m3u8',5,'2024-09-30 15:31:32','2024-09-30 15:31:32',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Sói và gia vị: Thương nhân gặp sói thông thái - Spice and Wolf: MERCHANT MEETS THE WISE WOLF - 2024 - 1080p - Vietsub - Tập 06','Tập 06','tap-06','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240608/jbBTRKTH/index.m3u8',6,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Sói và gia vị: Thương nhân gặp sói thông thái - Spice and Wolf: MERCHANT MEETS THE WISE WOLF - 2024 - 1080p - Vietsub - Tập 07','Tập 07','tap-07','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240608/yk1Q0kMp/index.m3u8',7,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Sói và gia vị: Thương nhân gặp sói thông thái - Spice and Wolf: MERCHANT MEETS THE WISE WOLF - 2024 - 1080p - Vietsub - Tập 08','Tập 08','tap-08','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240608/qaQ7MMLG/index.m3u8',8,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
@@ -906,7 +958,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 017','Tập 017','tap-017','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/8xkbQL1O/index.m3u8',17,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thanh Gươm Diệt Quỷ: Kỹ Viện Trấn - Demon Slayer: Kimetsu No Yaiba Entertainment District Arc - 2021 - 1080p - Vietsub - Tập 01','Tập 01','tap-01','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240929/E4z7LiyQ/index.m3u8',1,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Sói và gia vị: Thương nhân gặp sói thông thái - Spice and Wolf: MERCHANT MEETS THE WISE WOLF - 2024 - 1080p - Vietsub - Tập 11','Tập 11','tap-11','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240611/JXZ0RfX2/index.m3u8',11,'2024-09-30 15:31:32','2024-09-30 15:31:32',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 018','Tập 018','tap-018','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/3lhvQcke/index.m3u8',18,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thanh Gươm Diệt Quỷ: Kỹ Viện Trấn - Demon Slayer: Kimetsu No Yaiba Entertainment District Arc - 2021 - 1080p - Vietsub - Tập 02','Tập 02','tap-02','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240929/fA9ZFjCR/index.m3u8',2,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Sói và gia vị: Thương nhân gặp sói thông thái - Spice and Wolf: MERCHANT MEETS THE WISE WOLF - 2024 - 1080p - Vietsub - Tập 12','Tập 12','tap-12','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240620/44hod6Mo/index.m3u8',12,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
@@ -917,7 +969,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 020','Tập 020','tap-020','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/7DvlYmKR/index.m3u8',20,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Sói và gia vị: Thương nhân gặp sói thông thái - Spice and Wolf: MERCHANT MEETS THE WISE WOLF - 2024 - 1080p - Vietsub - Tập 15','Tập 15','tap-15','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240709/EE08YKnM/index.m3u8',15,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 021','Tập 021','tap-021','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/KK298vPP/index.m3u8',21,'2024-09-30 15:31:31','2024-09-30 15:31:31',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Sói và gia vị: Thương nhân gặp sói thông thái - Spice and Wolf: MERCHANT MEETS THE WISE WOLF - 2024 - 1080p - Vietsub - Tập 16','Tập 16','tap-16','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240716/IV1YzwYb/index.m3u8',16,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thanh Gươm Diệt Quỷ: Kỹ Viện Trấn - Demon Slayer: Kimetsu No Yaiba Entertainment District Arc - 2021 - 1080p - Vietsub - Tập 04','Tập 04','tap-04','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240929/4twgKZ3Y/index.m3u8',4,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Chuyện Cổ Tích Của Cô Gái Thời Taisho - Taisho Otome Fairy Tale - 2021 - 1080p - Vietsub - Tập 01','Tập 01','tap-01','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240929/9ccfGFv7/index.m3u8',1,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
@@ -928,7 +980,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Chuyện Cổ Tích Của Cô Gái Thời Taisho - Taisho Otome Fairy Tale - 2021 - 1080p - Vietsub - Tập 05','Tập 05','tap-05','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240929/yhd3hj2x/index.m3u8',5,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Chuyện Cổ Tích Của Cô Gái Thời Taisho - Taisho Otome Fairy Tale - 2021 - 1080p - Vietsub - Tập 06','Tập 06','tap-06','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240929/bOBW2Izv/index.m3u8',6,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Chuyện Cổ Tích Của Cô Gái Thời Taisho - Taisho Otome Fairy Tale - 2021 - 1080p - Vietsub - Tập 07','Tập 07','tap-07','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240929/HlrSkodj/index.m3u8',7,'2024-09-30 15:31:32','2024-09-30 15:31:32',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Sói và gia vị: Thương nhân gặp sói thông thái - Spice and Wolf: MERCHANT MEETS THE WISE WOLF - 2024 - 1080p - Vietsub - Tập 17','Tập 17','tap-17','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240727/kRLjiQda/index.m3u8',17,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thanh Gươm Diệt Quỷ: Kỹ Viện Trấn - Demon Slayer: Kimetsu No Yaiba Entertainment District Arc - 2021 - 1080p - Vietsub - Tập 05','Tập 05','tap-05','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240929/ULHhdOvx/index.m3u8',5,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 023','Tập 023','tap-023','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/cL8c0MVQ/index.m3u8',23,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
@@ -939,7 +991,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Sói và gia vị: Thương nhân gặp sói thông thái - Spice and Wolf: MERCHANT MEETS THE WISE WOLF - 2024 - 1080p - Vietsub - Tập 19','Tập 19','tap-19','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/L1H7nSpT/index.m3u8',19,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thanh Gươm Diệt Quỷ: Kỹ Viện Trấn - Demon Slayer: Kimetsu No Yaiba Entertainment District Arc - 2021 - 1080p - Vietsub - Tập 07','Tập 07','tap-07','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240929/LhDI6uXb/index.m3u8',7,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Sói và gia vị: Thương nhân gặp sói thông thái - Spice and Wolf: MERCHANT MEETS THE WISE WOLF - 2024 - 1080p - Vietsub - Tập 20','Tập 20','tap-20','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240820/OgxvAOH2/index.m3u8',20,'2024-09-30 15:31:32','2024-09-30 15:31:32',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 025','Tập 025','tap-025','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/xCU30hBo/index.m3u8',25,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Chuyện Cổ Tích Của Cô Gái Thời Taisho - Taisho Otome Fairy Tale - 2021 - 1080p - Vietsub - Tập 09','Tập 09','tap-09','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240929/2MpOGk4D/index.m3u8',9,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thanh Gươm Diệt Quỷ: Kỹ Viện Trấn - Demon Slayer: Kimetsu No Yaiba Entertainment District Arc - 2021 - 1080p - Vietsub - Tập 08','Tập 08','tap-08','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240929/6rOofsSH/index.m3u8',8,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
@@ -950,7 +1002,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 026','Tập 026','tap-026','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/T9kSQigJ/index.m3u8',26,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Chuyện Cổ Tích Của Cô Gái Thời Taisho - Taisho Otome Fairy Tale - 2021 - 1080p - Vietsub - Tập 11','Tập 11','tap-11','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240929/E95jxuG3/index.m3u8',11,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 027','Tập 027','tap-027','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/ltPKRKCO/index.m3u8',27,'2024-09-30 15:31:31','2024-09-30 15:31:31',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Chuyện Cổ Tích Của Cô Gái Thời Taisho - Taisho Otome Fairy Tale - 2021 - 1080p - Vietsub - Tập 12','Tập 12','tap-12','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240929/BtdfHRlI/index.m3u8',12,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 028','Tập 028','tap-028','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/7eLyyVzQ/index.m3u8',28,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 029','Tập 029','tap-029','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/gjwoaNDa/index.m3u8',29,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
@@ -961,7 +1013,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Sói và gia vị: Thương nhân gặp sói thông thái - Spice and Wolf: MERCHANT MEETS THE WISE WOLF - 2024 - 1080p - Vietsub - Tập 23','Tập 23','tap-23','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240910/BgW97WYd/index.m3u8',23,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 031','Tập 031','tap-031','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/rzjHHtzn/index.m3u8',31,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Sói và gia vị: Thương nhân gặp sói thông thái - Spice and Wolf: MERCHANT MEETS THE WISE WOLF - 2024 - 1080p - Vietsub - Tập 24','Tập 24','tap-24','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240918/6ktZr4xX/index.m3u8',24,'2024-09-30 15:31:32','2024-09-30 15:31:32',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 032','Tập 032','tap-032','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/9a7sTpqM/index.m3u8',32,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thanh Gươm Diệt Quỷ: Kỹ Viện Trấn - Demon Slayer: Kimetsu No Yaiba Entertainment District Arc - 2021 - 1080p - Lồng Tiếng - Tập 02','Tập 02','tap-02','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240929/3ntwcoRr/index.m3u8',2,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Sự quyến rũ của 2.5D - 2.5 Dimensional Seduction - 2024 - 1080p - Vietsub - Tập 01','Tập 01','tap-01','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240714/b9SS6yXf/index.m3u8',1,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
@@ -972,7 +1024,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Sự quyến rũ của 2.5D - 2.5 Dimensional Seduction - 2024 - 1080p - Vietsub - Tập 03','Tập 03','tap-03','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240720/Ym1mkv5L/index.m3u8',3,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thanh Gươm Diệt Quỷ: Kỹ Viện Trấn - Demon Slayer: Kimetsu No Yaiba Entertainment District Arc - 2021 - 1080p - Lồng Tiếng - Tập 04','Tập 04','tap-04','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240929/4J4lWz8l/index.m3u8',4,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Sự quyến rũ của 2.5D - 2.5 Dimensional Seduction - 2024 - 1080p - Vietsub - Tập 04','Tập 04','tap-04','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240728/EKwUJI9g/index.m3u8',4,'2024-09-30 15:31:32','2024-09-30 15:31:32',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Sự quyến rũ của 2.5D - 2.5 Dimensional Seduction - 2024 - 1080p - Vietsub - Tập 05','Tập 05','tap-05','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240806/eIBostj6/index.m3u8',5,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 034','Tập 034','tap-034','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/u8002ta1/index.m3u8',34,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thanh Gươm Diệt Quỷ: Kỹ Viện Trấn - Demon Slayer: Kimetsu No Yaiba Entertainment District Arc - 2021 - 1080p - Lồng Tiếng - Tập 05','Tập 05','tap-05','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240929/z4pO4nYO/index.m3u8',5,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
@@ -983,7 +1035,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Sự quyến rũ của 2.5D - 2.5 Dimensional Seduction - 2024 - 1080p - Vietsub - Tập 07','Tập 07','tap-07','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240817/vIykqRYp/index.m3u8',7,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 037','Tập 037','tap-037','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/8GWNhCKu/index.m3u8',37,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thanh Gươm Diệt Quỷ: Kỹ Viện Trấn - Demon Slayer: Kimetsu No Yaiba Entertainment District Arc - 2021 - 1080p - Lồng Tiếng - Tập 07','Tập 07','tap-07','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240929/nZaXCwQ1/index.m3u8',7,'2024-09-30 15:31:32','2024-09-30 15:31:32',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Sự quyến rũ của 2.5D - 2.5 Dimensional Seduction - 2024 - 1080p - Vietsub - Tập 08','Tập 08','tap-08','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240824/PyK1bo8u/index.m3u8',8,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 038','Tập 038','tap-038','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/5WLMZnJs/index.m3u8',38,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 039','Tập 039','tap-039','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/GVIpr2YF/index.m3u8',39,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
@@ -994,7 +1046,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Sự quyến rũ của 2.5D - 2.5 Dimensional Seduction - 2024 - 1080p - Vietsub - Tập 10','Tập 10','tap-10','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240909/anMGS4pr/index.m3u8',10,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 001','Tập 001','tap-001','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/wFIU7kDd/index.m3u8',1,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 041','Tập 041','tap-041','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/fPLeGzbb/index.m3u8',41,'2024-09-30 15:31:31','2024-09-30 15:31:31',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Thanh Gươm Diệt Quỷ: Kỹ Viện Trấn - Demon Slayer: Kimetsu No Yaiba Entertainment District Arc - 2021 - 1080p - Lồng Tiếng - Tập 10','Tập 10','tap-10','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240929/a2Fwre0c/index.m3u8',10,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Sự quyến rũ của 2.5D - 2.5 Dimensional Seduction - 2024 - 1080p - Vietsub - Tập 11','Tập 11','tap-11','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240915/gtSwh9nw/index.m3u8',11,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 002','Tập 002','tap-002','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/Dhrmktwj/index.m3u8',2,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
@@ -1005,7 +1057,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 043','Tập 043','tap-043','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/MijI7umq/index.m3u8',43,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Sự quyến rũ của 2.5D - 2.5 Dimensional Seduction - 2024 - 1080p - Vietsub - Tập 13','Tập 13','tap-13','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240929/oKSGpJDS/index.m3u8',13,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 004','Tập 004','tap-004','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/a65ncRou/index.m3u8',4,'2024-09-30 15:31:32','2024-09-30 15:31:32',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 044','Tập 044','tap-044','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/eTP0wM7L/index.m3u8',44,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 005','Tập 005','tap-005','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/nRkXiQ3T/index.m3u8',5,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 045','Tập 045','tap-045','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/YLyspEFE/index.m3u8',45,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
@@ -1016,7 +1068,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 008','Tập 008','tap-008','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/jx4ltiy1/index.m3u8',8,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 009','Tập 009','tap-009','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/On84eA2C/index.m3u8',9,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 010','Tập 010','tap-010','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/WHbjruxW/index.m3u8',10,'2024-09-30 15:31:32','2024-09-30 15:31:32',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 048','Tập 048','tap-048','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/5y0LMHNL/index.m3u8',48,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 011','Tập 011','tap-011','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/Ouf071kP/index.m3u8',11,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 049','Tập 049','tap-049','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/T4UfTEeT/index.m3u8',49,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
@@ -1027,7 +1079,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 013','Tập 013','tap-013','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/qlcxsRlZ/index.m3u8',13,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 051','Tập 051','tap-051','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/ZbtcMSPx/index.m3u8',51,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 003','Tập 003','tap-003','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/0wN86mF6/index.m3u8',3,'2024-09-30 15:31:32','2024-09-30 15:31:32',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 004','Tập 004','tap-004','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/1dMtGHxr/index.m3u8',4,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 014','Tập 014','tap-014','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/qOpgV8mu/index.m3u8',14,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 052','Tập 052','tap-052','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/qPgEk15A/index.m3u8',52,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
@@ -1038,7 +1090,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 016','Tập 016','tap-016','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/wkrk29Kx/index.m3u8',16,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 054','Tập 054','tap-054','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/CUHiUnSF/index.m3u8',54,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 007','Tập 007','tap-007','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/NSSJMb0t/index.m3u8',7,'2024-09-30 15:31:32','2024-09-30 15:31:32',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 017','Tập 017','tap-017','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/PkRd9aiV/index.m3u8',17,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 055','Tập 055','tap-055','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/13oUaSEJ/index.m3u8',55,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 008','Tập 008','tap-008','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/OK4lMCII/index.m3u8',8,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
@@ -1049,7 +1101,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 020','Tập 020','tap-020','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/GgkXnuyj/index.m3u8',20,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 057','Tập 057','tap-057','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/0bWMe9zh/index.m3u8',57,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 010','Tập 010','tap-010','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/lfSzFiiI/index.m3u8',10,'2024-09-30 15:31:32','2024-09-30 15:31:32',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 021','Tập 021','tap-021','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/nnUjK5U8/index.m3u8',21,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 058','Tập 058','tap-058','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/2UCI0knB/index.m3u8',58,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 022','Tập 022','tap-022','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/PLZ5QC2v/index.m3u8',22,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
@@ -1060,7 +1112,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 012','Tập 012','tap-012','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/50BVLjcY/index.m3u8',12,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 060','Tập 060','tap-060','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/LVDNeeMY/index.m3u8',60,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 025','Tập 025','tap-025','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/sDYB9AL4/index.m3u8',25,'2024-09-30 15:31:32','2024-09-30 15:31:32',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 061','Tập 061','tap-061','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/6av1UdeN/index.m3u8',61,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 013','Tập 013','tap-013','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/MRtJv5qE/index.m3u8',13,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 026','Tập 026','tap-026','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/0vcVJkJD/index.m3u8',26,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
@@ -1071,7 +1123,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 016','Tập 016','tap-016','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/UYObVEzX/index.m3u8',16,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 028','Tập 028','tap-028','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/qiCnmriL/index.m3u8',28,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 063','Tập 063','tap-063','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/hofAZB55/index.m3u8',63,'2024-09-30 15:31:31','2024-09-30 15:31:31',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 029','Tập 029','tap-029','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/gwZV5Nzm/index.m3u8',29,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 030','Tập 030','tap-030','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/r9I95kQi/index.m3u8',30,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 017','Tập 017','tap-017','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/QAWAI3j6/index.m3u8',17,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
@@ -1082,7 +1134,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 032','Tập 032','tap-032','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/T4RI8VgC/index.m3u8',32,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 033','Tập 033','tap-033','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/etNcMVke/index.m3u8',33,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 019','Tập 019','tap-019','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/LKwv9aBs/index.m3u8',19,'2024-09-30 15:31:32','2024-09-30 15:31:32',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 066','Tập 066','tap-066','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/EccUVNz5/index.m3u8',66,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 020','Tập 020','tap-020','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/LlL7WQBt/index.m3u8',20,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 021','Tập 021','tap-021','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/0XliFKjv/index.m3u8',21,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
@@ -1093,7 +1145,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 022','Tập 022','tap-022','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/cd4I67aN/index.m3u8',22,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 035','Tập 035','tap-035','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/yHNh4BgN/index.m3u8',35,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 036','Tập 036','tap-036','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/DiQKPp9M/index.m3u8',36,'2024-09-30 15:31:32','2024-09-30 15:31:32',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 037','Tập 037','tap-037','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/6dBFigt6/index.m3u8',37,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 070','Tập 070','tap-070','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/C2sgBqCC/index.m3u8',70,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 023','Tập 023','tap-023','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/INoz2ttD/index.m3u8',23,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
@@ -1104,7 +1156,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 073','Tập 073','tap-073','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/XTDKNeA7/index.m3u8',73,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 039','Tập 039','tap-039','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/ui2UnK1m/index.m3u8',39,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 025','Tập 025','tap-025','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/gJ4VWXMx/index.m3u8',25,'2024-09-30 15:31:32','2024-09-30 15:31:32',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 074','Tập 074','tap-074','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/wbT0DBRW/index.m3u8',74,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 040','Tập 040','tap-040','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/IHkaCEFD/index.m3u8',40,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 026','Tập 026','tap-026','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/PIb9ue4F/index.m3u8',26,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
@@ -1115,7 +1167,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 042','Tập 042','tap-042','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/je4Htfon/index.m3u8',42,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 028','Tập 028','tap-028','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/dXUEUjH3/index.m3u8',28,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 029','Tập 029','tap-029','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/qutIqL2e/index.m3u8',29,'2024-09-30 15:31:32','2024-09-30 15:31:32',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 077','Tập 077','tap-077','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/2VZvY3qZ/index.m3u8',77,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 043','Tập 043','tap-043','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/tpCrGii9/index.m3u8',43,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 030','Tập 030','tap-030','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/bPm2LLxY/index.m3u8',30,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
@@ -1126,7 +1178,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 045','Tập 045','tap-045','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/Ajpp6G4W/index.m3u8',45,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 080','Tập 080','tap-080','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/qAhs65TF/index.m3u8',80,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 032','Tập 032','tap-032','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/lvAFpMOn/index.m3u8',32,'2024-09-30 15:31:32','2024-09-30 15:31:32',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 046','Tập 046','tap-046','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/yXaoblU7/index.m3u8',46,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 081','Tập 081','tap-081','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/32wY1eEN/index.m3u8',81,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 033','Tập 033','tap-033','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/EjFZZSh9/index.m3u8',33,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
@@ -1137,7 +1189,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 048','Tập 048','tap-048','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/9Cpn6Ywu/index.m3u8',48,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 083','Tập 083','tap-083','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/1YzPmWcH/index.m3u8',83,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 049','Tập 049','tap-049','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/el9y11FW/index.m3u8',49,'2024-09-30 15:31:32','2024-09-30 15:31:32',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 036','Tập 036','tap-036','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/Cl354vG0/index.m3u8',36,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 084','Tập 084','tap-084','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/3HlxjtJz/index.m3u8',84,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 085','Tập 085','tap-085','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/lgdUcPAM/index.m3u8',85,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
@@ -1148,7 +1200,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 038','Tập 038','tap-038','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/08Jua6Qm/index.m3u8',38,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 087','Tập 087','tap-087','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/cLuKeU9B/index.m3u8',87,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 052','Tập 052','tap-052','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/vd2sYj52/index.m3u8',52,'2024-09-30 15:31:32','2024-09-30 15:31:32',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 039','Tập 039','tap-039','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/7EMHi0hs/index.m3u8',39,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 053','Tập 053','tap-053','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/BX7usB22/index.m3u8',53,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 054','Tập 054','tap-054','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/JTiSx5z4/index.m3u8',54,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
@@ -1159,7 +1211,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 055','Tập 055','tap-055','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/QnTs6eht/index.m3u8',55,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 089','Tập 089','tap-089','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/o8vhgEbv/index.m3u8',89,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 043','Tập 043','tap-043','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/36y9IOnn/index.m3u8',43,'2024-09-30 15:31:32','2024-09-30 15:31:32',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 056','Tập 056','tap-056','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/AYC8zbW1/index.m3u8',56,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 090','Tập 090','tap-090','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/JMqaMVIH/index.m3u8',90,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 044','Tập 044','tap-044','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/Y1LjWd6s/index.m3u8',44,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
@@ -1170,7 +1222,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 045','Tập 045','tap-045','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/vCdDcmqV/index.m3u8',45,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 092','Tập 092','tap-092','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/1Qxw4Cg9/index.m3u8',92,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 093','Tập 093','tap-093','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/1b9sM6MS/index.m3u8',93,'2024-09-30 15:31:31','2024-09-30 15:31:31',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 060','Tập 060','tap-060','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/21Qx8AY0/index.m3u8',60,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 046','Tập 046','tap-046','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/S4f1umtH/index.m3u8',46,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 094','Tập 094','tap-094','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/dJVlLHRc/index.m3u8',94,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
@@ -1181,7 +1233,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 062','Tập 062','tap-062','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/4CMjneRu/index.m3u8',62,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 096','Tập 096','tap-096','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/fY9E1MxM/index.m3u8',96,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 049','Tập 049','tap-049','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/dQiXdqMz/index.m3u8',49,'2024-09-30 15:31:32','2024-09-30 15:31:32',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 063','Tập 063','tap-063','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/0sMd7Boc/index.m3u8',63,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 097','Tập 097','tap-097','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/J9pGBGAR/index.m3u8',97,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 050','Tập 050','tap-050','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/a4R8bK8Z/index.m3u8',50,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
@@ -1192,7 +1244,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 099','Tập 099','tap-099','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/1wpU6H8l/index.m3u8',99,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 052','Tập 052','tap-052','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/zocyhTiP/index.m3u8',52,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 066','Tập 066','tap-066','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/nNXf3vDG/index.m3u8',66,'2024-09-30 15:31:32','2024-09-30 15:31:32',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 100','Tập 100','tap-100','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/3VDRDgRQ/index.m3u8',100,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 053','Tập 053','tap-053','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/AUahXHyh/index.m3u8',53,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 101','Tập 101','tap-101','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/qY0bDAbM/index.m3u8',101,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
@@ -1203,7 +1255,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 068','Tập 068','tap-068','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/XB1AxTDv/index.m3u8',68,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 055','Tập 055','tap-055','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/zqPtZwOp/index.m3u8',55,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 104','Tập 104','tap-104','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/gt7SOkIp/index.m3u8',104,'2024-09-30 15:31:31','2024-09-30 15:31:31',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 069','Tập 069','tap-069','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/5fcZ3Tk1/index.m3u8',69,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 056','Tập 056','tap-056','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/hs3fkZzt/index.m3u8',56,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 070','Tập 070','tap-070','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/QtOYGTgH/index.m3u8',70,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
@@ -1214,7 +1266,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 058','Tập 058','tap-058','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/6zU7IHa8/index.m3u8',58,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 072','Tập 072','tap-072','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/wy6mfMyX/index.m3u8',72,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 107','Tập 107','tap-107','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/YbFwQqod/index.m3u8',107,'2024-09-30 15:31:31','2024-09-30 15:31:31',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 059','Tập 059','tap-059','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/ZcXgni56/index.m3u8',59,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 073','Tập 073','tap-073','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/wnNXY7Xu/index.m3u8',73,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 108','Tập 108','tap-108','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/TNpPqAED/index.m3u8',108,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
@@ -1225,7 +1277,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 061','Tập 061','tap-061','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/iG729NdI/index.m3u8',61,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 111','Tập 111','tap-111','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/Qch41riY/index.m3u8',111,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 062','Tập 062','tap-062','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/LDIHrRcf/index.m3u8',62,'2024-09-30 15:31:32','2024-09-30 15:31:32',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 075','Tập 075','tap-075','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/ZvOFswnr/index.m3u8',75,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 112','Tập 112','tap-112','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/db79GLVi/index.m3u8',112,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 063','Tập 063','tap-063','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/GwJWWomH/index.m3u8',63,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
@@ -1236,7 +1288,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 114','Tập 114','tap-114','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/xUxb51qI/index.m3u8',114,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 115','Tập 115','tap-115','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/FmrRw7Jm/index.m3u8',115,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 065','Tập 065','tap-065','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/HVXcO2EI/index.m3u8',65,'2024-09-30 15:31:32','2024-09-30 15:31:32',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 078','Tập 078','tap-078','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/OUlEAdPs/index.m3u8',78,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 116','Tập 116','tap-116','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/V4RBwiEu/index.m3u8',116,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 066','Tập 066','tap-066','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/HtkRayBt/index.m3u8',66,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
@@ -1247,7 +1299,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 067','Tập 067','tap-067','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/nE8RNaTd/index.m3u8',67,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 080','Tập 080','tap-080','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/Cy2lP8b7/index.m3u8',80,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 120','Tập 120','tap-120','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/4aFP6lYQ/index.m3u8',120,'2024-09-30 15:31:31','2024-09-30 15:31:31',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 068','Tập 068','tap-068','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/O8AAXRSG/index.m3u8',68,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 081','Tập 081','tap-081','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/QtfS5flV/index.m3u8',81,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 121','Tập 121','tap-121','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/uoNGRWws/index.m3u8',121,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
@@ -1258,7 +1310,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 070','Tập 070','tap-070','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/BJ1xQ1kK/index.m3u8',70,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 123','Tập 123','tap-123','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/VtOC7EHm/index.m3u8',123,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 084','Tập 084','tap-084','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/w2eQ2yXF/index.m3u8',84,'2024-09-30 15:31:32','2024-09-30 15:31:32',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 071','Tập 071','tap-071','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/pAweYhgZ/index.m3u8',71,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 124','Tập 124','tap-124','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/urS58rit/index.m3u8',124,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 085','Tập 085','tap-085','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/3WabJz0M/index.m3u8',85,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
@@ -1269,7 +1321,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 074','Tập 074','tap-074','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/wSSPJEUu/index.m3u8',74,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 126','Tập 126','tap-126','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/ubAu0Scd/index.m3u8',126,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 087','Tập 087','tap-087','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/Y7cHkwwZ/index.m3u8',87,'2024-09-30 15:31:32','2024-09-30 15:31:32',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 075','Tập 075','tap-075','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/0hPJl8Y2/index.m3u8',75,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 127','Tập 127','tap-127','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/qlZiBedU/index.m3u8',127,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 088','Tập 088','tap-088','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/9RVSTKi1/index.m3u8',88,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
@@ -1280,7 +1332,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 129','Tập 129','tap-129','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/RXLDbmUw/index.m3u8',129,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 090','Tập 090','tap-090','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/t2fyxkOM/index.m3u8',90,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 078','Tập 078','tap-078','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/WK1w5WwR/index.m3u8',78,'2024-09-30 15:31:32','2024-09-30 15:31:32',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 130','Tập 130','tap-130','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/iVi22uKd/index.m3u8',130,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 091','Tập 091','tap-091','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/qyrJTugk/index.m3u8',91,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 079','Tập 079','tap-079','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/MwMsUWkr/index.m3u8',79,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
@@ -1291,7 +1343,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 093','Tập 093','tap-093','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/2yiFEKvE/index.m3u8',93,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 094','Tập 094','tap-094','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/QuM9bogs/index.m3u8',94,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 081','Tập 081','tap-081','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/B1TJcdkQ/index.m3u8',81,'2024-09-30 15:31:32','2024-09-30 15:31:32',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 133','Tập 133','tap-133','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/Ri7g28Aw/index.m3u8',133,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 095','Tập 095','tap-095','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/jGBVfNNo/index.m3u8',95,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 082','Tập 082','tap-082','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/1bS4lY8K/index.m3u8',82,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
@@ -1302,7 +1354,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 135','Tập 135','tap-135','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/pj2jpITl/index.m3u8',135,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 097','Tập 097','tap-097','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/kOkK989E/index.m3u8',97,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 085','Tập 085','tap-085','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/CvTKvptE/index.m3u8',85,'2024-09-30 15:31:32','2024-09-30 15:31:32',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 136','Tập 136','tap-136','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/70ys0jr2/index.m3u8',136,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 098','Tập 098','tap-098','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/fVt0y8d2/index.m3u8',98,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 086','Tập 086','tap-086','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/CAP0pGPW/index.m3u8',86,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
@@ -1313,7 +1365,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 100','Tập 100','tap-100','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/KMz6hIci/index.m3u8',100,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 088','Tập 088','tap-088','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/aMe0Ripy/index.m3u8',88,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 139','Tập 139','tap-139','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/dTukW863/index.m3u8',139,'2024-09-30 15:31:31','2024-09-30 15:31:31',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 101','Tập 101','tap-101','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/joglfEHL/index.m3u8',101,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 089','Tập 089','tap-089','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/dEhPzsgM/index.m3u8',89,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 102','Tập 102','tap-102','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/BQAqblZC/index.m3u8',102,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
@@ -1324,7 +1376,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 141','Tập 141','tap-141','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/neA23nLG/index.m3u8',141,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 142','Tập 142','tap-142','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/3q0kBT4U/index.m3u8',142,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 104','Tập 104','tap-104','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/fpbbvDvL/index.m3u8',104,'2024-09-30 15:31:32','2024-09-30 15:31:32',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 092','Tập 092','tap-092','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/MsOKbTlQ/index.m3u8',92,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 143','Tập 143','tap-143','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/NSaI5vDj/index.m3u8',143,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 105','Tập 105','tap-105','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/2v08INlJ/index.m3u8',105,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
@@ -1335,7 +1387,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 145','Tập 145','tap-145','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/R3w9q7zz/index.m3u8',145,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 107','Tập 107','tap-107','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/iOTzD49b/index.m3u8',107,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 095','Tập 095','tap-095','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/necIlhll/index.m3u8',95,'2024-09-30 15:31:32','2024-09-30 15:31:32',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 146','Tập 146','tap-146','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/cctgATFw/index.m3u8',146,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 108','Tập 108','tap-108','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/lzDRDlN8/index.m3u8',108,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 096','Tập 096','tap-096','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/LYINqqib/index.m3u8',96,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
@@ -1346,7 +1398,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 148','Tập 148','tap-148','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/8PVtzmrm/index.m3u8',148,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 110','Tập 110','tap-110','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/aVTVlZEb/index.m3u8',110,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 099','Tập 099','tap-099','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/WTDWMj5s/index.m3u8',99,'2024-09-30 15:31:32','2024-09-30 15:31:32',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 111','Tập 111','tap-111','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/QnSV43TE/index.m3u8',111,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 100','Tập 100','tap-100','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/HZTUYfbk/index.m3u8',100,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 112','Tập 112','tap-112','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/lS0edC2S/index.m3u8',112,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
@@ -1357,7 +1409,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 114','Tập 114','tap-114','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/0eqrXs8w/index.m3u8',114,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 103','Tập 103','tap-103','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/KkMTG5BQ/index.m3u8',103,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 150','Tập 150','tap-150','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/3wsGuRxE/index.m3u8',150,'2024-09-30 15:31:31','2024-09-30 15:31:31',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 104','Tập 104','tap-104','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/X3e32LZS/index.m3u8',104,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 151','Tập 151','tap-151','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/yONeswK9/index.m3u8',151,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 105','Tập 105','tap-105','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/bAFNl5Fb/index.m3u8',105,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
@@ -1368,7 +1420,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 153','Tập 153','tap-153','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/kRoLbH0D/index.m3u8',153,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 107','Tập 107','tap-107','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/m8Tk0qAB/index.m3u8',107,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 117','Tập 117','tap-117','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/o6Htwt0Z/index.m3u8',117,'2024-09-30 15:31:32','2024-09-30 15:31:32',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 118','Tập 118','tap-118','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/jlUWcAEO/index.m3u8',118,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 154','Tập 154','tap-154','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/eHNEiRCi/index.m3u8',154,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 108','Tập 108','tap-108','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/u2u6x0Lf/index.m3u8',108,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
@@ -1379,7 +1431,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 112','Tập 112','tap-112','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/lQC17eI4/index.m3u8',112,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 119','Tập 119','tap-119','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/nAJyphP8/index.m3u8',119,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 156','Tập 156','tap-156','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/zCBQGYVT/index.m3u8',156,'2024-09-30 15:31:31','2024-09-30 15:31:31',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 157','Tập 157','tap-157','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/YJ0UsKQl/index.m3u8',157,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 158','Tập 158','tap-158','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/ICjVx4Os/index.m3u8',158,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 113','Tập 113','tap-113','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/rz6J44bf/index.m3u8',113,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
@@ -1390,7 +1442,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 159','Tập 159','tap-159','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/Y1PJvH5R/index.m3u8',159,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 115','Tập 115','tap-115','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/B9qrfUT9/index.m3u8',115,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 116','Tập 116','tap-116','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/Njb7kPgP/index.m3u8',116,'2024-09-30 15:31:32','2024-09-30 15:31:32',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 117','Tập 117','tap-117','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/VZ9rWMa3/index.m3u8',117,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 123','Tập 123','tap-123','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/HfPdSJh7/index.m3u8',123,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 160','Tập 160','tap-160','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/60RIa2em/index.m3u8',160,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
@@ -1401,7 +1453,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 120','Tập 120','tap-120','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/P4jFzrgB/index.m3u8',120,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 161','Tập 161','tap-161','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/zb3Rcjvo/index.m3u8',161,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 126','Tập 126','tap-126','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/UBVdFd14/index.m3u8',126,'2024-09-30 15:31:32','2024-09-30 15:31:32',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 127','Tập 127','tap-127','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/tznQFaaS/index.m3u8',127,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 128','Tập 128','tap-128','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/OG4dJ4gV/index.m3u8',128,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 121','Tập 121','tap-121','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/hbmmPgbt/index.m3u8',121,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
@@ -1412,7 +1464,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 164','Tập 164','tap-164','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/rRMp744J/index.m3u8',164,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 124','Tập 124','tap-124','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/rHk3VKUC/index.m3u8',124,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 165','Tập 165','tap-165','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/hwYy43OK/index.m3u8',165,'2024-09-30 15:31:31','2024-09-30 15:31:31',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 125','Tập 125','tap-125','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/8gWwsEvi/index.m3u8',125,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 126','Tập 126','tap-126','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/V9UOReOR/index.m3u8',126,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 129','Tập 129','tap-129','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/SJyDMeuZ/index.m3u8',129,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
@@ -1423,7 +1475,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 131','Tập 131','tap-131','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/2rz09inL/index.m3u8',131,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 128','Tập 128','tap-128','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/p9u5l1KC/index.m3u8',128,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 168','Tập 168','tap-168','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/3gXMp0dW/index.m3u8',168,'2024-09-30 15:31:31','2024-09-30 15:31:31',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 132','Tập 132','tap-132','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240821/4EI2fgPq/index.m3u8',132,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 129','Tập 129','tap-129','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/Zpzvjb33/index.m3u8',129,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 169','Tập 169','tap-169','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/PJ38fvFl/index.m3u8',169,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
@@ -1434,7 +1486,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 135','Tập 135','tap-135','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240907/Xwa05yrK/index.m3u8',135,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 130','Tập 130','tap-130','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/o2sqmL1c/index.m3u8',130,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 172','Tập 172','tap-172','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/EC3h00lU/index.m3u8',172,'2024-09-30 15:31:31','2024-09-30 15:31:31',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 131','Tập 131','tap-131','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/n3YPjKej/index.m3u8',131,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 132','Tập 132','tap-132','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/J0QaefnZ/index.m3u8',132,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 133','Tập 133','tap-133','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/QYaUm5Ml/index.m3u8',133,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
@@ -1445,7 +1497,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 134','Tập 134','tap-134','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/NvWaUmzQ/index.m3u8',134,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thôn Phệ Tinh Không - Swallowed Star - 2020 - 1080p - Vietsub - Tập 138','Tập 138','tap-138','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240929/XZ6P8kef/index.m3u8',138,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 135','Tập 135','tap-135','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/5tvyPcXp/index.m3u8',135,'2024-09-30 15:31:32','2024-09-30 15:31:32',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 136','Tập 136','tap-136','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/YZ0JD8y8/index.m3u8',136,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 137','Tập 137','tap-137','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/4K8vqoWv/index.m3u8',137,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 138','Tập 138','tap-138','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/lMX49Qbk/index.m3u8',138,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
@@ -1456,7 +1508,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 141','Tập 141','tap-141','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/0Ca01R2G/index.m3u8',141,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 177','Tập 177','tap-177','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/9jKjh9le/index.m3u8',177,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 142','Tập 142','tap-142','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/4oLTczXH/index.m3u8',142,'2024-09-30 15:31:32','2024-09-30 15:31:32',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 143','Tập 143','tap-143','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/ZzMOTMvi/index.m3u8',143,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 144','Tập 144','tap-144','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/MSMtI18K/index.m3u8',144,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 145','Tập 145','tap-145','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/SqXZ90cy/index.m3u8',145,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
@@ -1467,7 +1519,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 149','Tập 149','tap-149','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/GtKSF7pc/index.m3u8',149,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 150','Tập 150','tap-150','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/QsnbS2Pr/index.m3u8',150,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 151','Tập 151','tap-151','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/mDkN10YX/index.m3u8',151,'2024-09-30 15:31:32','2024-09-30 15:31:32',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 179','Tập 179','tap-179','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/XQ4q7fZ9/index.m3u8',179,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 180','Tập 180','tap-180','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/j8nFrhvw/index.m3u8',180,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 152','Tập 152','tap-152','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/4XN8edp9/index.m3u8',152,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
@@ -1478,7 +1530,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 184','Tập 184','tap-184','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/jj9DGzx1/index.m3u8',184,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 185','Tập 185','tap-185','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/Z15kHqNO/index.m3u8',185,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 186','Tập 186','tap-186','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/6dackKVg/index.m3u8',186,'2024-09-30 15:31:31','2024-09-30 15:31:31',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 187','Tập 187','tap-187','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/mQcbpJaL/index.m3u8',187,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 188','Tập 188','tap-188','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/agw7Hmwj/index.m3u8',188,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 189','Tập 189','tap-189','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/xHGYUWyM/index.m3u8',189,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
@@ -1489,7 +1541,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 192','Tập 192','tap-192','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/X1fHt59d/index.m3u8',192,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 156','Tập 156','tap-156','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/pAOL3YFM/index.m3u8',156,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 193','Tập 193','tap-193','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/7u47yD4s/index.m3u8',193,'2024-09-30 15:31:31','2024-09-30 15:31:31',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 157','Tập 157','tap-157','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/ekxQ1xPZ/index.m3u8',157,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 194','Tập 194','tap-194','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/scj1DhrO/index.m3u8',194,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 158','Tập 158','tap-158','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/SdRWZuvI/index.m3u8',158,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
@@ -1500,7 +1552,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 197','Tập 197','tap-197','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/VoVLs2op/index.m3u8',197,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 161','Tập 161','tap-161','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/eOvzHwVC/index.m3u8',161,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 198','Tập 198','tap-198','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/WMrFvufa/index.m3u8',198,'2024-09-30 15:31:31','2024-09-30 15:31:31',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 162','Tập 162','tap-162','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/gasOL4hw/index.m3u8',162,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 199','Tập 199','tap-199','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/p898fueK/index.m3u8',199,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 163','Tập 163','tap-163','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/DPjQDE9x/index.m3u8',163,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
@@ -1511,7 +1563,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 202','Tập 202','tap-202','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/Pw6g5nbi/index.m3u8',202,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 166','Tập 166','tap-166','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/AKBoAC7w/index.m3u8',166,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 203','Tập 203','tap-203','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/scpf5qCx/index.m3u8',203,'2024-09-30 15:31:31','2024-09-30 15:31:31',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 167','Tập 167','tap-167','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/NGbgzuPZ/index.m3u8',167,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 204','Tập 204','tap-204','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/bIh7NyCs/index.m3u8',204,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 205','Tập 205','tap-205','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/0G3HcuUL/index.m3u8',205,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
@@ -1522,7 +1574,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 209','Tập 209','tap-209','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/u9BIYgrl/index.m3u8',209,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 169','Tập 169','tap-169','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/ZTbnLpJr/index.m3u8',169,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 210','Tập 210','tap-210','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/oOxjqKo9/index.m3u8',210,'2024-09-30 15:31:31','2024-09-30 15:31:31',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 170','Tập 170','tap-170','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/q80G1laj/index.m3u8',170,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 211','Tập 211','tap-211','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/54fPjQ2I/index.m3u8',211,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 171','Tập 171','tap-171','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/XM2LAQNf/index.m3u8',171,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
@@ -1533,7 +1585,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 174','Tập 174','tap-174','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/T5YJuWga/index.m3u8',174,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 175','Tập 175','tap-175','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/3RlmxoKj/index.m3u8',175,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 214','Tập 214','tap-214','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/5TWhio9J/index.m3u8',214,'2024-09-30 15:31:31','2024-09-30 15:31:31',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 215','Tập 215','tap-215','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/Opuze8QS/index.m3u8',215,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 176','Tập 176','tap-176','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240822/tSoCMlxF/index.m3u8',176,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 216','Tập 216','tap-216','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/aJSeRYCC/index.m3u8',216,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
@@ -1544,7 +1596,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 219','Tập 219','tap-219','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/wqj8uJ3l/index.m3u8',219,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 179','Tập 179','tap-179','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240907/XvTSSWdo/index.m3u8',179,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 220','Tập 220','tap-220','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/fBVgsF4C/index.m3u8',220,'2024-09-30 15:31:31','2024-09-30 15:31:31',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Thế Giới Hoàn Mỹ - Perfect World - 2021 - 1080p - Vietsub - Tập 180','Tập 180','tap-180','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240915/bi31KJLd/index.m3u8',180,'2024-09-30 15:31:32','2024-09-30 15:31:32',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 221','Tập 221','tap-221','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/KgzdF3tZ/index.m3u8',221,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 222','Tập 222','tap-222','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/M9t2tDjh/index.m3u8',222,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
@@ -1555,7 +1607,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 225','Tập 225','tap-225','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/w02cE1M5/index.m3u8',225,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 226','Tập 226','tap-226','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/RFoRULWf/index.m3u8',226,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 227','Tập 227','tap-227','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/fWUpEp3S/index.m3u8',227,'2024-09-30 15:31:31','2024-09-30 15:31:31',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 228','Tập 228','tap-228','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/e614xZov/index.m3u8',228,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 229','Tập 229','tap-229','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/iGcPrUd5/index.m3u8',229,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 230','Tập 230','tap-230','https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240819/cxAd4W3Y/index.m3u8',230,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
@@ -1566,7 +1618,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 235','Tập 235','tap-235','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240925/RVYb0kdR/index.m3u8',235,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Thần Võ Thiên Tôn - The Legend of Sky Lord - 2020 - 1080p - Vietsub - Tập 236','Tập 236','tap-236','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240929/ngFWti1I/index.m3u8',236,'2024-09-30 15:31:31','2024-09-30 15:31:31',1),
 	 ('Luyến Tiếc Những Vì Sao - You Are My Lover Friend - 2024 - 1080p - Vietsub - Tập 01','Tập 01','tap-01','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240924/sFope9jJ/index.m3u8',1,'2024-09-30 15:46:09','2024-09-30 15:46:09',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Luyến Tiếc Những Vì Sao - You Are My Lover Friend - 2024 - 1080p - Vietsub - Tập 02','Tập 02','tap-02','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240924/3I6p9ufe/index.m3u8',2,'2024-09-30 15:46:09','2024-09-30 15:46:09',1),
 	 ('Luyến Tiếc Những Vì Sao - You Are My Lover Friend - 2024 - 1080p - Vietsub - Tập 03','Tập 03','tap-03','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240924/kw4XkGrQ/index.m3u8',3,'2024-09-30 15:46:09','2024-09-30 15:46:09',1),
 	 ('Luyến Tiếc Những Vì Sao - You Are My Lover Friend - 2024 - 1080p - Vietsub - Tập 04','Tập 04','tap-04','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240924/p8yTYNF9/index.m3u8',4,'2024-09-30 15:46:09','2024-09-30 15:46:09',1),
@@ -1577,7 +1629,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Luyến Tiếc Những Vì Sao - You Are My Lover Friend - 2024 - 1080p - Vietsub - Tập 08','Tập 08','tap-08','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240929/HHRLU5si/index.m3u8',8,'2024-09-30 15:46:09','2024-09-30 15:46:09',1),
 	 ('Luyến Tiếc Những Vì Sao - You Are My Lover Friend - 2024 - 1080p - Vietsub - Tập 09','Tập 09','tap-09','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240929/E1NBIEkF/index.m3u8',9,'2024-09-30 15:46:09','2024-09-30 15:46:09',1),
 	 ('Luyến Tiếc Những Vì Sao - You Are My Lover Friend - 2024 - 1080p - Vietsub - Tập 10','Tập 10','tap-10','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240929/uykUzbt0/index.m3u8',10,'2024-09-30 15:46:09','2024-09-30 15:46:09',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Luyến Tiếc Những Vì Sao - You Are My Lover Friend - 2024 - 1080p - Vietsub - Tập 11','Tập 11','tap-11','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240929/vQ411TLr/index.m3u8',11,'2024-09-30 15:46:09','2024-09-30 15:46:09',1),
 	 ('Tài Nữ Nhà Ta Trưởng Thành Rồi - A Talented Girl Grows Up - 2024 - 1080p - Vietsub - Tập 02','Tập 02','tap-02','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240925/lABYcVep/index.m3u8',2,'2024-09-30 15:46:09','2024-09-30 15:46:09',1),
 	 ('Luyến Tiếc Những Vì Sao - You Are My Lover Friend - 2024 - 1080p - Vietsub - Tập 12','Tập 12','tap-12','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240929/62WneGig/index.m3u8',12,'2024-09-30 15:46:09','2024-09-30 15:46:09',1),
@@ -1588,7 +1640,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Phố Trấn Hồn: Nhiệt Huyết Sục Sôi - Hero Is Back - 2024 - 1080p - Vietsub - Tập 02','Tập 02','tap-02','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240923/ltYG4XVM/index.m3u8',2,'2024-09-30 15:46:09','2024-09-30 15:46:09',1),
 	 ('Tài Nữ Nhà Ta Trưởng Thành Rồi - A Talented Girl Grows Up - 2024 - 1080p - Vietsub - Tập 05','Tập 05','tap-05','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240925/JRmMO0Kz/index.m3u8',5,'2024-09-30 15:46:09','2024-09-30 15:46:09',1),
 	 ('Phố Trấn Hồn: Nhiệt Huyết Sục Sôi - Hero Is Back - 2024 - 1080p - Vietsub - Tập 03','Tập 03','tap-03','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240923/U4Qk26vt/index.m3u8',3,'2024-09-30 15:46:09','2024-09-30 15:46:09',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('21 Ngày - The Limbo - 2024 - 1080p - Vietsub - Tập 01','Tập 01','tap-01','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240930/n9xE42F9/index.m3u8',1,'2024-09-30 15:46:09','2024-09-30 15:46:09',1),
 	 ('Tài Nữ Nhà Ta Trưởng Thành Rồi - A Talented Girl Grows Up - 2024 - 1080p - Vietsub - Tập 06','Tập 06','tap-06','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240925/uiVu3iLy/index.m3u8',6,'2024-09-30 15:46:09','2024-09-30 15:46:09',1),
 	 ('Phố Trấn Hồn: Nhiệt Huyết Sục Sôi - Hero Is Back - 2024 - 1080p - Vietsub - Tập 04','Tập 04','tap-04','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240923/HsDYERKT/index.m3u8',4,'2024-09-30 15:46:09','2024-09-30 15:46:09',1),
@@ -1599,7 +1651,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('21 Ngày - The Limbo - 2024 - 1080p - Vietsub - Tập 03','Tập 03','tap-03','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240930/y7Tlishp/index.m3u8',3,'2024-09-30 15:46:09','2024-09-30 15:46:09',1),
 	 ('21 Ngày - The Limbo - 2024 - 1080p - Vietsub - Tập 04','Tập 04','tap-04','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240930/j0Cbbpwg/index.m3u8',4,'2024-09-30 15:46:09','2024-09-30 15:46:09',1),
 	 ('Tài Nữ Nhà Ta Trưởng Thành Rồi - A Talented Girl Grows Up - 2024 - 1080p - Vietsub - Tập 09','Tập 09','tap-09','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240925/dVzdRSyo/index.m3u8',9,'2024-09-30 15:46:09','2024-09-30 15:46:09',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Phố Trấn Hồn: Nhiệt Huyết Sục Sôi - Hero Is Back - 2024 - 1080p - Vietsub - Tập 06','Tập 06','tap-06','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240925/RapOERwM/index.m3u8',6,'2024-09-30 15:46:09','2024-09-30 15:46:09',1),
 	 ('21 Ngày - The Limbo - 2024 - 1080p - Vietsub - Tập 05','Tập 05','tap-05','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240930/R2p0OXJr/index.m3u8',5,'2024-09-30 15:46:09','2024-09-30 15:46:09',1),
 	 ('Phố Trấn Hồn: Nhiệt Huyết Sục Sôi - Hero Is Back - 2024 - 1080p - Vietsub - Tập 07','Tập 07','tap-07','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240929/zzFmpTDw/index.m3u8',7,'2024-09-30 15:46:09','2024-09-30 15:46:09',1),
@@ -1610,7 +1662,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('21 Ngày - The Limbo - 2024 - 1080p - Vietsub - Tập 08','Tập 08','tap-08','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240930/jWuf3Wr9/index.m3u8',8,'2024-09-30 15:46:09','2024-09-30 15:46:09',1),
 	 ('Phố Trấn Hồn: Nhiệt Huyết Sục Sôi - Hero Is Back - 2024 - 1080p - Vietsub - Tập 09','Tập 09','tap-09','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240929/t8ZTgF3C/index.m3u8',9,'2024-09-30 15:46:09','2024-09-30 15:46:09',1),
 	 ('Tài Nữ Nhà Ta Trưởng Thành Rồi - A Talented Girl Grows Up - 2024 - 1080p - Vietsub - Tập 11','Tập 11','tap-11','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240925/jfOAwBKj/index.m3u8',11,'2024-09-30 15:46:09','2024-09-30 15:46:09',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Phố Trấn Hồn: Nhiệt Huyết Sục Sôi - Hero Is Back - 2024 - 1080p - Vietsub - Tập 10','Tập 10','tap-10','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240929/sYkY5bHg/index.m3u8',10,'2024-09-30 15:46:09','2024-09-30 15:46:09',1),
 	 ('Tài Nữ Nhà Ta Trưởng Thành Rồi - A Talented Girl Grows Up - 2024 - 1080p - Vietsub - Tập 12','Tập 12','tap-12','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240925/63rZxYWL/index.m3u8',12,'2024-09-30 15:46:09','2024-09-30 15:46:09',1),
 	 ('Lưu Thủy Điều Điều - Love Of Nirvana - 2024 - 1080p - Vietsub - Tập 01','Tập 01','tap-01','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240915/CVbRMTt4/index.m3u8',1,'2024-09-30 15:46:09','2024-09-30 15:46:09',1),
@@ -1621,7 +1673,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Lưu Thủy Điều Điều - Love Of Nirvana - 2024 - 1080p - Vietsub - Tập 02','Tập 02','tap-02','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240915/JBzUEQsj/index.m3u8',2,'2024-09-30 15:46:09','2024-09-30 15:46:09',1),
 	 ('Phố Trấn Hồn: Nhiệt Huyết Sục Sôi - Hero Is Back - 2024 - 1080p - Vietsub - Tập 12','Tập 12','tap-12','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240930/fCuqlkr7/index.m3u8',12,'2024-09-30 15:46:09','2024-09-30 15:46:09',1),
 	 ('Tài Nữ Nhà Ta Trưởng Thành Rồi - A Talented Girl Grows Up - 2024 - 1080p - Vietsub - Tập 16','Tập 16','tap-16','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240929/lMxb7lF1/index.m3u8',16,'2024-09-30 15:46:09','2024-09-30 15:46:09',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Lưu Thủy Điều Điều - Love Of Nirvana - 2024 - 1080p - Vietsub - Tập 03','Tập 03','tap-03','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240915/v40kFdke/index.m3u8',3,'2024-09-30 15:46:09','2024-09-30 15:46:09',1),
 	 ('Tài Nữ Nhà Ta Trưởng Thành Rồi - A Talented Girl Grows Up - 2024 - 1080p - Vietsub - Tập 17','Tập 17','tap-17','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240929/Vmvuw6Em/index.m3u8',17,'2024-09-30 15:46:09','2024-09-30 15:46:09',1),
 	 ('Lưu Thủy Điều Điều - Love Of Nirvana - 2024 - 1080p - Vietsub - Tập 04','Tập 04','tap-04','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240915/OOcZX5QK/index.m3u8',4,'2024-09-30 15:46:09','2024-09-30 15:46:09',1),
@@ -1632,7 +1684,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Tài Nữ Nhà Ta Trưởng Thành Rồi - A Talented Girl Grows Up - 2024 - 1080p - Vietsub - Tập 20','Tập 20','tap-20','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240929/tfCWY70f/index.m3u8',20,'2024-09-30 15:46:09','2024-09-30 15:46:09',1),
 	 ('Lưu Thủy Điều Điều - Love Of Nirvana - 2024 - 1080p - Vietsub - Tập 07','Tập 07','tap-07','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240919/ISIEzvII/index.m3u8',7,'2024-09-30 15:46:09','2024-09-30 15:46:09',1),
 	 ('Tài Nữ Nhà Ta Trưởng Thành Rồi - A Talented Girl Grows Up - 2024 - 1080p - Vietsub - Tập 21','Tập 21','tap-21','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240930/6hFh6h3D/index.m3u8',21,'2024-09-30 15:46:09','2024-09-30 15:46:09',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Lưu Thủy Điều Điều - Love Of Nirvana - 2024 - 1080p - Vietsub - Tập 08','Tập 08','tap-08','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240919/XBUiCdv8/index.m3u8',8,'2024-09-30 15:46:09','2024-09-30 15:46:09',1),
 	 ('Tài Nữ Nhà Ta Trưởng Thành Rồi - A Talented Girl Grows Up - 2024 - 1080p - Vietsub - Tập 22','Tập 22','tap-22','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240930/09AeAg3V/index.m3u8',22,'2024-09-30 15:46:09','2024-09-30 15:46:09',1),
 	 ('Lưu Thủy Điều Điều - Love Of Nirvana - 2024 - 1080p - Vietsub - Tập 09','Tập 09','tap-09','https://player.phimapi.com/player/?url=https://s4.phim1280.tv/20240919/XWAo5wF1/index.m3u8',9,'2024-09-30 15:46:09','2024-09-30 15:46:09',1),
@@ -1643,7 +1695,7 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Lưu Thủy Điều Điều - Love Of Nirvana - 2024 - 1080p - Vietsub - Tập 14','Tập 14','tap-14','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240925/vhUKldGy/index.m3u8',14,'2024-09-30 15:46:09','2024-09-30 15:46:09',1),
 	 ('Lưu Thủy Điều Điều - Love Of Nirvana - 2024 - 1080p - Vietsub - Tập 15','Tập 15','tap-15','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240925/NJH7U5sd/index.m3u8',15,'2024-09-30 15:46:09','2024-09-30 15:46:09',1),
 	 ('Lưu Thủy Điều Điều - Love Of Nirvana - 2024 - 1080p - Vietsub - Tập 16','Tập 16','tap-16','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240925/4iXe45pU/index.m3u8',16,'2024-09-30 15:46:09','2024-09-30 15:46:09',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Lưu Thủy Điều Điều - Love Of Nirvana - 2024 - 1080p - Vietsub - Tập 17','Tập 17','tap-17','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240925/Md2n7g5l/index.m3u8',17,'2024-09-30 15:46:09','2024-09-30 15:46:09',1),
 	 ('Lưu Thủy Điều Điều - Love Of Nirvana - 2024 - 1080p - Vietsub - Tập 18','Tập 18','tap-18','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240925/QzFmjxxt/index.m3u8',18,'2024-09-30 15:46:09','2024-09-30 15:46:09',1),
 	 ('Lưu Thủy Điều Điều - Love Of Nirvana - 2024 - 1080p - Vietsub - Tập 19','Tập 19','tap-19','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240925/AeolZHFt/index.m3u8',19,'2024-09-30 15:46:09','2024-09-30 15:46:09',1),
@@ -1654,13 +1706,13 @@ INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,c
 	 ('Lưu Thủy Điều Điều - Love Of Nirvana - 2024 - 1080p - Vietsub - Tập 24','Tập 24','tap-24','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240929/OFTZWggC/index.m3u8',24,'2024-09-30 15:46:09','2024-09-30 15:46:09',1),
 	 ('Lưu Thủy Điều Điều - Love Of Nirvana - 2024 - 1080p - Vietsub - Tập 25','Tập 25','tap-25','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240929/LsOCwnyi/index.m3u8',25,'2024-09-30 15:46:09','2024-09-30 15:46:09',1),
 	 ('Lưu Thủy Điều Điều - Love Of Nirvana - 2024 - 1080p - Vietsub - Tập 26','Tập 26','tap-26','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240929/3zhGGdT6/index.m3u8',26,'2024-09-30 15:46:09','2024-09-30 15:46:09',1);
-INSERT INTO movie_schema.episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
+INSERT INTO episodes (ep_title,ep_name,ep_slug,ep_link,sort_order,createdAt,updatedAt,status) VALUES
 	 ('Lưu Thủy Điều Điều - Love Of Nirvana - 2024 - 1080p - Vietsub - Tập 27','Tập 27','tap-27','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240929/uGkKDk0L/index.m3u8',27,'2024-09-30 15:46:09','2024-09-30 15:46:09',1),
 	 ('Lưu Thủy Điều Điều - Love Of Nirvana - 2024 - 1080p - Vietsub - Tập 28','Tập 28','tap-28','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240929/yjm6RsRG/index.m3u8',28,'2024-09-30 15:46:09','2024-09-30 15:46:09',1),
 	 ('Lưu Thủy Điều Điều - Love Of Nirvana - 2024 - 1080p - Vietsub - Tập 29','Tập 29','tap-29','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240930/8fI1nR9T/index.m3u8',29,'2024-09-30 15:46:09','2024-09-30 15:46:09',1),
 	 ('Lưu Thủy Điều Điều - Love Of Nirvana - 2024 - 1080p - Vietsub - Tập 30','Tập 30','tap-30','https://player.phimapi.com/player/?url=https://s5.phim1280.tv/20240930/TrGIHQR4/index.m3u8',30,'2024-09-30 15:46:09','2024-09-30 15:46:09',1);
 
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (1,1,'2024-09-30 15:27:18','2024-09-30 15:27:18'),
 	 (1,2,'2024-09-30 15:27:18','2024-09-30 15:27:18'),
 	 (1,3,'2024-09-30 15:27:18','2024-09-30 15:27:18'),
@@ -1671,7 +1723,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (1,8,'2024-09-30 15:27:18','2024-09-30 15:27:18'),
 	 (1,9,'2024-09-30 15:27:18','2024-09-30 15:27:18'),
 	 (1,10,'2024-09-30 15:27:18','2024-09-30 15:27:18');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (1,11,'2024-09-30 15:27:18','2024-09-30 15:27:18'),
 	 (1,12,'2024-09-30 15:27:18','2024-09-30 15:27:18'),
 	 (1,13,'2024-09-30 15:27:18','2024-09-30 15:27:18'),
@@ -1682,7 +1734,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (6,18,'2024-09-30 15:31:07','2024-09-30 15:31:07'),
 	 (7,19,'2024-09-30 15:31:07','2024-09-30 15:31:07'),
 	 (8,20,'2024-09-30 15:31:07','2024-09-30 15:31:07');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (9,21,'2024-09-30 15:31:07','2024-09-30 15:31:07'),
 	 (10,22,'2024-09-30 15:31:07','2024-09-30 15:31:07'),
 	 (11,23,'2024-09-30 15:31:07','2024-09-30 15:31:07'),
@@ -1693,7 +1745,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (12,28,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (12,29,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (13,31,'2024-09-30 15:31:24','2024-09-30 15:31:24');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (13,32,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (13,34,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (14,30,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
@@ -1704,7 +1756,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (13,38,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (14,35,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (17,61,'2024-09-30 15:31:24','2024-09-30 15:31:24');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (15,47,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (14,36,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (13,39,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
@@ -1715,7 +1767,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (17,71,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (18,70,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (16,57,'2024-09-30 15:31:24','2024-09-30 15:31:24');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (15,58,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (14,49,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (13,42,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
@@ -1726,7 +1778,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (14,55,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (13,43,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (17,75,'2024-09-30 15:31:24','2024-09-30 15:31:24');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (17,76,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (18,81,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (16,62,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
@@ -1737,7 +1789,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (19,86,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (17,77,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (16,64,'2024-09-30 15:31:24','2024-09-30 15:31:24');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (18,82,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (15,65,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (13,48,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
@@ -1748,7 +1800,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (13,50,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (19,88,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (16,67,'2024-09-30 15:31:24','2024-09-30 15:31:24');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (18,84,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (13,51,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (19,89,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
@@ -1759,7 +1811,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (16,72,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (13,53,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (19,91,'2024-09-30 15:31:24','2024-09-30 15:31:24');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (16,74,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (19,92,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (19,93,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
@@ -1770,7 +1822,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (20,98,'2024-09-30 15:31:25','2024-09-30 15:31:25'),
 	 (20,99,'2024-09-30 15:31:25','2024-09-30 15:31:25'),
 	 (20,100,'2024-09-30 15:31:25','2024-09-30 15:31:25');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (20,101,'2024-09-30 15:31:25','2024-09-30 15:31:25'),
 	 (20,102,'2024-09-30 15:31:25','2024-09-30 15:31:25'),
 	 (20,103,'2024-09-30 15:31:25','2024-09-30 15:31:25'),
@@ -1781,7 +1833,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (20,106,'2024-09-30 15:31:25','2024-09-30 15:31:25'),
 	 (20,107,'2024-09-30 15:31:25','2024-09-30 15:31:25'),
 	 (21,113,'2024-09-30 15:31:25','2024-09-30 15:31:25');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (20,108,'2024-09-30 15:31:25','2024-09-30 15:31:25'),
 	 (21,114,'2024-09-30 15:31:25','2024-09-30 15:31:25'),
 	 (20,109,'2024-09-30 15:31:25','2024-09-30 15:31:25'),
@@ -1792,7 +1844,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (21,118,'2024-09-30 15:31:25','2024-09-30 15:31:25'),
 	 (21,119,'2024-09-30 15:31:25','2024-09-30 15:31:25'),
 	 (21,120,'2024-09-30 15:31:25','2024-09-30 15:31:25');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (21,121,'2024-09-30 15:31:25','2024-09-30 15:31:25'),
 	 (21,122,'2024-09-30 15:31:25','2024-09-30 15:31:25'),
 	 (21,123,'2024-09-30 15:31:25','2024-09-30 15:31:25'),
@@ -1803,7 +1855,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (21,128,'2024-09-30 15:31:25','2024-09-30 15:31:25'),
 	 (21,129,'2024-09-30 15:31:25','2024-09-30 15:31:25'),
 	 (21,130,'2024-09-30 15:31:25','2024-09-30 15:31:25');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (21,131,'2024-09-30 15:31:25','2024-09-30 15:31:25'),
 	 (21,132,'2024-09-30 15:31:25','2024-09-30 15:31:25'),
 	 (21,133,'2024-09-30 15:31:25','2024-09-30 15:31:25'),
@@ -1814,7 +1866,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (21,138,'2024-09-30 15:31:25','2024-09-30 15:31:25'),
 	 (21,139,'2024-09-30 15:31:25','2024-09-30 15:31:25'),
 	 (21,140,'2024-09-30 15:31:25','2024-09-30 15:31:25');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (21,141,'2024-09-30 15:31:25','2024-09-30 15:31:25'),
 	 (23,145,'2024-09-30 15:31:27','2024-09-30 15:31:27'),
 	 (23,146,'2024-09-30 15:31:27','2024-09-30 15:31:27'),
@@ -1825,7 +1877,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (25,164,'2024-09-30 15:31:27','2024-09-30 15:31:27'),
 	 (23,151,'2024-09-30 15:31:27','2024-09-30 15:31:27'),
 	 (25,165,'2024-09-30 15:31:27','2024-09-30 15:31:27');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (23,154,'2024-09-30 15:31:27','2024-09-30 15:31:27'),
 	 (24,155,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (24,156,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
@@ -1836,7 +1888,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (27,175,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (24,166,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (22,144,'2024-09-30 15:31:28','2024-09-30 15:31:28');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (27,177,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (24,172,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (22,148,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
@@ -1847,7 +1899,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (27,184,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (22,153,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (27,186,'2024-09-30 15:31:28','2024-09-30 15:31:28');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (22,157,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (27,188,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (22,159,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
@@ -1858,7 +1910,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (29,233,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (22,167,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (22,169,'2024-09-30 15:31:28','2024-09-30 15:31:28');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (22,173,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (28,194,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (28,195,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
@@ -1869,7 +1921,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (28,202,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (28,203,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (28,204,'2024-09-30 15:31:28','2024-09-30 15:31:28');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (28,205,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (28,206,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (28,207,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
@@ -1880,7 +1932,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (28,223,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (26,168,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (28,225,'2024-09-30 15:31:28','2024-09-30 15:31:28');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (30,234,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (26,170,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (28,227,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
@@ -1891,7 +1943,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (26,176,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (30,237,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (30,238,'2024-09-30 15:31:28','2024-09-30 15:31:28');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (26,178,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (30,239,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (26,180,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
@@ -1902,7 +1954,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (26,182,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (26,185,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (30,243,'2024-09-30 15:31:28','2024-09-30 15:31:28');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (26,187,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (30,244,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (26,189,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
@@ -1913,7 +1965,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (26,193,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (30,247,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (26,196,'2024-09-30 15:31:28','2024-09-30 15:31:28');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (30,248,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (26,198,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (30,249,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
@@ -1924,7 +1976,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (31,250,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (26,215,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (31,251,'2024-09-30 15:31:28','2024-09-30 15:31:28');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (26,216,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (26,217,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (26,218,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
@@ -1935,7 +1987,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (26,226,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (26,228,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (26,229,'2024-09-30 15:31:28','2024-09-30 15:31:28');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (26,230,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (32,252,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (32,253,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
@@ -1946,7 +1998,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (34,258,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (34,261,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (32,266,'2024-09-30 15:31:32','2024-09-30 15:31:32');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (34,264,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (32,269,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (34,268,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
@@ -1957,7 +2009,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (34,272,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (34,277,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (34,283,'2024-09-30 15:31:32','2024-09-30 15:31:32');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (34,287,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (37,313,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (37,315,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
@@ -1968,7 +2020,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (37,320,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (37,327,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (37,332,'2024-09-30 15:31:32','2024-09-30 15:31:32');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (37,334,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (37,339,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (37,341,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
@@ -1979,7 +2031,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (35,285,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (38,360,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (35,288,'2024-09-30 15:31:32','2024-09-30 15:31:32');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (38,361,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (35,289,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (38,364,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
@@ -1990,7 +2042,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (38,371,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (36,302,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (38,375,'2024-09-30 15:31:32','2024-09-30 15:31:32');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (35,292,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (36,307,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (35,293,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
@@ -2001,7 +2053,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (38,382,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (35,297,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (36,325,'2024-09-30 15:31:32','2024-09-30 15:31:32');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (38,386,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (35,300,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (36,329,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
@@ -2012,7 +2064,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (36,335,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (35,306,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (36,336,'2024-09-30 15:31:32','2024-09-30 15:31:32');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (35,309,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (36,344,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (36,347,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
@@ -2023,7 +2075,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (36,357,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (35,328,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (36,359,'2024-09-30 15:31:32','2024-09-30 15:31:32');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (36,363,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (35,330,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (35,337,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
@@ -2034,7 +2086,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (35,348,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (35,350,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (36,377,'2024-09-30 15:31:33','2024-09-30 15:31:33');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (36,381,'2024-09-30 15:31:33','2024-09-30 15:31:33'),
 	 (35,355,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (36,385,'2024-09-30 15:31:33','2024-09-30 15:31:33'),
@@ -2045,7 +2097,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (39,392,'2024-09-30 15:31:33','2024-09-30 15:31:33'),
 	 (39,394,'2024-09-30 15:31:33','2024-09-30 15:31:33'),
 	 (39,396,'2024-09-30 15:31:33','2024-09-30 15:31:33');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (39,398,'2024-09-30 15:31:33','2024-09-30 15:31:33'),
 	 (39,399,'2024-09-30 15:31:33','2024-09-30 15:31:33'),
 	 (39,400,'2024-09-30 15:31:33','2024-09-30 15:31:33'),
@@ -2056,7 +2108,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (39,415,'2024-09-30 15:31:33','2024-09-30 15:31:33'),
 	 (39,418,'2024-09-30 15:31:33','2024-09-30 15:31:33'),
 	 (39,421,'2024-09-30 15:31:34','2024-09-30 15:31:34');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (39,424,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (39,427,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (39,428,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
@@ -2067,7 +2119,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (39,440,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (39,443,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (39,445,'2024-09-30 15:31:34','2024-09-30 15:31:34');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (39,449,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (39,451,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (39,452,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
@@ -2078,7 +2130,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (39,469,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (39,470,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (39,471,'2024-09-30 15:31:34','2024-09-30 15:31:34');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (39,476,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (39,479,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (39,482,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
@@ -2089,7 +2141,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (39,498,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (39,501,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (39,504,'2024-09-30 15:31:34','2024-09-30 15:31:34');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (39,508,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,404,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,407,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
@@ -2100,7 +2152,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (39,517,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,414,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (39,520,'2024-09-30 15:31:34','2024-09-30 15:31:34');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (39,522,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,417,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (39,523,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
@@ -2111,7 +2163,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (39,531,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,430,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (39,534,'2024-09-30 15:31:34','2024-09-30 15:31:34');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (39,536,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,435,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (39,537,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
@@ -2122,7 +2174,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (39,544,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,447,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (39,548,'2024-09-30 15:31:34','2024-09-30 15:31:34');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (40,448,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (39,551,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (39,554,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
@@ -2133,7 +2185,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (39,560,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,462,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (39,565,'2024-09-30 15:31:34','2024-09-30 15:31:34');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (40,463,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (39,568,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,468,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
@@ -2144,7 +2196,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (39,576,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,480,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (39,579,'2024-09-30 15:31:34','2024-09-30 15:31:34');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (39,582,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,483,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (39,586,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
@@ -2155,7 +2207,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (40,490,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (39,597,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,493,'2024-09-30 15:31:34','2024-09-30 15:31:34');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (39,601,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,496,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,500,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
@@ -2166,7 +2218,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (39,612,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,507,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (39,614,'2024-09-30 15:31:34','2024-09-30 15:31:34');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (40,511,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (39,617,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,515,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
@@ -2177,7 +2229,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (40,521,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (39,630,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,525,'2024-09-30 15:31:34','2024-09-30 15:31:34');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (39,633,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,526,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,527,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
@@ -2188,7 +2240,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (39,642,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,533,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (33,256,'2024-09-30 15:31:34','2024-09-30 15:31:34');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (39,645,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,538,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (33,259,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
@@ -2199,7 +2251,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (40,545,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (33,265,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,547,'2024-09-30 15:31:34','2024-09-30 15:31:34');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (39,652,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (33,267,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,550,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
@@ -2210,7 +2262,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (33,275,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,556,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (39,662,'2024-09-30 15:31:34','2024-09-30 15:31:34');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (40,559,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (33,278,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (39,665,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
@@ -2221,7 +2273,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (33,280,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (39,671,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,569,'2024-09-30 15:31:34','2024-09-30 15:31:34');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (33,281,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (39,673,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,572,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
@@ -2232,7 +2284,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (33,286,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,578,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (39,683,'2024-09-30 15:31:34','2024-09-30 15:31:34');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (33,294,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (39,686,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,581,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
@@ -2243,7 +2295,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (39,692,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (33,301,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,588,'2024-09-30 15:31:34','2024-09-30 15:31:34');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (39,696,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (33,304,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,590,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
@@ -2254,7 +2306,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (33,310,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,596,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (39,703,'2024-09-30 15:31:34','2024-09-30 15:31:34');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (33,314,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (39,705,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,600,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
@@ -2265,7 +2317,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (40,608,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (39,715,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (33,331,'2024-09-30 15:31:34','2024-09-30 15:31:34');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (40,611,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (39,717,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (39,720,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
@@ -2276,7 +2328,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (33,340,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,621,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (39,729,'2024-09-30 15:31:34','2024-09-30 15:31:34');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (33,342,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,624,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (33,343,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
@@ -2287,7 +2339,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (40,628,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (33,349,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (39,737,'2024-09-30 15:31:34','2024-09-30 15:31:34');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (40,631,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (33,351,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (39,742,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
@@ -2298,7 +2350,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (33,362,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (39,746,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,640,'2024-09-30 15:31:34','2024-09-30 15:31:34');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (33,365,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (39,750,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,643,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
@@ -2309,7 +2361,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (39,752,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,650,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (33,372,'2024-09-30 15:31:34','2024-09-30 15:31:34');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (33,373,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (39,763,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,653,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
@@ -2320,7 +2372,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (40,657,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (39,768,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (33,384,'2024-09-30 15:31:34','2024-09-30 15:31:34');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (40,660,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (39,771,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,663,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
@@ -2331,7 +2383,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (39,776,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (33,393,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,669,'2024-09-30 15:31:34','2024-09-30 15:31:34');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (39,778,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (33,395,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,672,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
@@ -2342,7 +2394,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (33,401,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,676,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (39,789,'2024-09-30 15:31:34','2024-09-30 15:31:34');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (33,403,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,681,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (33,406,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
@@ -2353,7 +2405,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (40,690,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (33,416,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,693,'2024-09-30 15:31:34','2024-09-30 15:31:34');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (33,419,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,694,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,697,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
@@ -2364,7 +2416,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (33,429,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (33,432,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,704,'2024-09-30 15:31:34','2024-09-30 15:31:34');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (40,706,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (33,436,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (33,439,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
@@ -2375,7 +2427,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (40,713,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (33,450,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,714,'2024-09-30 15:31:34','2024-09-30 15:31:34');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (33,454,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,719,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (33,457,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
@@ -2386,7 +2438,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (40,726,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (33,466,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,727,'2024-09-30 15:31:34','2024-09-30 15:31:34');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (33,467,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,728,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (33,472,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
@@ -2397,7 +2449,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (33,478,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,739,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (33,481,'2024-09-30 15:31:34','2024-09-30 15:31:34');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (40,740,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (33,485,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,741,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
@@ -2408,7 +2460,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (40,748,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (33,494,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (33,497,'2024-09-30 15:31:34','2024-09-30 15:31:34');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (40,753,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,755,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (33,499,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
@@ -2419,7 +2471,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (33,509,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,761,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,762,'2024-09-30 15:31:34','2024-09-30 15:31:34');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (33,512,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (33,513,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,767,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
@@ -2430,7 +2482,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (33,524,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,779,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (33,529,'2024-09-30 15:31:34','2024-09-30 15:31:34');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (40,781,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (33,532,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,782,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
@@ -2441,7 +2493,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (33,540,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,790,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,791,'2024-09-30 15:31:35','2024-09-30 15:31:35');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (33,543,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (33,546,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,792,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
@@ -2452,7 +2504,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (33,555,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,797,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (33,558,'2024-09-30 15:31:34','2024-09-30 15:31:34');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (40,798,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (40,800,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (33,561,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
@@ -2463,7 +2515,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (33,567,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,803,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (33,570,'2024-09-30 15:31:34','2024-09-30 15:31:34');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (40,805,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (33,574,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,806,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
@@ -2474,7 +2526,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (40,809,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (33,583,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (33,584,'2024-09-30 15:31:34','2024-09-30 15:31:34');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (40,810,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (40,813,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (33,587,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
@@ -2485,7 +2537,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (33,595,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,827,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (40,829,'2024-09-30 15:31:35','2024-09-30 15:31:35');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (33,598,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,831,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (33,599,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
@@ -2496,7 +2548,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (33,606,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,837,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (33,607,'2024-09-30 15:31:34','2024-09-30 15:31:34');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (40,839,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (33,610,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,841,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
@@ -2507,7 +2559,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (33,619,'2024-09-30 15:31:34','2024-09-30 15:31:34'),
 	 (40,847,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (33,622,'2024-09-30 15:31:35','2024-09-30 15:31:35');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (40,849,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (33,625,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (40,851,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
@@ -2518,7 +2570,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (33,635,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (40,861,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (33,638,'2024-09-30 15:31:35','2024-09-30 15:31:35');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (40,863,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (33,641,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (40,865,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
@@ -2529,7 +2581,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (40,868,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (33,655,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (40,869,'2024-09-30 15:31:35','2024-09-30 15:31:35');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (33,658,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (40,872,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (33,661,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
@@ -2540,7 +2592,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (33,667,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (33,670,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (40,881,'2024-09-30 15:31:35','2024-09-30 15:31:35');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (40,884,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (33,674,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (33,678,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
@@ -2551,7 +2603,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (33,688,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (33,691,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (33,695,'2024-09-30 15:31:35','2024-09-30 15:31:35');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (33,698,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (33,707,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (33,710,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
@@ -2562,7 +2614,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (33,724,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (33,730,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (33,731,'2024-09-30 15:31:35','2024-09-30 15:31:35');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (33,732,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (33,738,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (33,743,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
@@ -2573,7 +2625,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (33,760,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (33,764,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (33,766,'2024-09-30 15:31:35','2024-09-30 15:31:35');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (33,770,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (33,773,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (33,775,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
@@ -2584,7 +2636,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (33,794,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (33,795,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (33,799,'2024-09-30 15:31:35','2024-09-30 15:31:35');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (33,804,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (33,811,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (33,812,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
@@ -2595,7 +2647,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (33,819,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (33,820,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (33,821,'2024-09-30 15:31:35','2024-09-30 15:31:35');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (33,822,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (33,823,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (33,824,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
@@ -2606,7 +2658,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (33,834,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (33,836,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (33,838,'2024-09-30 15:31:35','2024-09-30 15:31:35');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (33,840,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (33,842,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (33,844,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
@@ -2617,7 +2669,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (33,853,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (33,854,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (33,855,'2024-09-30 15:31:35','2024-09-30 15:31:35');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (33,856,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (33,858,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (33,860,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
@@ -2628,7 +2680,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (33,871,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (33,873,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (33,875,'2024-09-30 15:31:35','2024-09-30 15:31:35');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (33,877,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (33,878,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (33,880,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
@@ -2639,7 +2691,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (33,888,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (33,889,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (33,890,'2024-09-30 15:31:35','2024-09-30 15:31:35');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (33,891,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (33,892,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (33,893,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
@@ -2650,7 +2702,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (33,898,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (33,899,'2024-09-30 15:31:35','2024-09-30 15:31:35'),
 	 (41,900,'2024-09-30 15:46:09','2024-09-30 15:46:09');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (41,901,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
 	 (41,902,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
 	 (41,903,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
@@ -2661,7 +2713,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (41,906,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
 	 (44,929,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
 	 (41,907,'2024-09-30 15:46:09','2024-09-30 15:46:09');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (44,932,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
 	 (41,908,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
 	 (41,909,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
@@ -2672,7 +2724,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (41,911,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
 	 (44,938,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
 	 (41,913,'2024-09-30 15:46:09','2024-09-30 15:46:09');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (43,918,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
 	 (43,920,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
 	 (41,915,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
@@ -2683,7 +2735,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (43,934,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
 	 (43,939,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
 	 (43,941,'2024-09-30 15:46:09','2024-09-30 15:46:09');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (42,904,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
 	 (43,945,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
 	 (42,912,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
@@ -2694,7 +2746,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (42,922,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
 	 (42,924,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
 	 (42,925,'2024-09-30 15:46:09','2024-09-30 15:46:09');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (45,943,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
 	 (42,930,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
 	 (45,948,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
@@ -2705,7 +2757,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (42,942,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
 	 (45,955,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
 	 (42,944,'2024-09-30 15:46:09','2024-09-30 15:46:09');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (45,956,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
 	 (42,946,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
 	 (45,959,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
@@ -2716,7 +2768,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (45,964,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
 	 (42,952,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
 	 (45,965,'2024-09-30 15:46:09','2024-09-30 15:46:09');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (42,954,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
 	 (45,966,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
 	 (42,957,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
@@ -2727,7 +2779,7 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (45,969,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
 	 (42,962,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
 	 (45,970,'2024-09-30 15:46:09','2024-09-30 15:46:09');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (45,971,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
 	 (45,972,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
 	 (45,973,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
@@ -2738,13 +2790,13 @@ INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (45,978,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
 	 (45,979,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
 	 (45,980,'2024-09-30 15:46:09','2024-09-30 15:46:09');
-INSERT INTO movie_schema.episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
+INSERT INTO episode_movie (mov_id,ep_id,createdAt,updatedAt) VALUES
 	 (45,981,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
 	 (45,982,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
 	 (45,983,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
 	 (45,984,'2024-09-30 15:46:09','2024-09-30 15:46:09');
 
-INSERT INTO movie_schema.category_movie (mov_id,cat_id,createdAt,updatedAt) VALUES
+INSERT INTO category_movie (mov_id,cat_id,createdAt,updatedAt) VALUES
 	 (1,22,'2024-09-30 15:27:17','2024-09-30 15:27:17'),
 	 (2,6,'2024-09-30 15:31:06','2024-09-30 15:31:06'),
 	 (2,5,'2024-09-30 15:31:06','2024-09-30 15:31:06'),
@@ -2755,7 +2807,7 @@ INSERT INTO movie_schema.category_movie (mov_id,cat_id,createdAt,updatedAt) VALU
 	 (5,6,'2024-09-30 15:31:06','2024-09-30 15:31:06'),
 	 (5,2,'2024-09-30 15:31:06','2024-09-30 15:31:06'),
 	 (6,3,'2024-09-30 15:31:06','2024-09-30 15:31:06');
-INSERT INTO movie_schema.category_movie (mov_id,cat_id,createdAt,updatedAt) VALUES
+INSERT INTO category_movie (mov_id,cat_id,createdAt,updatedAt) VALUES
 	 (6,13,'2024-09-30 15:31:06','2024-09-30 15:31:06'),
 	 (6,2,'2024-09-30 15:31:06','2024-09-30 15:31:06'),
 	 (6,6,'2024-09-30 15:31:06','2024-09-30 15:31:06'),
@@ -2766,7 +2818,7 @@ INSERT INTO movie_schema.category_movie (mov_id,cat_id,createdAt,updatedAt) VALU
 	 (8,10,'2024-09-30 15:31:06','2024-09-30 15:31:06'),
 	 (8,4,'2024-09-30 15:31:06','2024-09-30 15:31:06'),
 	 (9,10,'2024-09-30 15:31:07','2024-09-30 15:31:07');
-INSERT INTO movie_schema.category_movie (mov_id,cat_id,createdAt,updatedAt) VALUES
+INSERT INTO category_movie (mov_id,cat_id,createdAt,updatedAt) VALUES
 	 (9,6,'2024-09-30 15:31:07','2024-09-30 15:31:07'),
 	 (9,2,'2024-09-30 15:31:07','2024-09-30 15:31:07'),
 	 (10,1,'2024-09-30 15:31:07','2024-09-30 15:31:07'),
@@ -2777,7 +2829,7 @@ INSERT INTO movie_schema.category_movie (mov_id,cat_id,createdAt,updatedAt) VALU
 	 (11,2,'2024-09-30 15:31:07','2024-09-30 15:31:07'),
 	 (11,10,'2024-09-30 15:31:07','2024-09-30 15:31:07'),
 	 (12,17,'2024-09-30 15:31:23','2024-09-30 15:31:23');
-INSERT INTO movie_schema.category_movie (mov_id,cat_id,createdAt,updatedAt) VALUES
+INSERT INTO category_movie (mov_id,cat_id,createdAt,updatedAt) VALUES
 	 (13,22,'2024-09-30 15:31:23','2024-09-30 15:31:23'),
 	 (14,18,'2024-09-30 15:31:23','2024-09-30 15:31:23'),
 	 (14,4,'2024-09-30 15:31:23','2024-09-30 15:31:23'),
@@ -2788,7 +2840,7 @@ INSERT INTO movie_schema.category_movie (mov_id,cat_id,createdAt,updatedAt) VALU
 	 (15,13,'2024-09-30 15:31:23','2024-09-30 15:31:23'),
 	 (15,20,'2024-09-30 15:31:23','2024-09-30 15:31:23'),
 	 (16,6,'2024-09-30 15:31:24','2024-09-30 15:31:24');
-INSERT INTO movie_schema.category_movie (mov_id,cat_id,createdAt,updatedAt) VALUES
+INSERT INTO category_movie (mov_id,cat_id,createdAt,updatedAt) VALUES
 	 (16,13,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (17,6,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (17,13,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
@@ -2799,7 +2851,7 @@ INSERT INTO movie_schema.category_movie (mov_id,cat_id,createdAt,updatedAt) VALU
 	 (20,3,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (20,22,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (21,6,'2024-09-30 15:31:24','2024-09-30 15:31:24');
-INSERT INTO movie_schema.category_movie (mov_id,cat_id,createdAt,updatedAt) VALUES
+INSERT INTO category_movie (mov_id,cat_id,createdAt,updatedAt) VALUES
 	 (21,22,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (22,19,'2024-09-30 15:31:27','2024-09-30 15:31:27'),
 	 (23,17,'2024-09-30 15:31:27','2024-09-30 15:31:27'),
@@ -2810,7 +2862,7 @@ INSERT INTO movie_schema.category_movie (mov_id,cat_id,createdAt,updatedAt) VALU
 	 (27,22,'2024-09-30 15:31:27','2024-09-30 15:31:27'),
 	 (28,19,'2024-09-30 15:31:27','2024-09-30 15:31:27'),
 	 (29,13,'2024-09-30 15:31:28','2024-09-30 15:31:28');
-INSERT INTO movie_schema.category_movie (mov_id,cat_id,createdAt,updatedAt) VALUES
+INSERT INTO category_movie (mov_id,cat_id,createdAt,updatedAt) VALUES
 	 (29,19,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (30,22,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (30,6,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
@@ -2821,7 +2873,7 @@ INSERT INTO movie_schema.category_movie (mov_id,cat_id,createdAt,updatedAt) VALU
 	 (33,9,'2024-09-30 15:31:31','2024-09-30 15:31:31'),
 	 (34,9,'2024-09-30 15:31:31','2024-09-30 15:31:31'),
 	 (34,19,'2024-09-30 15:31:31','2024-09-30 15:31:31');
-INSERT INTO movie_schema.category_movie (mov_id,cat_id,createdAt,updatedAt) VALUES
+INSERT INTO category_movie (mov_id,cat_id,createdAt,updatedAt) VALUES
 	 (34,2,'2024-09-30 15:31:31','2024-09-30 15:31:31'),
 	 (35,1,'2024-09-30 15:31:31','2024-09-30 15:31:31'),
 	 (35,22,'2024-09-30 15:31:31','2024-09-30 15:31:31'),
@@ -2832,7 +2884,7 @@ INSERT INTO movie_schema.category_movie (mov_id,cat_id,createdAt,updatedAt) VALU
 	 (37,6,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (38,6,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (39,7,'2024-09-30 15:31:32','2024-09-30 15:31:32');
-INSERT INTO movie_schema.category_movie (mov_id,cat_id,createdAt,updatedAt) VALUES
+INSERT INTO category_movie (mov_id,cat_id,createdAt,updatedAt) VALUES
 	 (39,2,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (39,19,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (40,19,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
@@ -2843,7 +2895,7 @@ INSERT INTO movie_schema.category_movie (mov_id,cat_id,createdAt,updatedAt) VALU
 	 (41,4,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
 	 (42,22,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
 	 (42,9,'2024-09-30 15:46:09','2024-09-30 15:46:09');
-INSERT INTO movie_schema.category_movie (mov_id,cat_id,createdAt,updatedAt) VALUES
+INSERT INTO category_movie (mov_id,cat_id,createdAt,updatedAt) VALUES
 	 (43,22,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
 	 (43,1,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
 	 (43,19,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
@@ -2852,7 +2904,7 @@ INSERT INTO movie_schema.category_movie (mov_id,cat_id,createdAt,updatedAt) VALU
 	 (45,22,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
 	 (45,9,'2024-09-30 15:46:09','2024-09-30 15:46:09');
 
-INSERT INTO movie_schema.country_movie (mov_id,ctr_id,createdAt,updatedAt) VALUES
+INSERT INTO country_movie (mov_id,ctr_id,createdAt,updatedAt) VALUES
 	 (1,9,'2024-09-30 15:27:17','2024-09-30 15:27:17'),
 	 (2,24,'2024-09-30 15:31:06','2024-09-30 15:31:06'),
 	 (3,5,'2024-09-30 15:31:06','2024-09-30 15:31:06'),
@@ -2863,7 +2915,7 @@ INSERT INTO movie_schema.country_movie (mov_id,ctr_id,createdAt,updatedAt) VALUE
 	 (8,17,'2024-09-30 15:31:07','2024-09-30 15:31:07'),
 	 (9,25,'2024-09-30 15:31:07','2024-09-30 15:31:07'),
 	 (10,17,'2024-09-30 15:31:07','2024-09-30 15:31:07');
-INSERT INTO movie_schema.country_movie (mov_id,ctr_id,createdAt,updatedAt) VALUES
+INSERT INTO country_movie (mov_id,ctr_id,createdAt,updatedAt) VALUES
 	 (10,2,'2024-09-30 15:31:07','2024-09-30 15:31:07'),
 	 (11,25,'2024-09-30 15:31:07','2024-09-30 15:31:07'),
 	 (12,14,'2024-09-30 15:31:23','2024-09-30 15:31:23'),
@@ -2874,7 +2926,7 @@ INSERT INTO movie_schema.country_movie (mov_id,ctr_id,createdAt,updatedAt) VALUE
 	 (17,17,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (18,17,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (19,17,'2024-09-30 15:31:24','2024-09-30 15:31:24');
-INSERT INTO movie_schema.country_movie (mov_id,ctr_id,createdAt,updatedAt) VALUES
+INSERT INTO country_movie (mov_id,ctr_id,createdAt,updatedAt) VALUES
 	 (20,5,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (21,1,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (22,33,'2024-09-30 15:31:27','2024-09-30 15:31:27'),
@@ -2885,7 +2937,7 @@ INSERT INTO movie_schema.country_movie (mov_id,ctr_id,createdAt,updatedAt) VALUE
 	 (27,36,'2024-09-30 15:31:27','2024-09-30 15:31:27'),
 	 (27,27,'2024-09-30 15:31:27','2024-09-30 15:31:27'),
 	 (28,1,'2024-09-30 15:31:27','2024-09-30 15:31:27');
-INSERT INTO movie_schema.country_movie (mov_id,ctr_id,createdAt,updatedAt) VALUES
+INSERT INTO country_movie (mov_id,ctr_id,createdAt,updatedAt) VALUES
 	 (29,5,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (30,5,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (31,5,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
@@ -2896,7 +2948,7 @@ INSERT INTO movie_schema.country_movie (mov_id,ctr_id,createdAt,updatedAt) VALUE
 	 (36,9,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (37,9,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (38,9,'2024-09-30 15:31:32','2024-09-30 15:31:32');
-INSERT INTO movie_schema.country_movie (mov_id,ctr_id,createdAt,updatedAt) VALUES
+INSERT INTO country_movie (mov_id,ctr_id,createdAt,updatedAt) VALUES
 	 (39,1,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (40,1,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (41,1,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
@@ -2905,7 +2957,7 @@ INSERT INTO movie_schema.country_movie (mov_id,ctr_id,createdAt,updatedAt) VALUE
 	 (44,1,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
 	 (45,1,'2024-09-30 15:46:09','2024-09-30 15:46:09');
 
-INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
+INSERT INTO actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (1,1,'2024-09-30 15:27:17','2024-09-30 15:27:17'),
 	 (1,2,'2024-09-30 15:27:17','2024-09-30 15:27:17'),
 	 (1,3,'2024-09-30 15:27:17','2024-09-30 15:27:17'),
@@ -2916,7 +2968,7 @@ INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (2,8,'2024-09-30 15:31:06','2024-09-30 15:31:06'),
 	 (3,10,'2024-09-30 15:31:06','2024-09-30 15:31:06'),
 	 (3,12,'2024-09-30 15:31:06','2024-09-30 15:31:06');
-INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
+INSERT INTO actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (3,13,'2024-09-30 15:31:06','2024-09-30 15:31:06'),
 	 (4,9,'2024-09-30 15:31:06','2024-09-30 15:31:06'),
 	 (4,11,'2024-09-30 15:31:06','2024-09-30 15:31:06'),
@@ -2927,7 +2979,7 @@ INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (5,27,'2024-09-30 15:31:06','2024-09-30 15:31:06'),
 	 (5,32,'2024-09-30 15:31:06','2024-09-30 15:31:06'),
 	 (5,38,'2024-09-30 15:31:06','2024-09-30 15:31:06');
-INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
+INSERT INTO actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (5,44,'2024-09-30 15:31:06','2024-09-30 15:31:06'),
 	 (5,50,'2024-09-30 15:31:06','2024-09-30 15:31:06'),
 	 (5,57,'2024-09-30 15:31:06','2024-09-30 15:31:06'),
@@ -2938,7 +2990,7 @@ INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (6,26,'2024-09-30 15:31:06','2024-09-30 15:31:06'),
 	 (6,31,'2024-09-30 15:31:06','2024-09-30 15:31:06'),
 	 (6,37,'2024-09-30 15:31:06','2024-09-30 15:31:06');
-INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
+INSERT INTO actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (6,43,'2024-09-30 15:31:06','2024-09-30 15:31:06'),
 	 (6,48,'2024-09-30 15:31:06','2024-09-30 15:31:06'),
 	 (6,55,'2024-09-30 15:31:06','2024-09-30 15:31:06'),
@@ -2949,7 +3001,7 @@ INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (6,87,'2024-09-30 15:31:06','2024-09-30 15:31:06'),
 	 (7,17,'2024-09-30 15:31:06','2024-09-30 15:31:06'),
 	 (7,21,'2024-09-30 15:31:06','2024-09-30 15:31:06');
-INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
+INSERT INTO actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (7,25,'2024-09-30 15:31:06','2024-09-30 15:31:06'),
 	 (7,30,'2024-09-30 15:31:06','2024-09-30 15:31:06'),
 	 (7,36,'2024-09-30 15:31:06','2024-09-30 15:31:06'),
@@ -2960,7 +3012,7 @@ INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (7,70,'2024-09-30 15:31:06','2024-09-30 15:31:06'),
 	 (7,76,'2024-09-30 15:31:06','2024-09-30 15:31:06'),
 	 (7,82,'2024-09-30 15:31:06','2024-09-30 15:31:06');
-INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
+INSERT INTO actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (7,88,'2024-09-30 15:31:06','2024-09-30 15:31:06'),
 	 (7,93,'2024-09-30 15:31:06','2024-09-30 15:31:06'),
 	 (7,98,'2024-09-30 15:31:06','2024-09-30 15:31:06'),
@@ -2971,7 +3023,7 @@ INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (8,59,'2024-09-30 15:31:07','2024-09-30 15:31:07'),
 	 (8,66,'2024-09-30 15:31:07','2024-09-30 15:31:07'),
 	 (8,72,'2024-09-30 15:31:07','2024-09-30 15:31:07');
-INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
+INSERT INTO actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (8,78,'2024-09-30 15:31:07','2024-09-30 15:31:07'),
 	 (8,84,'2024-09-30 15:31:07','2024-09-30 15:31:07'),
 	 (8,90,'2024-09-30 15:31:07','2024-09-30 15:31:07'),
@@ -2982,7 +3034,7 @@ INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (8,113,'2024-09-30 15:31:07','2024-09-30 15:31:07'),
 	 (8,117,'2024-09-30 15:31:07','2024-09-30 15:31:07'),
 	 (8,121,'2024-09-30 15:31:07','2024-09-30 15:31:07');
-INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
+INSERT INTO actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (9,20,'2024-09-30 15:31:07','2024-09-30 15:31:07'),
 	 (9,24,'2024-09-30 15:31:07','2024-09-30 15:31:07'),
 	 (9,29,'2024-09-30 15:31:07','2024-09-30 15:31:07'),
@@ -2993,7 +3045,7 @@ INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (9,61,'2024-09-30 15:31:07','2024-09-30 15:31:07'),
 	 (9,68,'2024-09-30 15:31:07','2024-09-30 15:31:07'),
 	 (9,74,'2024-09-30 15:31:07','2024-09-30 15:31:07');
-INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
+INSERT INTO actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (9,80,'2024-09-30 15:31:07','2024-09-30 15:31:07'),
 	 (9,86,'2024-09-30 15:31:07','2024-09-30 15:31:07'),
 	 (9,92,'2024-09-30 15:31:07','2024-09-30 15:31:07'),
@@ -3004,7 +3056,7 @@ INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (9,114,'2024-09-30 15:31:07','2024-09-30 15:31:07'),
 	 (9,118,'2024-09-30 15:31:07','2024-09-30 15:31:07'),
 	 (9,120,'2024-09-30 15:31:07','2024-09-30 15:31:07');
-INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
+INSERT INTO actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (9,123,'2024-09-30 15:31:07','2024-09-30 15:31:07'),
 	 (10,28,'2024-09-30 15:31:07','2024-09-30 15:31:07'),
 	 (10,33,'2024-09-30 15:31:07','2024-09-30 15:31:07'),
@@ -3015,7 +3067,7 @@ INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (10,65,'2024-09-30 15:31:07','2024-09-30 15:31:07'),
 	 (10,71,'2024-09-30 15:31:07','2024-09-30 15:31:07'),
 	 (10,77,'2024-09-30 15:31:07','2024-09-30 15:31:07');
-INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
+INSERT INTO actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (10,83,'2024-09-30 15:31:07','2024-09-30 15:31:07'),
 	 (10,89,'2024-09-30 15:31:07','2024-09-30 15:31:07'),
 	 (10,94,'2024-09-30 15:31:07','2024-09-30 15:31:07'),
@@ -3026,7 +3078,7 @@ INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (10,115,'2024-09-30 15:31:07','2024-09-30 15:31:07'),
 	 (11,53,'2024-09-30 15:31:07','2024-09-30 15:31:07'),
 	 (11,60,'2024-09-30 15:31:07','2024-09-30 15:31:07');
-INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
+INSERT INTO actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (11,67,'2024-09-30 15:31:07','2024-09-30 15:31:07'),
 	 (11,73,'2024-09-30 15:31:07','2024-09-30 15:31:07'),
 	 (11,79,'2024-09-30 15:31:07','2024-09-30 15:31:07'),
@@ -3037,7 +3089,7 @@ INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (11,104,'2024-09-30 15:31:07','2024-09-30 15:31:07'),
 	 (11,108,'2024-09-30 15:31:07','2024-09-30 15:31:07'),
 	 (11,112,'2024-09-30 15:31:07','2024-09-30 15:31:07');
-INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
+INSERT INTO actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (11,116,'2024-09-30 15:31:07','2024-09-30 15:31:07'),
 	 (11,119,'2024-09-30 15:31:07','2024-09-30 15:31:07'),
 	 (11,122,'2024-09-30 15:31:07','2024-09-30 15:31:07'),
@@ -3048,7 +3100,7 @@ INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (13,133,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (13,135,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (13,139,'2024-09-30 15:31:24','2024-09-30 15:31:24');
-INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
+INSERT INTO actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (14,127,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (14,129,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (14,131,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
@@ -3059,7 +3111,7 @@ INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (16,136,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (16,140,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (16,143,'2024-09-30 15:31:24','2024-09-30 15:31:24');
-INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
+INSERT INTO actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (16,147,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (16,151,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (16,155,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
@@ -3070,7 +3122,7 @@ INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (17,148,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (17,152,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (17,156,'2024-09-30 15:31:24','2024-09-30 15:31:24');
-INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
+INSERT INTO actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (17,160,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (17,163,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (18,137,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
@@ -3081,7 +3133,7 @@ INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (18,157,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (18,161,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (18,164,'2024-09-30 15:31:24','2024-09-30 15:31:24');
-INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
+INSERT INTO actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (19,146,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (19,150,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (19,154,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
@@ -3092,7 +3144,7 @@ INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (19,167,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (20,168,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (20,169,'2024-09-30 15:31:24','2024-09-30 15:31:24');
-INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
+INSERT INTO actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (20,170,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (20,172,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (20,174,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
@@ -3103,7 +3155,7 @@ INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (20,184,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (20,186,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (20,188,'2024-09-30 15:31:24','2024-09-30 15:31:24');
-INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
+INSERT INTO actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (20,190,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (20,192,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (20,194,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
@@ -3114,7 +3166,7 @@ INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (21,171,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (21,173,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (21,175,'2024-09-30 15:31:24','2024-09-30 15:31:24');
-INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
+INSERT INTO actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (21,177,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (21,179,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (21,181,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
@@ -3125,7 +3177,7 @@ INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (21,191,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (21,193,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (21,195,'2024-09-30 15:31:24','2024-09-30 15:31:24');
-INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
+INSERT INTO actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (21,197,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (21,199,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (21,201,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
@@ -3136,7 +3188,7 @@ INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (21,207,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (21,208,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (21,209,'2024-09-30 15:31:24','2024-09-30 15:31:24');
-INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
+INSERT INTO actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (21,210,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (21,211,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (22,212,'2024-09-30 15:31:27','2024-09-30 15:31:27'),
@@ -3147,7 +3199,7 @@ INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (26,219,'2024-09-30 15:31:27','2024-09-30 15:31:27'),
 	 (26,221,'2024-09-30 15:31:27','2024-09-30 15:31:27'),
 	 (26,223,'2024-09-30 15:31:27','2024-09-30 15:31:27');
-INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
+INSERT INTO actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (26,225,'2024-09-30 15:31:27','2024-09-30 15:31:27'),
 	 (26,227,'2024-09-30 15:31:27','2024-09-30 15:31:27'),
 	 (27,217,'2024-09-30 15:31:27','2024-09-30 15:31:27'),
@@ -3158,7 +3210,7 @@ INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (28,226,'2024-09-30 15:31:27','2024-09-30 15:31:27'),
 	 (28,228,'2024-09-30 15:31:27','2024-09-30 15:31:27'),
 	 (28,229,'2024-09-30 15:31:27','2024-09-30 15:31:27');
-INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
+INSERT INTO actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (28,231,'2024-09-30 15:31:27','2024-09-30 15:31:27'),
 	 (28,233,'2024-09-30 15:31:27','2024-09-30 15:31:27'),
 	 (29,230,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
@@ -3169,7 +3221,7 @@ INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (29,242,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (29,244,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (29,246,'2024-09-30 15:31:28','2024-09-30 15:31:28');
-INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
+INSERT INTO actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (29,248,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (30,234,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (30,235,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
@@ -3180,7 +3232,7 @@ INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (30,245,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (30,247,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (30,249,'2024-09-30 15:31:28','2024-09-30 15:31:28');
-INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
+INSERT INTO actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (30,250,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (30,251,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (30,252,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
@@ -3191,7 +3243,7 @@ INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (31,257,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (31,258,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (31,259,'2024-09-30 15:31:28','2024-09-30 15:31:28');
-INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
+INSERT INTO actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (31,260,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (31,261,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (31,262,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
@@ -3202,7 +3254,7 @@ INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (31,267,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (31,268,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (31,269,'2024-09-30 15:31:28','2024-09-30 15:31:28');
-INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
+INSERT INTO actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (31,270,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (31,271,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (31,272,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
@@ -3213,7 +3265,7 @@ INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (31,277,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (31,278,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (31,279,'2024-09-30 15:31:28','2024-09-30 15:31:28');
-INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
+INSERT INTO actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (31,280,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (32,8,'2024-09-30 15:31:31','2024-09-30 15:31:31'),
 	 (33,8,'2024-09-30 15:31:31','2024-09-30 15:31:31'),
@@ -3224,7 +3276,7 @@ INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (36,284,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (36,285,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (36,288,'2024-09-30 15:31:32','2024-09-30 15:31:32');
-INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
+INSERT INTO actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (36,290,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (36,292,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (37,286,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
@@ -3235,7 +3287,7 @@ INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (37,294,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (38,295,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (38,296,'2024-09-30 15:31:32','2024-09-30 15:31:32');
-INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
+INSERT INTO actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (38,297,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (38,300,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (38,302,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
@@ -3246,7 +3298,7 @@ INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (39,298,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (39,299,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (39,301,'2024-09-30 15:31:32','2024-09-30 15:31:32');
-INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
+INSERT INTO actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (39,303,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (39,306,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (39,310,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
@@ -3257,7 +3309,7 @@ INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (39,321,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (39,323,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (40,305,'2024-09-30 15:31:32','2024-09-30 15:31:32');
-INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
+INSERT INTO actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (40,308,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (40,311,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (40,314,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
@@ -3268,7 +3320,7 @@ INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (40,324,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (40,325,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (40,326,'2024-09-30 15:31:32','2024-09-30 15:31:32');
-INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
+INSERT INTO actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (40,327,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (40,328,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (40,329,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
@@ -3279,7 +3331,7 @@ INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (42,333,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
 	 (42,336,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
 	 (42,340,'2024-09-30 15:46:09','2024-09-30 15:46:09');
-INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
+INSERT INTO actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (42,343,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
 	 (43,331,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
 	 (43,334,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
@@ -3290,7 +3342,7 @@ INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (43,348,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
 	 (44,339,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
 	 (44,342,'2024-09-30 15:46:09','2024-09-30 15:46:09');
-INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
+INSERT INTO actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (44,345,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
 	 (44,347,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
 	 (44,349,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
@@ -3301,11 +3353,11 @@ INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (45,354,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
 	 (45,355,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
 	 (45,356,'2024-09-30 15:46:09','2024-09-30 15:46:09');
-INSERT INTO movie_schema.actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
+INSERT INTO actor_movie (mov_id,act_id,createdAt,updatedAt) VALUES
 	 (45,357,'2024-09-30 15:46:09','2024-09-30 15:46:09'),
 	 (45,358,'2024-09-30 15:46:09','2024-09-30 15:46:09');
 
-INSERT INTO movie_schema.director_movie (mov_id,dir_id,createdAt,updatedAt) VALUES
+INSERT INTO director_movie (mov_id,dir_id,createdAt,updatedAt) VALUES
 	 (2,1,'2024-09-30 15:31:06','2024-09-30 15:31:06'),
 	 (3,2,'2024-09-30 15:31:06','2024-09-30 15:31:06'),
 	 (4,3,'2024-09-30 15:31:06','2024-09-30 15:31:06'),
@@ -3316,7 +3368,7 @@ INSERT INTO movie_schema.director_movie (mov_id,dir_id,createdAt,updatedAt) VALU
 	 (9,9,'2024-09-30 15:31:07','2024-09-30 15:31:07'),
 	 (10,7,'2024-09-30 15:31:07','2024-09-30 15:31:07'),
 	 (11,10,'2024-09-30 15:31:07','2024-09-30 15:31:07');
-INSERT INTO movie_schema.director_movie (mov_id,dir_id,createdAt,updatedAt) VALUES
+INSERT INTO director_movie (mov_id,dir_id,createdAt,updatedAt) VALUES
 	 (12,11,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (12,12,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (13,1,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
@@ -3327,7 +3379,7 @@ INSERT INTO movie_schema.director_movie (mov_id,dir_id,createdAt,updatedAt) VALU
 	 (18,1,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (19,1,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (20,13,'2024-09-30 15:31:24','2024-09-30 15:31:24');
-INSERT INTO movie_schema.director_movie (mov_id,dir_id,createdAt,updatedAt) VALUES
+INSERT INTO director_movie (mov_id,dir_id,createdAt,updatedAt) VALUES
 	 (20,14,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (21,15,'2024-09-30 15:31:24','2024-09-30 15:31:24'),
 	 (22,1,'2024-09-30 15:31:27','2024-09-30 15:31:27'),
@@ -3338,7 +3390,7 @@ INSERT INTO movie_schema.director_movie (mov_id,dir_id,createdAt,updatedAt) VALU
 	 (26,1,'2024-09-30 15:31:27','2024-09-30 15:31:27'),
 	 (27,19,'2024-09-30 15:31:27','2024-09-30 15:31:27'),
 	 (28,1,'2024-09-30 15:31:28','2024-09-30 15:31:28');
-INSERT INTO movie_schema.director_movie (mov_id,dir_id,createdAt,updatedAt) VALUES
+INSERT INTO director_movie (mov_id,dir_id,createdAt,updatedAt) VALUES
 	 (29,1,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (30,20,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
 	 (30,21,'2024-09-30 15:31:28','2024-09-30 15:31:28'),
@@ -3349,7 +3401,7 @@ INSERT INTO movie_schema.director_movie (mov_id,dir_id,createdAt,updatedAt) VALU
 	 (35,1,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (36,1,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (37,1,'2024-09-30 15:31:32','2024-09-30 15:31:32');
-INSERT INTO movie_schema.director_movie (mov_id,dir_id,createdAt,updatedAt) VALUES
+INSERT INTO director_movie (mov_id,dir_id,createdAt,updatedAt) VALUES
 	 (38,1,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (39,1,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
 	 (40,1,'2024-09-30 15:31:32','2024-09-30 15:31:32'),
