@@ -1,6 +1,6 @@
 {
-  "singlePage": 1,
-  "seriesPage": 1,
-  "tvshowsPage": 1,
-  "cartoonPage": 1
+  "singlePage": 10,
+  "seriesPage": 10,
+  "tvshowsPage": 10,
+  "cartoonPage": 10
 }

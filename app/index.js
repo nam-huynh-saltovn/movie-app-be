@@ -38,21 +38,22 @@ require("./routers/country.router")(app);
 require("./routers/actor.router")(app);
 require("./routers/director.router")(app);
 
-// Schedule create new movie run every 20 minutes
-cron.schedule('*/5 * * * *', async () => {
-  try {
-    await autoCreateMovie(); // Call your function
-  } catch (error) {
-      console.error('Error in autoCreateMovie job:', error);
-  }
-},{
-  scheduled: true,
-  timezone: "Asia/Ho_Chi_Minh" // GMT+7 time zone for Vietnam
-});
+// Schedule create new movie run at 00:00 and 12:00 every day
+// cron.schedule('*0 0,12 * * *', async () => {
+//   try {
+//     await autoCreateMovie(); // Call your function
+//   } catch (error) {
+//       console.error('Error in autoCreateMovie job:', error);
+//   }
+// },{
+//   scheduled: true,
+//   timezone: "Asia/Ho_Chi_Minh" // GMT+7 time zone for Vietnam
+// });
 
 // Schedule update movie run every day at 12:00 (noon)
 cron.schedule('0 12 * * *', async () => {
   try {
+    await autoCreateMovie(); // Call your function
     await autoUpdateMovie(); // Call function to update movies has new episode
     console.log('autoUpdateMovie job executed successfully at 12:00 (noon)');
   } catch (error) {
