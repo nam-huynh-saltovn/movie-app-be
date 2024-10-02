@@ -199,22 +199,22 @@ module.exports = {
             // Process each movie type sequentially
             if (pageData.singlePage < 1283) {
                 console.log('Fetching Single Movies...');
-                await processMovies(fetchApiSingleMovie, 1, 'singlePage');
+                await processMovies(fetchApiSingleMovie, pageData.singlePage, 'singlePage');
                 pageData.singlePage += 1; // increase the number of singlePage pages after processing
             }
             if (pageData.seriesPage < 385) {
                 console.log('Fetching series Movies...');
-                await processMovies(fetchApiSeriesMovie, 1, 'seriesPage');
+                await processMovies(fetchApiSeriesMovie, pageData.seriesPage, 'seriesPage');
                 pageData.seriesPage += 1; // increase the number of seriesPage pages after processing
             }
             if (pageData.tvshowsPage < 11) {
                 console.log('Fetching tvshows Movies...');
-                await processMovies(fetchApiTvshowMovie, 1, 'tvshowsPage');
+                await processMovies(fetchApiTvshowMovie, pageData.tvshowsPage, 'tvshowsPage');
                 pageData.tvshowsPage += 1; // increase the number of tvshowsPage pages after processing
             }
             if (pageData.cartoonPage < 188) {
                 console.log('Fetching cartoon Movies...');
-                await processMovies(fetchApiCartoonMovie, 1, 'cartoonPage');
+                await processMovies(fetchApiCartoonMovie, pageData.cartoonPage, 'cartoonPage');
                 pageData.cartoonPage += 1; // increase the number of cartoonPage pages after processing
             }
 
