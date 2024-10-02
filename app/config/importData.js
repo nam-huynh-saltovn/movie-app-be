@@ -13,6 +13,7 @@ async function importData() {
     user: config.username,
     password: config.password,
     database: config.database,
+    charset: config.charset,
     multipleStatements: true,
   });
 

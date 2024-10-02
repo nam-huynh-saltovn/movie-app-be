@@ -7,7 +7,8 @@ module.exports = {
     "host":     process.env.DB_DEV_HOST,
     "port":     process.env.DB_DEV_PORT,
     "dialect":  process.env.DB_DEV_DIALECT,
-    "timezone": process.env.DB_TIMEZONE
+    "timezone": process.env.DB_TIMEZONE,
+    "charset": process.env.DB_DEV_CHARSET
   },
   "test": {
     "username": process.env.DB_TEST_USER_NAME,
@@ -23,6 +24,7 @@ module.exports = {
     "host":     process.env.DB_PRO_HOST,
     "port":     process.env.DB_PRO_PORT,
     "dialect":  process.env.DB_PRO_DIALECT,
-    "timezone": process.env.DB_TIMEZONE
+    "timezone": process.env.DB_TIMEZONE,
+    "charset": process.env.DB_PRO_CHARSET
   },
 };
