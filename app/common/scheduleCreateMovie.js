@@ -12,6 +12,7 @@ const episodeService = require('../service/episode.service');
 const movieService = require('../service/movie.service');
 const movieValidator = require('../validator/movie.validator');
 const { sequelize } = require('../config/connectDB');
+const userService = require('../service/user.service');
 
 const baseUrl = `https://phimapi.com`;
 
@@ -90,9 +91,13 @@ async function createMovie(data) {
         // validation movie data
         const validationErrors = await movieValidator.validateMovieDataApi(data);
         if (validationErrors) {
-            console.log(validationErrors);
-            
             throw new Error('Validation failed');
+        }
+
+        const admin = await userService.findAdmin(transaction);
+        if (!admin||admin.count===0) {
+            console.log('User not found');
+            throw new Error('User not found');
         }
 
         // create type & year
@@ -103,28 +108,28 @@ async function createMovie(data) {
 
         // create actor
         const actors = await Promise.all(data.movie.actor.map(async (act) => {
-            const [actor] = await actorService.findOrCreateActor(act, 10, true, transaction);
+            const [actor] = (act||act!==''||act!=='')&&await actorService.findOrCreateActor(act, 10, true, transaction);
             return actor;
         }));
 
         // create director
         const directors = await Promise.all(data.movie.director.map(async (dir) => {
-            const [director] = await directorService.findOrCreateDirector(dir, true, transaction);
+            const [director] = (dir||dir!=='')&&await directorService.findOrCreateDirector(dir, true, transaction);
             return director;
         }));
 
         // create category
         const categories = await Promise.all(data.movie.category.map(async (cat) => {
-            const [category] = await categoryService.findOrCreateCategory(cat.name, cat.slug, true, transaction);
+            const [category] = (cat||cat!=='')&&await categoryService.findOrCreateCategory(cat.name, cat.slug, true, transaction);
             return category;
         }));
 
         // create country
         const countries = await Promise.all(data.movie.country.map(async (ctr) => {
-            const [country] = await countryService.findOrCreateCountry(ctr.name, ctr.slug, true, transaction);
+            const [country] = (ctr||ctr!=='')&&await countryService.findOrCreateCountry(ctr.name, ctr.slug, true, transaction);
             return country;
         }));
-        
+
         // create movie
         const movie = await movieService.createMovie({
             mov_name: data.movie.name,
@@ -142,6 +147,7 @@ async function createMovie(data) {
             createdAt: data.movie.created.time,
             year_id: year?year.year_id:45,
             type_id: type?type.type_id:45,
+            user_id: admin?.rows[0].user_id,
             status: data.movie.status === "ongoing" ? false : true,
             category: categories.map(cat => cat.dataValues.cat_id),
             country: countries.map(ctr => ctr.dataValues.ctr_id),
@@ -156,8 +162,10 @@ async function createMovie(data) {
                     ep_title: serverData.filename,
                     ep_name: serverData.name,
                     ep_slug: serverData.slug,
-                    ep_link: serverData.link_embed,
+                    link_embed: serverData.link_embed,
+                    link_m3u8: serverData.link_m3u8,
                     sort_order: index + 1,
+                    user_id: admin?.rows[0].user_id,
                     status: true,
                     movie: [movie.dataValues.mov_id]
                 }, transaction);

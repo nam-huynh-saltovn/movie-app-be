@@ -1,14 +1,15 @@
 // Import models and database connection
-const db = require('../models/index');
 const { sequelize } = require('../config/connectDB');
 const directorService = require('../service/director.service');
 
 module.exports = {
   // Get all directors
   getAll: async (req, res) => {
+    const { page = 1, limit = 50} = req.query;
+    const offset=  (page - 1) * limit;
     try {
       // Fetch all directors from the database
-      const directors = await directorService.getAll();
+      const directors = await directorService.getAll(offset, limit);
       
       // If directors are found, return directors
       if (directors) {

@@ -113,7 +113,7 @@ module.exports = {
 
   // Create a new episode
   insert: async (req, res) => {
-    const { ep_title, ep_name, ep_slug, ep_link, mov_id } = req.body; // Extract data from the request body
+    const { ep_title, ep_name, ep_slug, link_embed, link_m3u8, mov_id, user_id } = req.body; // Extract data from the request body
     
     let t;
     try {
@@ -129,7 +129,16 @@ module.exports = {
       
       // Create a new episode with the provided data
       const result = await db.Episode.create(
-        { ep_title: ep_title, ep_name: ep_name, ep_slug: ep_slug, ep_link: ep_link, sort_order: sortOrder+1, status: 1 },
+        { 
+          ep_title: ep_title, 
+          ep_name: ep_name, 
+          ep_slug: ep_slug, 
+          link_embed: link_embed, 
+          link_m3u8: link_m3u8,
+          user_id: user_id, 
+          sort_order: sortOrder+1, 
+          status: 1 
+        },
         { transaction: t }
       );
 
@@ -161,7 +170,7 @@ module.exports = {
 
     const transaction = await sequelize.transaction();
 
-    const validationErrors = await episodeValidator.validateEpisodeData(episode); //validation data
+    const validationErrors = await episodeValidator.validateEpisodeData({episode:Object.keys(episode)}); //validation data
     try {
       if (validationErrors) {
         // if error -> return fe

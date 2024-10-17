@@ -1,14 +1,15 @@
 // Import models and database connection
-const db = require('../models/index');
 const { sequelize } = require('../config/connectDB');
 const actorService = require("../service/actor.service");
 
 module.exports = {
   // Get all actors
   getAll: async (req, res) => {
+    const { page = 1, limit = 50} = req.query;
+    const offset=  (page - 1) * limit;
     try {
       // Fetch all actors from the database
-      const actors = await actorService.getAllActors();
+      const actors = await actorService.getAllActors(offset, limit);
       
       // If actors are found, return actors
       if (actors) {

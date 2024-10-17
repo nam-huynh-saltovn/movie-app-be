@@ -8,9 +8,9 @@ module.exports = {
                 primaryKey: true,
                 autoIncrement: true,
             },
-            mov_name: { type: Sequelize.STRING, },                   
-            mov_slug: { type: Sequelize.STRING, },
-            ori_name: { type: Sequelize.STRING },
+            mov_name: { type: Sequelize.STRING(255), },                   
+            mov_slug: { type: Sequelize.STRING(255), },
+            ori_name: { type: Sequelize.STRING(255) },
             content: { type: Sequelize.TEXT },
             poster_url: { type: Sequelize.STRING },
             thumb_url: { type: Sequelize.STRING },
@@ -26,6 +26,10 @@ module.exports = {
             type_id: { 
                 type: Sequelize.INTEGER,
                 references: { model: 'types', key: 'type_id' }
+            },
+            user_id: { 
+                type: Sequelize.INTEGER,
+                references: { model: 'users', key: 'user_id' }
             },
             createdAt: {
                 allowNull: false,

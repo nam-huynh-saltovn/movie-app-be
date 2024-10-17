@@ -1,5 +1,5 @@
 const { autoUpdateMovie } = require("../common/scheduleUpdateMovie");
-
+const { authJwt } = require("../middleware");
 module.exports = function (router) {
   // Import the actor controller to handle the logic for each route
   const movieController = require("../controllers/movie.controller");
@@ -18,10 +18,10 @@ module.exports = function (router) {
   router.get("/api/v1/movie/test", autoUpdateMovie);                             // filter movie movie
 
 
-  router.post("/api/v1/movie", movieController.insert);                          // create movie
-  router.post("/api/v1/movie-api", movieController.insertByApi);                 // create by api
+  router.post("/api/v1/movie", [authJwt.verifyToken, authJwt.isAdmin], movieController.insert);            // create movie
+  router.post("/api/v1/movie-api", [authJwt.verifyToken, authJwt.isAdmin], movieController.insertByApi);   // create by api
 
-  router.put("/api/v1/movie", movieController.update);                           // update movie
+  router.put("/api/v1/movie", [authJwt.verifyToken, authJwt.isAdmin], movieController.update);             // update movie
 
-  router.delete("/api/v1/movie/:id", movieController.delete);                    // delete movie
+  router.delete("/api/v1/movie/:id", [authJwt.verifyToken, authJwt.isAdmin], movieController.delete);      // delete movie
 };

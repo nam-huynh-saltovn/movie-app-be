@@ -1,5 +1,4 @@
 // Import the database connection instance and Country model
-const db = require('../models/index');
 const { sequelize } = require('../config/connectDB');
 const countryService = require('../service/country.service');
 

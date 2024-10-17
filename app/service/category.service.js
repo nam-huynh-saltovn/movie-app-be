@@ -1,4 +1,5 @@
 // Import models and database connection
+const { Op } = require('sequelize');
 const db = require('../models/index');
 
 module.exports = {
@@ -25,8 +26,17 @@ module.exports = {
 
   // find category by slug: if not exist -> create new
   findOrCreateCategory: async (cat_name, cat_slug, status, transaction) => {
+    const variations = [
+      cat_slug,
+      cat_slug.replace(/-/g, ' '), // Thay "-" bằng " "
+      cat_slug.replace(/-/g, '_'), // Thay "-" bằng "_"
+      cat_slug.replace(/-/g, '')   // Loại bỏ "-"
+    ];
+    const whereClause = {
+      [Op.or]: variations.map(variation => ({ cat_slug: variation })),
+    };
     return db.Category.findOrCreate({
-      where: { cat_slug },
+      where: whereClause,
       defaults: { cat_name, status },
       transaction
     });

@@ -3,8 +3,11 @@ const db = require('../models/index');
 
 module.exports = {
     // get all actors
-    getAllActors: async () => {
-        const result = await db.Actor.findAll();
+    getAllActors: async (offset, limit) => {
+        const result = await db.Actor.findAll({
+            offset: parseInt(offset),
+            limit: parseInt(limit),
+        });
         return result;
     },
 

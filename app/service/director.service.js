@@ -3,8 +3,11 @@ const db = require('../models/index');
 
 module.exports = {
   // get all directors
-  getAll: async () => {
-    const result = await db.Director.findAll();
+  getAll: async (offset, limit) => {
+    const result = await db.Director.findAll({
+      offset: parseInt(offset),
+      limit: parseInt(limit),
+    });
     return result;
   },
 

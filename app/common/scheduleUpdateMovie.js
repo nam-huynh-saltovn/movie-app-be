@@ -51,7 +51,8 @@ module.exports = {
                                 ep_title: ep.filename,
                                 ep_name: ep.name,
                                 ep_slug: ep.slug,
-                                ep_link: ep.link_embed,
+                                link_embed: serverData.link_embed,
+                                link_m3u8: serverData.link_m3u8,
                                 sort_order: movie.Episodes.length + 1, // Assign sort order based on existing episodes
                                 status: ep.status?ep.status:true, // Set episode status, default to true if not provided
                                 movie: [movie.mov_id] // Link episode to the corresponding movie

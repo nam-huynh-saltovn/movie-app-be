@@ -11,7 +11,9 @@ const yearService = require("../service/year.service");
 const typeService = require("../service/type.service");
 const episodeService = require("../service/episode.service");
 const movieValidator = require("../validator/movie.validator");
+const episodeValidator = require('../validator/episode.validator');
 const { Op } = require("sequelize");
+const userService = require('../service/user.service');
 
 // Helper functions
 const paginate = (page, limit) => ({
@@ -214,7 +216,7 @@ module.exports = {
   
   // Search movie by name or slug
   filterMovie: async (req, res) => {
-    const { page = 1, limit = 10, sort = '' } = req.query;
+    const { page = 1, limit = 10, sort = 1 } = req.query;
   
     try {
       // Build pagination options
@@ -326,10 +328,18 @@ module.exports = {
     const transaction = await sequelize.transaction(); // Start a transaction
 
     const validationErrors = await movieValidator.validateMovieData(data); // Validate the movie data
+    const validationEpisodeErrors = await episodeValidator.validateEpisodeData(data); // Validate the movie data
     try {
       if (validationErrors) {
         // Return validation errors if found
         return res.status(400).json({ message: validationErrors });
+      }
+
+      if (validationEpisodeErrors) {
+        // Return validation errors if found
+        console.log(validationEpisodeErrors);
+        
+        return res.status(400).json({ message: validationEpisodeErrors });
       }
 
       // Find or create related data (type, year, actors, directors, categories, countries)
@@ -381,6 +391,8 @@ module.exports = {
         return country;
       }));
       
+      //handle user
+      const user = await userService.getById(data.user, transaction);
 
       // Create movie and related episodes
       const movie = await movieService.createMovie({
@@ -397,6 +409,7 @@ module.exports = {
         lang: data.movie.lang,
         year_id: year.year_id,
         type_id: type.type_id,
+        user_id: user.user_id,
         status: data.movie.status,
         category: categories.map(cat => cat.dataValues.cat_id),
         country: countries.map(ctr => ctr.dataValues.ctr_id),
@@ -409,8 +422,10 @@ module.exports = {
           ep_title: ep.filename,
           ep_name: ep.name,
           ep_slug: ep.slug,
-          ep_link: ep.link_embed,
+          link_embed: ep.link_embed,
+          link_m3u8: ep.link_m3u8,
           sort_order: ep.sort_order,
+          user_id: user.user_id,
           status: ep.status?ep.status:true,
           movie: [movie.dataValues.mov_id]
         }, transaction)

@@ -39,7 +39,8 @@ Object.keys(db).forEach(modelName => {
 
 // Export Sequelize instance and all models
 db.sequelize = sequelize;
-
 db.Sequelize = Sequelize;
+
+db.ROLES = ["user", "admin"];
 
 module.exports = db;

@@ -18,10 +18,10 @@ module.exports = {
   },
 
   // find episode by id: if not exits -> create new
-  findOrCreateEpisode: async (ep_id, ep_title, ep_name, ep_slug, ep_link, status, transaction) => {
+  findOrCreateEpisode: async (ep_id, ep_title, ep_name, ep_slug, link_embed, link_m3u8, status, transaction) => {
       return db.Episode.findOrCreate({
         where: { ep_id },
-        defaults: { ep_title, ep_name, ep_slug, ep_link, status },
+        defaults: { ep_title, ep_name, ep_slug, link_embed, link_m3u8, status },
         transaction,
       });
   },
@@ -57,7 +57,8 @@ module.exports = {
       ep_name: episodeData.name,
       ep_slug: episodeData.slug,
       ep_title: episodeData.title,
-      ep_link: episodeData.link
+      link_embed: episodeData.link_embed,
+      link_m3u8: episodeData.link_m3u8
     }, { transaction });
 
     return result;

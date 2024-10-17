@@ -167,7 +167,7 @@ module.exports = {
   },
 
   // filter movie by year, type, category, country, actor, director, mov_name, mov_slug, ori_name
-  filterMovie: async (whereClause, includeClauses, sortOrder, offset, limit) => {
+  filterMovie: async (whereClause, includeClauses, sortOrder=[['updatedAt', 'DESC']], offset, limit) => {
     const result = await db.Movie.findAndCountAll({
       where: whereClause,
       include: includeClauses,
@@ -177,7 +177,7 @@ module.exports = {
       distinct: true
     });
     
-    return result;
+    return {rows: result.rows.map(formatMovie), count: result.count};
   },
 
   // create new movie
@@ -222,7 +222,7 @@ module.exports = {
       await movie.setCountries(countries, { transaction })
     }
     if (movieData.movie.actor) {
-      const actors = await db.Actor.findAll({ where: { act_id: movieData.movie.actor.map(act => act.act_name.act_id) }, transaction});
+      const actors = await db.Actor.findAll({ where: { act_id: movieData.movie.actor.map(act => act.act_id) }, transaction});
       await movie.setActors(actors, { transaction });
     }
     if (movieData.movie.director){

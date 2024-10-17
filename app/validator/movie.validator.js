@@ -8,7 +8,7 @@ module.exports = {
       { field: 'name', message: "Tên phim phải từ 1 đến 255 ký tự", check: v => v.length >= 1 && v.length <= 255 },
       { field: 'slug', message: "Slug phim không được để trống" },
       { field: 'originName', message: "Tên gốc của phim không được để trống" },
-      { field: 'content', message: "Nội dung phải từ 50 đến 3000   ký tự", check: v => v.length >= 50 && v.length <= 3000},
+      { field: 'content', message: "Nội dung phải từ 50 đến 3000 ký tự", check: v => v.length >= 50 && v.length <= 3000},
       { field: 'posterUrl', message: "Link poster không hợp lệ", check: validateLink},
       { field: 'thumbUrl', message: "Link thumbnail không hợp lệ", check: validateLink},
       { field: 'category', message: "Chọn ít nhất 1 thể loại", check: v => v.length > 0 },

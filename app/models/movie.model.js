@@ -7,6 +7,7 @@ module.exports = (sequelize, DataTypes) => {
       // add 1-N relationships
       Movie.belongsTo(models.Year, { foreignKey: 'year_id', as: 'Year' });
       Movie.belongsTo(models.Type, { foreignKey: 'type_id', as: 'Type' });
+      Movie.belongsTo(models.User, { foreignKey: 'user_id', as: 'User' });
 
       // add N-N relationships
       Movie.belongsToMany(models.Category, { through: 'category_movie', foreignKey: 'mov_id', as: 'Categories' });
@@ -47,6 +48,10 @@ module.exports = (sequelize, DataTypes) => {
     type_id: {
       type: DataTypes.INTEGER,
       references: { model: 'Types', key: 'type_id' }
+    },
+    user_id: {
+      type: DataTypes.INTEGER,
+      references: { model: 'Users', key: 'user_id' }
     }
   }, {
     sequelize,
